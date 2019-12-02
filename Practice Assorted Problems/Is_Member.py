@@ -1,7 +1,9 @@
 def is_member(x, a:list)->bool:
-    for i in range(len(a)):
+    i = 0
+    while(i<len(a)):
         if(x == a[i]):
             return True
+        i+=1
     
     return False
 
