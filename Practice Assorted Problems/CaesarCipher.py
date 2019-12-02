@@ -22,7 +22,7 @@ def decode(msg:str, shift:int = 13)->str:
         #move by selected shift index
         index:int = ord(letter) - shift
         if (index < 0):
-            index = 127 - (index + 1) #First ASCII index is 0
+            index = 127 - (index*-1 - 1) #First ASCII index is 0
         letter = chr(index)
         charArray.append(letter)
     
@@ -30,7 +30,7 @@ def decode(msg:str, shift:int = 13)->str:
     decoded = decoded.join(charArray)
     return decoded
 
-msg:str = "Hello World"
+msg:str = "hello"
 encoded:str = encode(msg, 13)
 decoded:str = decode(encoded, 13)
 
