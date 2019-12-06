@@ -17,7 +17,7 @@ class FridgeBody(FridgePart):
     
     #Constructor
     def __init__(self):
-        super().__init__()
+        super().__init__("Main Fridge")
         self.general = Container("General Shelf", 200)
         self.fruits = Container("Fruits Basket", 100, Food.FRUIT)
         self.vegetables = Container("Vegetables Container", 200, Food.VEGETABLE)

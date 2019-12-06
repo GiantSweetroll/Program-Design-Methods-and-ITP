@@ -12,7 +12,7 @@ class Freezer(FridgePart):
     
     #Constructor
     def __init__(self):
-        super().__init__()
+        super().__init__("Freezer")
         self.iceCube = Container("Ice-Cube Container", 100, Food.ICE_CUBE)
         self.meat = Container("Frozen Meat Container", 100, Food.MEAT)
         self.shelf1 = Container("Upper Shelf", 30)
