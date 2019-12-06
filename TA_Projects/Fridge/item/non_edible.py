@@ -12,6 +12,6 @@ class NonEdible(Item):
     WET_TISSUES:str = "Wet Tissues"
 
     #Constructor
-    def __init__(self, name:str, size:int, bevType:str, prefferedStorage = Item.STORE_COLD):
+    def __init__(self, name:str, size:int, nonEdibleType:str, prefferedStorage = Item.STORE_COLD):
         super().__init__(name, size, prefferedStorage, "Non-Edible")
-        self.__type = bevType
+        self.__type = nonEdibleType
