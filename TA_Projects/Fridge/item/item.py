@@ -13,7 +13,7 @@ class Item():
     __type:str
     
     #Constructor
-    def __init__(self, name:str, size:int, prefferedStorage: str = Item.STORE_COLD, itemClass:str = Item.TYPE_DEFAULT, itemType:str = Item.TYPE_DEFAULT):
+    def __init__(self, name:str, size:int, prefferedStorage: str = STORE_COLD, itemClass:str = TYPE_DEFAULT, itemType:str = TYPE_DEFAULT):
         self.__name = name
         self.__size = size
         self.__prefferedStorage = prefferedStorage
