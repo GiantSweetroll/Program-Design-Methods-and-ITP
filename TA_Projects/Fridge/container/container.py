@@ -11,7 +11,7 @@ class Container():
     __name:str
     
     #Constructor
-    def __init__(self, name:str, space:int, prefferedItem:str = Container.ANY):
+    def __init__(self, name:str, space:int, prefferedItem:str = ANY):
         self.__space = space
         self.__prefItem = prefferedItem
         self.__items = {}
@@ -24,35 +24,35 @@ class Container():
         return self.__space
     def getSpaceLeft(self):
         total = 0
-        for key in self.__items:
-            total += self.__items[key]
         for itemType in self.__items:
             for xType in self.__items[itemType]:
-                for itemObj in self.__items[itemType][xType]:
-                    total += self.__items[itemType][xType][itemObj]
+                for itemName in self.__items[itemType][xType]:
+                    total += self.__items[itemType][xType][itemName]
         return self.__space - total
     def getPrefferedItem(self) -> str:
         return self.__prefItem
+    
     def store(self, item:Item, amount:int = 1):
         itemClass:str = item.getItemClass()
+        itemType:str = item.getItemType()
         if itemClass in self.__items:
-            itemType:str = item.getItemType()
             if itemType in self.__items[itemClass]:
-                if item in self.__items[itemClass][itemType]:
-                    self.__items[itemClass][itemType][item] += amount
+                if item.getName() in self.__items[itemClass][itemType]:
+                    self.__items[itemClass][itemType][item.getName()] += amount
                 else:
-                    self.__items[itemClass][itemType][item] = amount
+                    self.__items[itemClass][itemType][item.getName()] = amount
             else:
-                self.__items[itemClass][itemType] = {item, amount}
+                self.__items[itemClass][itemType] = {item.getName(): amount}
         else:
-            self.__items[itemClass] = {itemType, {item, amount}}
+            self.__items[itemClass] = {itemType: {item.getName(): amount}}
+            
     def removeAllItem(self, item:Item) -> bool:
         itemClass:str = item.getItemClass()
         if itemClass in self.__items:
             itemType:str = item.getItemType()
             if itemType in self.__items[itemClass]:
-                if item in self.__items[itemClass][itemType]:
-                    del(self.__items[itemClass][itemType][item])
+                if item.getName() in self.__items[itemClass][itemType]:
+                    del(self.__items[itemClass][itemType][item.getName()])
                     return True
         return False
     def removeItem(self, item:Item, amount:int) -> bool:
@@ -60,14 +60,16 @@ class Container():
         if itemClass in self.__items:
             itemType:str = item.getItemType()
             if itemType in self.__items[itemClass]:
-                if item in self.__items[itemClass][itemType]:
-                    self.__items[itemClass][itemType][item] -= amount
-                    if self.__items[itemClass][itemType][item] <= 0:
-                        del(self.__items[itemClass][itemType][item])
+                if item.getName() in self.__items[itemClass][itemType]:
+                    self.__items[itemClass][itemType][item.getName()] -= amount
+                    if self.__items[itemClass][itemType][item.getName()] <= 0:
+                        del(self.__items[itemClass][itemType][item.getName()])
                     return True
         return False
     def getItemRemaining(self, item:Item) -> int:
         try:
-            return self.__items[item.getItemClass()][item.getItemType()][item]
+            return self.__items[item.getItemClass()][item.getItemType()][item.getName()]
         except:
             return 0
+    def getItemsList(self) -> {}:
+        return self.__items
