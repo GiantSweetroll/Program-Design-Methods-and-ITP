@@ -55,6 +55,8 @@ class Container():
                     del(self.__items[itemClass][itemType][item.getName()])
                     return True
         return False
+    def clear(self):
+        self.__items = {}
     def removeItem(self, item:Item, amount:int) -> bool:
         itemClass:str = item.getItemClass()
         if itemClass in self.__items:
