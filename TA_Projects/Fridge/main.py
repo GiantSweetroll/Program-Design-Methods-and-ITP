@@ -50,7 +50,8 @@ def printFridgeActionSelection() -> int:
     print("1. Store")
     print("2. Take")
     print("3. View")
-    print("4. Exit")
+    print("4. Clear Fridge")
+    print("5. Exit")
     response:str = input("Response: ")
     if response == "1" or response.casefold() == "store".casefold():
         return 1
@@ -58,8 +59,10 @@ def printFridgeActionSelection() -> int:
         return 2
     elif response == "3" or response.casefold() == "view".casefold():
         return 3
-    elif response == "4" or response.casefold() == "exit".casefold():
+    elif response == "4" or response.casefold() == "clear fridge".casefold():
         return 4
+    elif response == "5" or response.casefold() == "exit".casefold():
+        return 5
     else:
         print("Invalid input, please try again.")
         return -1
@@ -104,7 +107,7 @@ def printFoodTypeSelection() -> int:
     for a in range(arrLen):
         if (int(response)-1)==a or response.casefold() == foodList[a].casefold():
             return a
-    if response == arrLen+1 or response.casefold() == "Other".casefold():
+    if response == str(arrLen+1) or response.casefold() == "Other".casefold():
         return arrLen+1
     else:
         print("Invalid input, please try again.")
@@ -121,7 +124,7 @@ def printBeveragesTypeSelection() -> int:
     for a in range(arrLen):
         if (int(response)-1)==a or response.casefold() == bevList[a].casefold():
             return a
-    if response == arrLen+1 or response.casefold() == "Other".casefold():
+    if response == str(arrLen+1) or response.casefold() == "Other".casefold():
         return arrLen+1
     else:
         print("Invalid input, please try again.")
@@ -138,7 +141,7 @@ def printNonEdibleTypeSelection() -> int:
     for a in range(arrLen):
         if (int(response)-1)==a or response.casefold() == nonEdiList[a].casefold():
             return a
-    if response == arrLen+1 or response.casefold() == "Other".casefold():
+    if response == str(arrLen+1) or response.casefold() == "Other".casefold():
         return arrLen+1
     else:
         print("Invalid input, please try again.")
@@ -169,17 +172,26 @@ def printItemMaker(itemClassSelText:str) -> Item:
     if itemClass == 1: #Food
         foodType:int = -1
         while(foodType == -1):
-            foodType = foodList[printFoodTypeSelection()]
+            try:
+                foodType = foodList[printFoodTypeSelection()]
+            except:
+                foodType = "Other"
         return printItemInitializer("Food", foodType)
     elif itemClass == 2: #Beverages
         bevType:int = -1
         while(bevType == -1):
-            bevType = bevList[printBeveragesTypeSelection()]
+            try:
+                bevType = bevList[printBeveragesTypeSelection()]
+            except:
+                bevType = "Other"
         return printItemInitializer("Beverage", bevType)
     elif itemClass == 3: #Non-Edible
         nonEdiType:int = -1
         while(nonEdiType == -1):
-            nonEdiType = nonEdiList[printNonEdibleTypeSelection()]
+            try:
+                nonEdiType = nonEdiList[printNonEdibleTypeSelection()]
+            except:
+                nonEdiType = "Other"
         return printItemInitializer("Non-Edible", nonEdiType)
 
 def printFreezerContainersSelection() -> int:
@@ -213,14 +225,53 @@ def storeItem(container:Container, item:Item):
     else:
         print(item.getName(), "was not stored due to not enough space in the", container.getName(), "container")
 
+def printTakeItemSelection(container:Container):
+    while(True):
+        print("Items stored in", container.getName())
+        listItemsStoredInContainer(container, True)
+        print("What would you like to take? Type \"-1\" to cancel")
+        response:str = input("Response: ")
+        if response == "\"-1\"" or response == "-1":
+            return
+        itemList:{} = container.getItemsList()
+        i:int = 1
+        for itemClass in itemList:
+            for itemType in itemList[itemClass]:
+                for itemName in itemList[itemClass][itemType]:
+                    if response == str(i) or response == itemName.casefold():
+                        #How much to take
+                        amount:int = -1
+                        while(amount == -1):
+                            try:
+                                amount = int(input("How much " + itemName + " would you like to take?: "))
+                                if amount < 0 or amount > itemList[itemClass][itemType][itemName]:
+                                    amount = -1
+                                    print("Invalid input, please try again.")
+                            except:
+                                amount = -1
+                                print("Invalid input, please try again.")
+                        #reduce item
+                        itemList[itemClass][itemType][itemName] -= amount
+                        print(amount, "pieces of", itemName, "was removed from", container.getName(), "container")
+                        #if empty, delete data entry in dictionary
+                        if itemList[itemClass][itemType][itemName] == 0:
+                            del(itemList[itemClass][itemType][itemName])
+                            if len(itemList[itemClass][itemType]) == 0:
+                                del(itemList[itemClass][itemType])
+                                if len(itemList[itemClass]) == 0:
+                                    del(itemList[itemClass])
+                        return
+                    i+=1
+        print("Invalid input, please try again.")
+
 def listItemsStoredInContainer(container:Container, showNumbers:bool, indent:str = ""):
     if showNumbers:
         itemList:{} = container.getItemsList()
+        i:int = 1
         for itemClass in itemList:
             print(indent + itemClass + ":")
             for itemType in itemList[itemClass]:
                 print(indent + "    " + itemType + ":")
-                i:int = 1
                 for itemName in itemList[itemClass][itemType]:
                     print(indent + "        " + str(i) + ". " + itemName + ":", itemList[itemClass][itemType][itemName])
                     i+=1
@@ -242,6 +293,25 @@ def viewItemsInFridge():
     for container in fridge.body.containers:
         print("    " + container.getName())
         listItemsStoredInContainer(container, False, "        ")
+        
+def printClearFridgeSelection() -> int:
+    print("Are you sure you want to clear your fridge?")
+    print("1. Yes")
+    print("2. No")
+    response:str = input("Response: ")
+    if response == "1" or response.casefold() == "Yes".casefold():
+        return 1
+    elif response == "2" or response.casefold() == "No".casefold():
+        return 2
+    else:
+        print("Invalid input, please try again")
+        return -1
+
+def clearFridge():
+    for container in fridge.freezer.containers:
+        container.clear()
+    for container in fridge.body.containers:
+        container.clear()
 
 #Main
 def main():
@@ -257,7 +327,7 @@ def main():
             response = -1
             while(response == -1):
                 response = printFridgeActionSelection()
-            if response == 4:
+            if response == 5:
                 return
             elif response == 1: #Insert things into the fridge
                 item:Item = printItemMaker("Select what kind of item you want to store?")
@@ -280,11 +350,35 @@ def main():
                     container:int = response
                     #put item into container
                     storeItem(fridge.body.containers[container], item)
-                    print(fridge.body.containers[container].getItemsList())
             elif response == 2: #Take things from fridge
-                pass #TO-DO
+                response = -1
+                while(response == -1):
+                    #fridge section selection
+                    response = printFridgeSectionSelection()
+                fridgeSelection:int = response
+                if fridgeSelection == 1: #if freezer
+                    response = -1
+                    while (response == -1):
+                        response = printFreezerContainersSelection()
+                    container:int = response
+                    #take item into container
+                    printTakeItemSelection(fridge.freezer.containers[container])
+                elif fridgeSelection == 2: #If body
+                    response = -1
+                    while (response == -1):
+                        response = printMainFridgeContainersSelection()
+                    container:int = response
+                    #take item into container
+                    printTakeItemSelection(fridge.body.containers[container])
             elif response == 3: #View Fridge
                 viewItemsInFridge()
+            elif response ==4: #Clear fridge
+                response = -1
+                while(response == -1):
+                    response = printClearFridgeSelection()
+                if response == 1:
+                    clearFridge()
+                    print("Fridge has been cleared")
             else:
                 print("Invalid input, please try again.")
 
