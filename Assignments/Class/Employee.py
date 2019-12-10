@@ -27,4 +27,3 @@ class Employee():
         return self.getSalary
     def __str__(self) -> str:
         return "Employee[id=" + self.getID() + ", name=" + self.getName() + ", salary=" + self.getSalary() + "]"
-    
