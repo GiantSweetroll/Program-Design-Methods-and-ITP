@@ -1,0 +1,3152 @@
+1. The Project Gutenberg eBook, Oaths of Allegiance in Colonial New England,
+2. by Charles Evans
+3. 
+4. 
+5. This eBook is for the use of anyone anywhere in the United States and most
+6. other parts of the world at no cost and with almost no restrictions 
+7. whatsoever.  You may copy it, give it away or re-use it under the terms of
+8. the Project Gutenberg License included with this eBook or online at 
+9. www.gutenberg.org.  If you are not located in the United States, you'll have
+10. to check the laws of the country where you are located before using this ebook.
+11. 
+12. 
+13. 
+14. 
+15. Title: Oaths of Allegiance in Colonial New England
+16. 
+17. 
+18. Author: Charles Evans
+19. 
+20. 
+21. 
+22. Release Date: December 31, 2016  [eBook #53843]
+23. 
+24. Language: English
+25. 
+26. Character set encoding: UTF-8
+27. 
+28. 
+29. ***START OF THE PROJECT GUTENBERG EBOOK OATHS OF ALLEGIANCE IN COLONIAL
+30. NEW ENGLAND***
+31. 
+32. 
+33. E-text prepared by Richard Tonsing and the Online Distributed Proofreading
+34. Team (http://www.pgdp.net) from page images generously made available by
+35. Internet Archive (https://archive.org)
+36. 
+37. 
+38. 
+39. Note: Project Gutenberg also has an HTML version of this
+40.       file which includes the original illustrations.
+41.       See 53843-h.htm or 53843-h.zip:
+42.       (http://www.gutenberg.org/files/53843/53843-h/53843-h.htm)
+43.       or
+44.       (http://www.gutenberg.org/files/53843/53843-h.zip)
+45. 
+46. 
+47.       Images of the original pages are available through
+48.       Internet Archive. See
+49.       https://archive.org/details/oathsofallegianc00evan
+50. 
+51. 
+52. Transcriber’s note:
+53. 
+54.       Text enclosed by underscores is in italics (_italics_).
+55. 
+56.       Text enclosed by plus signs has been inserted (+inserted+).
+57. 
+58.       Text enclosed by equal signs was struck through
+59.       (=struck through=).
+60. 
+61.       A carat character is used to denote superscription. A
+62.       single character following the carat is superscripted
+63.       (example: y^e). Multiple superscripted characters are
+64.       enclosed by curly brackets (example: w^{th}).
+65. 
+66.       Some characters might not display in this UTF-8 text
+67.       version or in the html version. If so, the reader should
+68.       consult the iso-8859-1 (Latin-1) text file 53843-8.txt
+69.       or 53843.zip:
+70.       http://www.gutenberg.org/files/53843/53843-8.txt
+71.       or
+72.       http://www.gutenberg.org/files/53843/53843-8.zip
+73.       or should consult the original page images referred to
+74.       above.
+75. 
+76. 
+77. 
+78. 
+79. 
+80. American Antiquarian Society
+81. 
+82. OATHS OF ALLEGIANCE IN COLONIAL NEW ENGLAND
+83. 
+84. by
+85. 
+86. CHARLES EVANS
+87. 
+88. 
+89. 
+90. Reprinted from the Proceedings of the American Antiquarian Society
+91. for October, 1921
+92. 
+93. 
+94. 
+95. 
+96. 
+97. 
+98. 
+99. Worcester, Massachusetts, U.S.A.
+100. Published by the Society
+101. 1922
+102. 
+103. The Davis Press
+104. Worcester, Massachusetts
+105. 
+106. 
+107. 
+108. 
+109. CONTENTS
+110. 
+111.     In England.
+112.         The Oath of Supremacy
+113.         Tenor of The Oath of Allegiance, &c. to be Taken and
+114.            Subscribed by Recusants
+115.         The Oath of Abjuration
+116.     In New Plymouth Colony.
+117.         Combination for Foundation of Government known as The
+118.            Mayflower Compact
+119.         Oath of Allegiance and Fidelity
+120.         The Oath of a Ffreeman
+121.         The Oath of a Resident
+122.         The Oath of a Ffreeman
+123.         The Oath of a Ffreeman
+124.     In Massachusetts-Bay Colony.
+125.         The Oath of a Freeman, or of a Man to be made ffree.
+126.         The Oath of Residents
+127.         The Oath of a Freeman
+128.         The Oath of a Free-man
+129.         Freemans Oath
+130.         Freemans Oath
+131.         Oath of Fidelitie
+132.         Oath of Fidelitie
+133.         Strangers Oath
+134.         Oath of Fidelitie
+135.         Freemans Oath
+136.     In Connecticut and New Haven Colonies.
+137.         An Oath for Paqua’ and the Plantations there
+138.         The Oath of a Freeman
+139.     In New Haven Colony.
+140.         Freeman’s Charge
+141.         Oath of Fidelity
+142.         Oath of Allegiance
+143.     In Rhode Island and Providence Plantations.
+144.         Civil Compact
+145.         Second Civil Compact
+146.         The Engagement of the Officers
+147.         The Reciprocal Engagement of the State to ye Officers
+148.         The Preamble to the Law Against Perjury
+149.     In New Hampshire Colony.
+150.         The Combination for Government at Exeter, with the Forms
+151.            of Oaths for Rulers and People
+152.         The Elders or Rulers Oath
+153.         The Oath of the People
+154.         The Combination of the People of Dover to Establish a Form
+155.            of Government
+156.         Freemen
+157.     In Province or County of Maine.
+158.         Oath of Councilors of Province of Mayne
+159. 
+160. 
+161. 
+162. 
+163.               OATHS OF ALLEGIANCE IN COLONIAL NEW ENGLAND
+164. 
+165. 
+166. The antiquity of the custom of giving and taking Oaths, or the debatable
+167. questions of their observance being a religious or legal ceremony, and
+168. whether the moral or political aspect has the greater effect upon the
+169. minds of men, are subjects with which this paper has nothing to do.
+170. 
+171. And as the substance of Oaths for particular officers is to engage them
+172. to a faithful discharge of their places and trusts to the best of their
+173. ability, it has been considered, in general, unnecessary to give them,
+174. especially as these offices carry with them the assumption that the
+175. general Oaths required of all citizens have first been complied with. No
+176. Oaths of office were administered or required in the New Plymouth
+177. Colony, the power of the Church being, in effect, superior to the civil
+178. power.
+179. 
+180. For the main purpose of this paper it will not be necessary to go
+181. further back in history than to the reign of James the First, of
+182. England, 1603–1625, during which time the providences of God directed
+183. the course of the voyage of the Pilgrims away from the Colony of
+184. Virginia to their settlement at Plymouth in New England, in December,
+185. 1620; or to carry the subject beyond the time, in the short-lived reign
+186. of James the Second, 1685–1689, when, in December, 1686, Sir Edmund
+187. Andros, knight, arrived in Boston with a commission to govern New
+188. England, and the Colonial period of New England came to an end.
+189. 
+190. 
+191. 
+192. 
+193. _In England._
+194. 
+195. 
+196. When Henry the Eighth renounced the authority of the Pope, in 1534, an
+197. Act of Parliament was obtained declaring him the only supreme head of
+198. the Church in England on the earth; and utterly abolishing the authority
+199. of the Roman Pontiff within the British Dominions. To give effect to
+200. this Act there was further enacted:
+201. 
+202. 
+203.                          THE OATH OF SUPREMACY
+204. 
+205.   I, A. B. do utterly testifie and declare in my Conscience, that the
+206.   Kings Highness is the only Supream Governour of this Realm, and of
+207.   all other His Highness Dominions and Countries, as well in all
+208.   Spiritual and Ecclesiastical things (or causes) as Temporal: And
+209.   that no Forraign Prince, Person, Prelate, State, or Potentate, hath,
+210.   or ought to have any jurisdiction, power, superiority, preheminence
+211.   or authority, Ecclesiastical or Spiritual within this Realm: and
+212.   therefore I do utterly renounce and forsake all forreign
+213.   jurisdiction, powers, superioritie, and authorities, and do promise
+214.   that from henceforth I shall bear Faith and true Allegiance to the
+215.   Kings Highness, His Heirs and lawful Successors, and (to my power)
+216.   shall assist and defend all jurisdiction, priviledge, preheminence,
+217.   & authority granted or belonging to the Kings Highness, His Heirs
+218.   and Successors, and united and annexed to the imperial Crown of the
+219.   Realm. So help me God, _&c._
+220. 
+221. The Act of Supremacy which broke the power of the Roman Catholic Church
+222. in England, under Henry the Eighth, and his successor, Edward the Sixth,
+223. was repealed under Mary Tudor, and revived under Elizabeth, in 1558.
+224. Following the Gunpowder Plot, James the First, in 1605, had enacted an
+225. Oath of Allegiance, also, which all British subjects were required to
+226. take. This Oath of “submission and obedience to the King as a temporal
+227. Sovereign, independent of any other power upon earth” contained no
+228. acknowledgment of the King as the head of the Church, and, by this
+229. omission, Roman Catholics could take it without denying the supremacy of
+230. the Pope in spiritual affairs:
+231. 
+232. 
+233.    TENOR OF THE OATH OF ALLEGIANCE, &C. TO BE TAKEN AND SUBSCRIBED BY
+234.                                RECUSANTS
+235. 
+236.   I. A.B. doe truely and sincerely acknowledge pfesse testifie and
+237.   declare in my Conscience before God and the Worlde, That our
+238.   Soveraigne Lorde Kinge James is lawfull and rightfull King of this
+239.   Realme and of all other his Majesties Dominions and Countries; And
+240.   that the Pope, neither of himselfe nor by any Authority of the
+241.   Churche or Sea of Rome, or by any other meanes with any other, hath
+242.   any Power or Authoritye to depose the King or to dispose any of his
+243.   Majesties Kingdomes or Dominions, or to authorize any Forraigne
+244.   Prince to invade or annoy hym or his Countries, or to discharge any
+245.   of his Subjects of their Allegiaunce and Obedience to his Majestie,
+246.   or to give Licence or Leave to any of them to beare Armes raise
+247.   Tumult or to offer any violence or hurte to his Majestie Royall Pson
+248.   State or Government or to any of his Majesties Subjects within his
+249.   Majesties Dominions. Also I doe sweare from my heart, that
+250.   notwithstanding any Declarac̄on or Sentence of Excommunicac̄on or
+251.   Deprivac̄on made or graunted or to be made or graunted by the Pope
+252.   or his Successors, or by any Authoritie derived or p̄tended to be
+253.   derived from hym or his Sea against the saide King his Heires or
+254.   Successors, or any Absolution of the saide Subjects from theire
+255.   Obedience; I will beare Faithe and true Allegiaunce to his Majestie
+256.   his Heires and Successors, and hym or them will defend to the
+257.   uttermost of my power against all Conspiracies and Attempts
+258.   whatsoever which shalbe made against his or theire persons theire
+259.   Crowne and Dignitie by reason or colour of any such Sentence or
+260.   Declarac̄on or otherwise, and will doe my best endevour to disclose
+261.   and make knowen unto his Majestie his Heires and Successors all
+262.   Treasons and traiterous Conspiracies which I shall knowe or heare of
+263.   to be against hym or any of them. And I doe further sweare, That I
+264.   doe from my heart abhor, detest and abjure as impious and hereticall
+265.   this damnable Doctrine and Position, that Princes which be
+266.   excōmunicated or deprived by the Pope may be deposed or murthered
+267.   by theire Subjects or any other whosoever. And I doe beleeve and in
+268.   my Conscience am resolved, that neither the Pope nor any pson
+269.   whatsoever hath power to absolve me of this Oath or any parte
+270.   therof, which I acknowledge by good and full Authoritye to be
+271.   lawfully ministered unto mee, and doe renounce all Pardons and
+272.   Dispensac̄ons to the contrarie; And all these things I do plainly
+273.   and sincerely acknowledge and sweare, according to these expresse
+274.   wordes by me spoken, and according to the playne and cōmon sense
+275.   and understanding of the same wordes, without any equivocac̄on or
+276.   mentall evasion or secret reservac̄on whatsoever; And I doe make
+277.   this recognic̄on and acknowledgment heartily willingly and truly
+278.   upon the true Faithe of a Christian: So help me God. Unto which Oath
+279.   so taken, the saide pson shall subscribe his or her Name or Marke.
+280.   [1605.]
+281. 
+282. Both of these Oaths were commanded during the reign of Charles the
+283. First, 1625–1649.
+284. 
+285. By the third Charter of the Virginia Company, their Treasurer, or any
+286. two of the Council, were empowered to administer the Oaths of Supremacy,
+287. and of Allegiance, to all persons going to their Colony. And the
+288. Pilgrims, through their chief men, agreed with the Virginia Company:
+289. “The Oath of Supremacy we shall willingly take, if it be required of us,
+290. if that convenient satisfaction be not given by our taking the Oath of
+291. Allegiance. John Robinson. William Brewster.”
+292. 
+293. The Charter of the Massachusetts-Bay Company gave them broader powers in
+294. that it did not exact this provision from them but gave the Company
+295. liberty to admit new members, called “Freemen” of the Company, and no
+296. method, conditions, or qualifications were presented for conferring this
+297. privilege. Their leaders, as we shall see, were quick to take advantage
+298. of the opportunity given them to frame their own Oaths of citizenship.
+299. Too late the government in England, or rather that part which was
+300. representative of the Church of England, realized the powers of
+301. colonization this gave the dissenting churchmen; and, in 1637, a
+302. Proclamation was issued, aimed principally to prevent the emigration of
+303. Puritan Ministers, which commanded that none should be suffered to go to
+304. New England “without a certificate that they had taken the Oaths of
+305. Supremacy and Allegiance, and had conformed to the discipline of the
+306. Church of England.” In 1638, another Proclamation “commanded owners and
+307. masters of vessels that they do not fit out any with passengers and
+308. provisions to New-England, without license from the Commissioners of
+309. Plantations.”
+310. 
+311. Another Oath, drawn up in England, also claims a place here because it
+312. was sometimes voluntarily taken by settlers in the New England Colonies.
+313. In the year 1655, during the Protectorate of Oliver Cromwell, an Oath,
+314. probably similar to that prescribed by the Rump Parliament to the
+315. Council of State, was enacted which was known as:
+316. 
+317. 
+318.                          THE OATH OF ABJURATION
+319. 
+320.   I do hereby swear that I do renounce the pretended title of Charles
+321.   Stuart, and the whole line of the late King James; and of any other
+322.   person, as a single person pretending, or which shall pretend to the
+323.   crown or government of these nations of England Scotland and
+324.   Ireland, or any of them; and that I will, by the grace and
+325.   assistance of Almighty God, be true, faithful and constant to the
+326.   Parliament, and Commonwealth; and will oppose the bringing in, or
+327.   setting up any single person or House of Lords, and every
+328.   of them, in this Commonwealth.
+329. 
+330. Soon after the Restoration, Charles the Second, by Proclamation
+331. commanded that the Oaths of Supremacy and Allegiance be tendered to all
+332. persons disaffected to the Government and, in case of refusal, that they
+333. were to be prosecuted under the Statute of the 7th of James. During the
+334. reign of his Roman Catholic successor, James the Second, the Oath of
+335. Supremacy was allowed to lapse, and the Oath of Allegiance, only, was in
+336. full force in the Colonies, up to the publication of his declaration of
+337. liberty of conscience for all denominations in England and Scotland, in
+338. 1687–1688, which sealed his doom.
+339. 
+340. These preliminaries are necessary to a full understanding of our subject
+341. which naturally begins, in point of time, with the settlement
+342. 
+343. 
+344. 
+345. 
+346. _In New Plymouth Colony._
+347. 
+348. 
+349. Strictly speaking, Plymouth was not a New England Colony. It was without
+350. a Charter, and the functions of its government were those of a
+351. Corporation. The power of the Oath of Allegiance their leaders had
+352. assented to always seemed to hang over them, and paralyze the initiative
+353. they should have taken. Their attempts to increase their circumscribed
+354. boundaries at New Plymouth were futile; and, in the case of their
+355. attempted settlement in Maine, disastrous both to the business
+356. reputation of their leaders, and to the Corporation. They could spare
+357. neither the men nor the means from the parent settlement to form
+358. permanent settlements elsewhere. They seemed doomed to failure. And yet
+359. hardly that, when we consider the impress upon our Nation made by their
+360. sterling qualities of mind and heart, their patience and fortitude under
+361. severe trials, the hopes and ambition of their teachings, and their
+362. never-failing trust in God’s Providence. These high qualities still
+363. animate and live in the great and growing number who proudly claim their
+364. ancestry from the Pilgrims at New Plymouth.
+365. 
+366. 
+367.                 COMBINATION FOR FOUNDATION OF GOVERNMENT
+368.                                 known as
+369.                          THE MAYFLOWER COMPACT
+370. 
+371.   In y^e name of God, Amen. We whose names are underwriten, the loyall
+372.   subjects of our dread soveraigne Lord, King James, by y^e grace of
+373.   God, of Great Britaine, Franc, & Ireland, king, defender of y^e
+374.   faith, &c. haveing undertaken, for y^e glorie of God, and
+375.   advancement of y^e Christian faith, and honour of our king and
+376.   countrie, a voyage to plant y^e first colonie in y^e Northerne parts
+377.   of Virginia, doe by these presents solemnly & mutualy in y^e
+378.   presence of God, and one of another, covenant & combine our selves
+379.   togeather into a civill body politick, for our better ordering &
+380.   preservation & furtherance of y^e ends aforesaid; and by vertue
+381.   hearof to enacte, constitute, and frame such just & equall lawes,
+382.   ordinances, acts, constitutions, & offices, from time to time, as
+383.   shall be thought most meete & convenient for y^e generall good of
+384.   y^e Colonie, unto which we promise all due submission and obedience.
+385.   In witnes wherof we have hereunder subscribed our names at Cap-Codd
+386.   y^e 11 of November, in y^e year of y^e raigne of our soveraigne
+387.   lord, King James, of England, France, & Ireland y^e eighteenth, and
+388.   of Scotland y^e fiftie fourth. An^o: Dom. 1620. [Forty-one names.]
+389. 
+390. The Mayflower Compact has received full and adequate treatment in the
+391. paper read before this Society in October, 1920, by Arthur Lord, LL.D.
+392. 
+393. The exact date of the two forms of Oaths first given has not been
+394. determined, but they are certainly later than the formation of the first
+395. Council in 1624.
+396. 
+397. 
+398.                     OATH OF ALLEGIANCE AND FIDELITY
+399. 
+400.   The forme of Oath ... which liue in this Colonie ... the Oth of
+401.   alegance to his maj ... fidelity to the same.
+402. 
+403.   You shall sweare by the name of the Great God ... & earth & in his
+404.   holy fear, & presence that you shall not speake, or doe, deuise, or
+405.   aduise, anything or things, acte or acts, directly, or indirectly,
+406.   By land, or water, that doth, shall, or may, tend to the destruction
+407.   or ouerthrowe of this present plantation, Colonie, or Corporation of
+408.   this towne Plimouth in New England.
+409. 
+410.   Neither shall you suffer the same to be spoken, or done, but shall
+411.   hinder, & oposse the same, by all due means you can.
+412. 
+413.   You shall not enter into any league, treaty, Confederac̄ or
+414.   combination, with any, within the said Colonie or without the same
+415.   that shall plote, or contriue any thing to the hurte, & ruine of the
+416.   growth, and good of the said plantation.
+417. 
+418.   You shall not consente to any shuch confederation, nor conceale any
+419.   known vnto you certainly, or by conje but shall forthwith manifest &
+420.   make knowne the same, to the Gouernours of this said towne for the
+421.   time being.
+422. 
+423.   And this you promise & swear, simply, & truly, & faithfully to
+424.   performe as a true christian [you hope for help from God, the God of
+425.   truth & punisher of falshoode.]
+426. 
+427.   The forme of the Oath which ... of the Gouernour, & Counsell at
+428.   euery Election of any of them.
+429. 
+430.   You shall swear, according to that wisdom, and measure of discerning
+431.   giuen vnto you; faithfully, equally & indifrently without respect of
+432.   persons; to administer Justice, in all causes coming before you. And
+433.   shall labor, to aduance, & furder the good of this Colony, &
+434.   plantation, to the vtmost of your power; and oppose any thing that
+435.   may hinder the same. So help you God.
+436. 
+437. The words, “a true Christian” were afterwards crossed out, and the form
+438. used later: “as you hope for help from God, the God of truth and
+439. punisher of falsehood” was substituted.
+440. 
+441. By the Laws of 1636, every freeman was required to take the following
+442. Oath:
+443. 
+444. 
+445.                          THE OATH OF A FFREEMAN
+446. 
+447.   You shall be truly loyall to our Sov Lord King Charles, his heires &
+448.   successors, [the State & Govern^t of England as it now stands.] You
+449.   shall not speake or doe, devise or advise any thing or things act or
+450.   acts directly or indirectly by land or water, that doth shall or may
+451.   tend to the destrucc̄on or overthrow of this pr̄nt plantac̄ons
+452.   Colonies or Corporac̄on of New Plymouth, Neither shall you suffer
+453.   the same to be spoken or done but shall hinder oppose & discover the
+454.   same to the Govr̄ & Assistants of the said Colony for the time being
+455.   or some one of them. You shall faithfully submit unto such good &
+456.   wholesome laws & ordnanc & as either are or shall be made for the
+457.   ordering & governm^t of the same, and shall endeavor to advance the
+458.   growth & good of the severall Colonies plantations w^{th} in the
+459.   limit & of this Corporac̄on by all due meanes & courses. All w^{ch}
+460.   you promise & sweare by the name of the great God of heaven & earth
+461.   simply truly & faithfully to pforme as you hope for help frō God
+462.   who is the God of truth & punisher of falsehood. [1636]
+463. 
+464. Following the outbreak of civil war in England in 1638, the words “our
+465. sovereign lord King Charles his heirs and successors” were erased, and
+466. loyalty to “the State and Government of England as it now stands”
+467. substituted. The modern rendering intermixed is probably an attempt by
+468. the transcriber to fill out missing or undecipherable paragraphs or
+469. sentences.
+470. 
+471. According to Francis Baylies’ “Historical Memoir of New Plymouth,” (I:
+472. 235,) the following Oath was prescribed to be taken by any residing in
+473. the government of New Plymouth:
+474. 
+475. 
+476.                          THE OATH OF A RESIDENT
+477. 
+478.   You shall be truly loyal to our sovereign lord King Charles, his
+479.   heirs and successors, and whereas you choose at present to reside
+480.   within the government of New Plymouth, you shall not do or cause to
+481.   be done any act or acts directly or indirectly, by land or water,
+482.   that shall tend to the destruction or overthrow of the whole or any
+483.   of the several plantations or townships within the said government
+484.   that are or shall be orderly erected or established, but shall
+485.   contrariwise hinder, oppose, and discover the same, and such intents
+486.   and purposes as tend thereunto, to the Governor for the time being,
+487.   or some one of the assistants with all convenient speed. You shall
+488.   also submit unto and obey all such good and wholesome laws,
+489.   ordinances, and offices as are or shall be established within the
+490.   limits thereof. So help you God. [1636.]
+491. 
+492. The disturbed state of England is also reflected in the 1658 revision of
+493. the Laws when “our sovereign lord the King, his heirs and successors” is
+494. substituted for “the present State and Government of England,” as
+495. follows:
+496. 
+497. 
+498.                          THE OATH OF A FFREEMAN
+499. 
+500.   You shalbee truely Loyall to the present State and Goūment of
+501.   England [our Sou^r Lord the King his heires and Successors.] You
+502.   shall not speake or doe deuise or aduise Any thinge or thinges Acte
+503.   or Actes directly or Indirectly by Land or Water that doth shall or
+504.   may tend to the destruction or ouerthrow of these present
+505.   plantations or Townshipes of the Corporation of New Plymouth neither
+506.   shall you suffer the same to bee spoken or done but shall hinder
+507.   oppose and discouer the same to the Gou^r And Assistants of the said
+508.   Collonie for the time being; or some one of them; you shall
+509.   faithfully submitt vnto such good and wholesome Lawes and ordinances
+510.   as either are or shalbee made for the ordering and Gou^rment of the
+511.   same; and shall Indeuor to aduance the grouth and good of the
+512.   seuerall townshipes and plantations within the Lymetts of this
+513.   Corporation by all due meanes and courses; All which you pmise and
+514.   Sweare by the Name of the great God of heauen and earth simply
+515.   truely and faithfully to pforme as you hope for healp from God who
+516.   is the God of truth and the punisher of falchood. [1658.]
+517. 
+518. At the time of the 1671 revision of the Laws, Charles the Second had
+519. been firmly seated on the English throne for ten years, but his name is
+520. omitted from the superscription of the following Oath. The intensity of
+521. the feeling in the New England Colonies towards even the name of the two
+522. kings is shown in the fact that until after the middle of the next
+523. century Harvard College had only three graduates, if the three Charles
+524. Chaunceys, with whom it was a family name in England, are omitted, and
+525. Yale College only one graduate who bore the Christian name of Charles.
+526. 
+527. 
+528.                          THE OATH OF A FFREEMAN
+529. 
+530.   You shalbee truely Loyall to our Sou^r Lord the Kinge his heires and
+531.   Successors; you shall not doe nor speake deuise or aduise any thinge
+532.   or thinges act or actes directly or Inderectly by Land or water;
+533.   that shall or may tend to the destruction or ouerthrow of any of
+534.   these plantations or towneshipes of the Corporation of New Plymouth;
+535.   neither shall you suffer the same to bee spoken or done but shall
+536.   hinder oppose and discouer the same to the Gou^r and Assistants of
+537.   the said Collonie for the time being or some one of them; you shall
+538.   faithfully submitt vnto such good and wholesome lawes and
+539.   ordinances; as either are or shalbee made for the ordering and
+540.   Gou^rment of the same; and shall endeauor to advance the good and
+541.   grouth of the seuerall Towneshipes and plantations within the
+542.   Lymetts of this Corporation by all due meanes and courses; all which
+543.   you p^rmise and sweare by the Name of the great God of heauen and
+544.   earth simply truely and faithfully to pforme as you hope for healpe
+545.   from God whoe is the God of truth and the punisher of ffalchood.
+546.   [1671.]
+547. 
+548. 
+549. 
+550. 
+551. _In Massachusetts-Bay Colony._
+552. 
+553. 
+554. When on the 4th of March 1628/9, Charles, “by the grace of God, Kinge of
+555. England, Scotland, Fraunce, and Ireland, Defender of the Fayth, &c. in
+556. the fourth yeare of our raigne” did by letters patent grant unto Sir
+557. Henry Rosewell and his twenty-five associates, their heirs and assigns
+558. forever, all that certain part of the grant of New England which his
+559. “deare and royall father, Kinge James of blessed memory ... hath given
+560. and graunted vnto the Counsell established at Plymouth in the County of
+561. Devon” and which the said Council by deed dated the 19th of March,
+562. 1627/8, had “given, graunted, bargained, soulde, enfeoffed, aliened and
+563. confirmed” to Sir Henry Rosewell, Sir John Young, Knightes, Thomas
+564. Southcott, John Humphrey, John Endecott and Symon Whetcombe, their heirs
+565. and associates forever, “To be houlden of vs our heires and successors,
+566. as of our manor of Eastgreenewich, in the County of Kent, within our
+567. realme of England,” under the name of the “Governor and Company of the
+568. Mattachusetts Bay in Newe England, one bodie politique and corporate in
+569. deede, fact, and name, ... and that by that name they shall have
+570. perpetuall succession,”—may acquire lands, &c. have a common seal; and
+571. that there shall be one Governor, one Deputy Governor, and eighteen
+572. assistants to be chosen out of the freemen. He went farther, and
+573. constituted “our welbeloved Mathewe Cradocke to be the first and present
+574. Governor; Thomas Goffe to be Deputy Governor, and eighteen of the other
+575. associates to be Assistants, who before they undertake the execution of
+576. their offices and places shall respectively take their corporal oaths
+577. for the faithful performance of their duties.” The Oath for Matthew
+578. Craddock, as Governor, to be administered by a Master of the Chancery,
+579. the Governor was then empowered to administer the oaths to the Deputy
+580. Governor and Assistants nominated in the Charter. Oaths to subsequent
+581. officers being arranged: the new Governor to take the Oath before the
+582. old Deputy Governor, or two Assistants; and the new Deputy Governor,
+583. Assistants and all other officers hereafter chosen to take the oath
+584. before the Governor for the time being. They were empowered to transport
+585. any of our loving subjects, or any strangers willing to become our
+586. loving subjects, and any seven at least of their number had “full power
+587. and authoritie to choose, nominate, and appointe such and soe many
+588. others as they shall thinke fitt, and that shall be willing to accept
+589. the same, to be free of the said Company and Body, and Them into the
+590. same to admitt.” All subjects inhabiting the lands granted, and their
+591. children “which shall happen to be borne there, or on the seas in goeing
+592. thither, or retorning from thence shall have and enjoy all liberties and
+593. immunities of free and natural subjects, ... as yf they and everie of
+594. them were borne within the realme of England.” And the Governor and
+595. Deputy Governor, and any two or more of the Assistants, at any of their
+596. Courts or Assemblys shall and may at all times have full power to give
+597. the Oath of Office and Oaths of Supremacy and Allegiance, or either of
+598. them, to every person who may go to New England to inhabit in the same.
+599. They were also authorized to make “the formes of such Oathes warrantable
+600. by the lawes and statutes of this our realme of England as shalbe
+601. respectivelie ministered vnto them, for the execuc̄on of the said
+602. severall offices and places ... and ministring the said oathes to the
+603. newe elected officers.”
+604. 
+605. At the end of the Charter appeared the Oath of Governor:
+606. 
+607.   PRÆDICT, Matthaeus Cradocke Juratus est de Fide et Obedientiâ Regi
+608.   et Successoribus suis, et de Debitâ Exequutione Officij Gubernatoris
+609.   iuxta Tenorem P^r sentium, 18^o Martij, 1628. Coram me, Carola
+610.   Cæsare, Milite, in Cancellariâ Mr̃o.
+611. 
+612.                                                           Char. Cæsar.
+613. 
+614. By this Charter, under the privy seal of Cardinal Wolseley, was,
+615. unwittingly, planted the seed of the fairest flower that ever bloomed in
+616. the garden of colonization since Eden.
+617. 
+618. Up to August, 1630, the business of the Massachusetts-Bay Company was
+619. transacted in London. But the business of the Massachusetts-Bay Colony
+620. may be said to have really begun in May, 1631.
+621. 
+622. At “A Gen^rall Court holden att Boston, the 18th day of May, 1631. John
+623. Winthrop, Esq̃ was chosen Goun^r for a whole yeare nexte ensueinge by
+624. the gen^rall consent of the Court, according to the meaneing of the
+625. pattent, and did accordingly take an oathe to the place of Goun̄^r
+626. belonginge.”
+627. 
+628. “Tho: Dudley, Esq̃, is also chosen Deputy Gouñ^r for this yeare nexte
+629. ensuing, & did in p^rsence of the Court take an oath to his place
+630. belonginge.” And “to the end the body of the com̄ons may be p^rserued of
+631. honest & good men, it was likewise ordered and agreed that for time to
+632. come noe man shalbe admitted to the freedome of this body polliticke,
+633. but such as are members of some of the churches within the lymitts of
+634. the same.”
+635. 
+636. The Law that all freemen must be church members, while assented to in
+637. Salem in 1631, was modified in 1632, probably for local reasons, that no
+638. civil magistrate could be an elder in the church.
+639. 
+640. To give force to this law an Oath of Freemen was required, and this
+641. service the newly appointed Governor and the Deputy Governor elected to
+642. perform. The result of their labors, the original draft of the Oath of a
+643. Freeman, in the handwriting of the first and greatest of the Governors
+644. of the Commonwealth of Massachusetts, and the Oath of a Servant, in the
+645. handwriting of the second Governor—a document perhaps only surpassed in
+646. historical interest and importance by, and worthy to rank with, the
+647. Declaration of Independence—is now, appropriately, in the possession of
+648. the Public Library of the City of Boston, and its preservation assured.
+649. 
+650. Through the courtesy of the Trustees, this Society is permitted again to
+651. give publicity to the excellent facsimiles of these interesting
+652. documents, together with transcriptions of the somewhat obscure
+653. handwriting, with interlineations and cancelled words showing, line for
+654. line, the changes made by the authors, which first appeared in the
+655. _Bulletin_ of the Library for July, 1894.
+656. 
+657. 
+658.           THE OATH OF A FREEMAN, OR OF A MAN TO BE MADE FFREE.
+659. 
+660.   I, A. B. &c. being, by the Almighties most wise disposic̄on, become
+661.   a memb^r of this body, consisting of the Goūn^r, Deputy Goūn^r,
+662.   Assistants, & a com^nlty of the Mattachusets in Newe England, doe,
+663.   freely & sincerely acknowledge that I am iustly & lawfully subject
+664.   to the goūm^t of the same, & doe accordingly submitt my pson &
+665.   estate to be ptected, ordered, & goūned by the lawes &
+666.   constituc̄ons thereof, & doe faithfully pmise to be from time to
+667.   time obedient & conformeable therevnto, & to the authie of the said
+668.   Goūn^r & Assistants & their success^rs, & to all such lawes,
+669.   orders, sentences, & decrees as shalbe lawfully made & published by
+670.   them or their successors; and I will alwaies indeav^r (as in dutie I
+671.   am bound) to advance the peace & wellfaire of this bodie or
+672.   com̄onwealth to my vtmost skill & abilitie; & I will, to my best
+673.   power & meanes, seeke to devert & prevent whatsoeuer may tend to the
+674.   ruyne or damage thereof, or of any the said Goūn^r, Deputy Goūn^r,
+675.   or Assistants, or any of them, or their success^rs, and will giue
+676.   speedy notice to them, or some of them, of any sedic̄on, violence,
+677.   treachery, or other hurt or euill which I shall knowe, heare, or
+678.   vehem^tly suspecte to be plotted or intended against the said
+679.   com̄onwealth, or the said goum^t established; and I will not att any
+680.   time suffer or giue consent to any counsell or attempt that shalbe
+681.   offered giuen, or attempted for the impeachm^t of the said goūm^t,
+682.   or makeing any change or alterac̄on of the same, contrary to the
+683.   lawes & ordinances thereof, but shall doe my vtmost endeav^r to
+684.   discover, oppose, & hinder, all & eūy such counsell & attempts. Soe
+685.   helpe me God. [1631.]
+686. 
+687. [Illustration:
+688. 
+689.   Fac-simile of the Freemen’s Oath
+690. 
+691. 
+692.                            The oath of a serv^t.
+693. 
+694.   I. N. N. serv^t of &c. haveinge heard and vnderstoode that
+695.     our—soveraigne Lord Kinge Charles hath by his łres patents vnder
+696.     the great seale of England graunted power and aucthoryty vnto a
+697.     Governo^r a Deputy Governo^r &. 18. Assistants to rule governe &
+698.     Judge all ꝑsones wch doe or shall inhabyte =in or=
+699.     betweene =the= Charles ryver &. 3. myles southward &
+700.     merimack ryver &. 3. myles northwards in new England & soe
+701.     westwards to the south sea, =beinge= wthin wch
+702.     =compa= lymitts I doe nowe—inhabyt
+703. 
+704.   Doe promise =to be= at all tymes hereafter Dureinge my
+705.     abode in America +to be+ obedyent to all lawes orders
+706.     constitutions & comaunds wch by the =s b= said Governo^r
+707.     Deputy Governo^r and assistants +for the tyme being+ or
+708.     the greater ꝑte of them shall be +lawfully+ made or
+709.     given—forth & shall come to my =k= heareinge, And to be
+710.     true and faith full to them & their governemt, And I likewise
+711.     promise that if I shall know +heare of =or heare of=
+712.     or suspect+ =of= any hurt or losse intended against
+713.     any of them I will reveale the same to one or more of them wth all
+714.     convenyent—speede, And to bind my selfe to the faithfull ꝑformance
+715.     of this promise, I sweare by the name of the onely true God the
+716.     lover of truth & the avenger of falshood]
+717. 
+718. [Illustration:
+719. 
+720.            The oath of a man +free or+ to be made free.
+721. 
+722.   I. N. N. vt supra. and +=being=+ =having
+723.     likewise heard and vnderstoode= said. N.N. =of=
+724.     being now by the said Governo^r & assistants to be made a free man
+725.     of the said plantac̄on & +thereby enabled+ to have a
+726.     voice in the choise of the said. 20. Deputed ꝑsones soe
+727.     aucthorised as aforesaid as =the sai= any of their places
+728.     are or shalbe voide =and I shalbe therevnto called in a
+729.     lawfull assembly, doe hereby promise vt supra= I doe promise
+730.     that =when I s= at all tymes when I shalbe there vnto
+731.     lawfully called by the said Governem^t, to give my voice for the
+732.     electing of such ꝑsone =therevnto= & ꝑsones vnto such
+733.     voide places as I =the= shall =und= thinke to be
+734.     =the wisest godliest & ablest for the discharg= men of
+735.     wisedome & courage—feareinge God & hateing covetousnes all
+736.     ꝑtyalyty =& by= sett aside, and to bind &c vt supra.]
+737. 
+738. [Illustration:
+739. 
+740.                            The Oath of ffreemen:
+741. 
+742.   I A: B: &c: =beinge= beinge by the Allmightyes most wise
+743.     despositiō become a member of this bodye consisting of the
+744.     Governor +Deputye+ Assistants & Com̄onalty of the
+745.     Mattachusetts in n: e: doe freely & sincerely acknowledge that I
+746.     am iustlye & lawfully subiect to the Goverment =there= of
+747.     the same +=both Civill & Ecclesiasticall=+ & doe
+748.     accordingly submitt my ꝑson & estate to be protected ordered &
+749.     governed by the Lawes & Constitutns therof: & doe faithfully
+750.     promise to be from tyme to tyme obedient & conformable therevnto,
+751.     & to the Authe of the sd Governor & Assistants & their successors,
+752.     & to all such Lawes orders sentences & decrees as shalbe
+753.     +lawfully+ made & published by them or their successors.
+754.     And I will allwayes endeavo^r (as in dutye I am bounde) to advance
+755.     the peace & wellfare of this bodye or Com: w: to my vttmost
+756.     =power= +skill & ability.+ =&= And I
+757.     will to my =vtmost power= best =ability= power &
+758.     meanes seeke to deverte & prevent whatsoever may tende to the
+759.     ruyne or damage thereof or of any the sd Governor Deputy Governor
+760.     =&= +or+ Assistants or any of them or their
+761.     successors: & will give spedye notice to them or some of them of
+762.     any =evill= seditiō, violence, treacherye or other hurt
+763.     or evill, wch I shall knowe, heare, or vehemently suspecte to be
+764.     =intended or= plotted or intended ag^t them =sd=
+765.     or ag^t the said =Goverment= Com: w: or the sd Goverm̄
+766.     established:
+767. 
+768.   And I will not at any tyme suffer or give Consent to any
+769.     Counsell or Attempt that shalbe offered =or= given or
+770.     Attempted for the impeachment of the sd Goverment or makinge
+771.     any change or Alteratiō of the same, contrary to the Lawes &
+772.     =Customes= ordinances =of the same= thereof,
+773.     but shall doe my vtmost endeavo^r to discover & oppose & hīer
+774.     all & everye such Counsells]
+775. 
+776.                   *       *       *       *       *
+777. 
+778.   Att a Gen^rall Court, holden att Newe Towne [Cambridge]. March 4th,
+779.   1634.
+780. 
+781.   It is further ordered that eūy man of or above the age of sixteene
+782.   yeares, whoe hath bene, or shall hereafter be, resident within this
+783.   iurisdicc̄on by the space of sixe monethes, (as well servants as
+784.   others,) & not infranchized, shall take the oath of residents before
+785.   the Goūn^r, Deputy Goūn^r, or two of the nexte Assistants, whoe
+786.   shall haue power to convent him for that purpose, & vpon his
+787.   refuseall, to binde him ouer to the nexte Court of Assistants, &
+788.   vpon his refuseall the second tyme, to be punished att the
+789.   discrec̄on of the Court.
+790. 
+791.   It is ordered that the ffreemens oath shalbe gyven to eūy man of or
+792.   above the age of 16 yeares, the clause for the elecc̄on of
+793.   magistrates onely excepted.
+794. 
+795.                   *       *       *       *       *
+796. 
+797.   At A Court holden att Boston, Aprill 1th, 1634.
+798. 
+799.   It was further ordered, that eūy man of or above the age of twenty
+800.   yeares, whoe hath bene or shall hereafter be resident within this
+801.   jurisdicc̄on by the space of sixe monethes, as an householder or
+802.   soiorner, and not infranchised, shall take the oath herevnder
+803.   written, before the Goūn^r, or Deputy Goūn^r, or some two of the
+804.   nexte Assistants, whoe shall haue power to convent him for that
+805.   purpose, and vpon his refuseall, to binde him ouer to the nexte
+806.   Court of Assistants; and vpon his refuseall the second tyme, hee
+807.   shalbe banished, except the Court shall see cause to giue him
+808.   further respite.
+809. 
+810. 
+811.                          THE OATH OF RESIDENTS
+812. 
+813.   I doe heare sweare, and call God to witnes, that, being nowe an
+814.   inhabitant within the lymitts of this juridicc̄on of the
+815.   Massachusetts, I doe acknowledge myselfe lawfully subject to the
+816.   aucthoritie and gouerm^t there established, and doe accordingly
+817.   submitt my pson, family, and estate, to be ptected, ordered, &
+818.   gouerned by the lawes & constituc̄ons thereof, and doe faithfully
+819.   pmise to be from time to time obedient and conformeable therevnto,
+820.   and to the aucthoritie of the Goūn^r, and all other the Magistrates
+821.   there, and their success^rs, and to all such lawes, orders,
+822.   sentences, & decrees, as nowe are or hereafter shalbe lawfully made,
+823.   decreed, & published by them or their success^rs. And I will alwayes
+824.   indeav^r (as in duty I am bound) to advance the peace & wellfaire of
+825.   this body pollitique, and I will (to my best power & meanes) seeke
+826.   to devert & prevent whatsoeuer may tende to the ruine or damage
+827.   thereof, or of y^e Goūn^r, Deputy Goūn^r, or Assistants, or any of
+828.   them or their success^{rs}, and will giue speedy notice to them, or
+829.   some of them, of any sedic̄on, violence, treacherie, or oth^r hurte
+830.   or euill w^{ch} I shall knowe, heare, or vehemently suspect to be
+831.   plotted or intended against them or any of them, or against the said
+832.   Com̄on-wealth or goum^t established. Soe helpe mee God. [1634.]
+833. 
+834.                   *       *       *       *       *
+835. 
+836.   Att a Gen^rall Courte, holden att Boston, May 14th, 1634.
+837. 
+838.   It was agreed & ordered, that the former oath of ffreemen shalbe
+839.   revoked, soe farr as it is dissonant from the oath of ffreemen
+840.   herevnder written, & that those that receaved the former oath shall
+841.   stand bound noe further thereby, to any intent or purpose, then this
+842.   newe oath tyes those that nowe takes y^e same.
+843. 
+844. 
+845.                          THE OATH OF A FREEMAN
+846. 
+847.   I, A. B., being, by Gods providence, an inhabitant & ffreeman within
+848.   the jurisdicc̄on of this com̄onweale, doe freely acknowledge my
+849.   selfe to be subiect to the goverm^t thereof, & therefore doe heere
+850.   sweare, by the greate & dreadfull name of the euerlyveing God, that
+851.   I wilbe true & faithfull to the same, & will accordingly yeilde
+852.   assistance & support therevnto, with my pson & estate, as in equity
+853.   I am bound, & will also truely indeav^r to mainetaine & preserue all
+854.   the libertyes & previlidges thereof, submitting my selfe to the
+855.   wholesome lawes & orders made & established by the same; and
+856.   furth^r, that I will not plott nor practise any evill against it,
+857.   nor consent to any that shall soe doe, but will timely discover &
+858.   reveale the same to lawfull aucthority nowe here established, for
+859.   the speedy preventing thereof. Moreouer, I doe solemnely binde
+860.   myselfe, in the sight of God, that when I shalbe called to giue my
+861.   voice touching any such matter of this state, wherein ffreemen are
+862.   to deale I will giue my vote & suffrage, as I shall iudge in myne
+863.   owne conscience may best conduce & tend to the publique weale of the
+864.   body, without respect of psons, or fav^r of any man. Soe helpe mee
+865.   God in the Lord Jesus Christ. [1634.]
+866. 
+867.   Further, it is agreed that none but the Gen̄ all Court hath power to
+868.   chuse and admitt freemen.
+869. 
+870. [Illustration:
+871. 
+872.   FAC-SIMILE OF ORIGINAL MANUSCRIPT RECORD
+873. 
+874.   In the Handwriting of Secretary Simon Bradstreet
+875.   last Colonial Governor of Massachusetts Bay]
+876. 
+877. The text of the Oath given above is that given in the body of the Colony
+878. Records, in the handwriting of Simon Bradstreet, the Secretary, and
+879. differs only in the spelling of words from that of the transcriber (who
+880. may have been Secretary Bradstreet himself) of the copy in the
+881. Miscellaneous Records, which were transferred by the Compiler from their
+882. regular order to the end of the first volume of the Records at page 354.
+883. 
+884. 
+885.                          THE OATH OF A FREE-MAN
+886. 
+887.   I (A. B.) being by Gods providence an Inhabitant, and Freeman,
+888.   within the Jurisdiction of this Commonwealth; do freely acknowledge
+889.   my self to be subject to the Government thereof: And therefore do
+890.   here swear by the great and dreadful Name of the Ever-living God,
+891.   that _I_ will be true and faithfull to the same, and will
+892.   accordingly yield assistance & support thereunto, with my person and
+893.   estate, as in equity _I_ am bound; and will also truly endeavour to
+894.   maintain and preserve all the liberties and priviledges thereof,
+895.   submitting my self to the wholesome Lawes & Orders made and
+896.   established by the same. And further that _I_ will not plot or
+897.   practice any evill against it, or consent to any that shall so do;
+898.   but will timely discover and reveal the same to lawfull Authority
+899.   now here established, for the speedy preventing thereof. Moreover,
+900.   _I_ doe solemnly bind my self in the sight of God, that when _I_
+901.   shal be called to give my voyce touching any such matter of this
+902.   State, in which Freemen are to deal, _I_ will give my vote and
+903.   suffrage as _I_ shall judge in mine own conscience may best conduce
+904.   and tend to the publike weal of the body, without respect of
+905.   persons, or favour of any man. So help me God in the Lord Jesus
+906.   Christ. [1634.] From the copy given in John Childe’s “New-Englands
+907.   Jonas cast up at London.” (London, 1647), which the preface states
+908.   was printed in Massachusetts-Bay, by itself.
+909. 
+910. To this form of The Oath of a Free man attaches the great additional
+911. interest of being the first work printed in the United States of
+912. America.
+913. 
+914. Under date of Mo. 1. (March, 1638/9) John Winthrop’s Journal states: “A
+915. printing house was begun at Cambridge by one Daye, at the charge of Mr.
+916. Glover, who died on sea hitherward. The first thing which was printed
+917. was the freemen’s oath; the next was an almanac made for New England by
+918. Mr. William Peirce, mariner; the next was the Psalms newly turned into
+919. metre.”
+920. 
+921. For nearly three hundred years no copy of this printed paper has been
+922. known to be extant. The ceaseless search for a copy in this country by
+923. antiquarians, bibliographers and historians would long ago have been
+924. successful, if even a single copy had been preserved in either the
+925. institutions of the State, or Nation, or in individual or family
+926. possession.
+927. 
+928. It would be difficult to exaggerate the patriotic feeling of our people,
+929. if it were known that a copy of this interesting and valuable state
+930. paper, the first fruit of the printing-press in this country, whose
+931. ringing sentences of freedom preceded by nearly a century and a half the
+932. Declaration of Independence, had been discovered at this late day.
+933. 
+934. Fully a quarter of a century ago, while engaged in making a search for
+935. early printed American publications in the Catalogue of printed books in
+936. the British Museum—a great and monumental work, worthy in its scholarly
+937. completeness of the Government which fostered its publication, and of
+938. inestimable importance and benefit to scholars in every land—the
+939. following entry under the heading “Freeman” seemed to me to warrant more
+940. than passing observation and curiosity which the intervening years have
+941. failed to satisfy:
+942. 
+943.                      —The Oath of a Freeman. B. L.
+944.           [_London_, 1645?] _s. sh._ 12º. 11,626. aa. (1, 2.)
+945. 
+946. An analysis of this entry seems to show points of resemblance following
+947. closely the known facts regarding the first work printed in this
+948. country.
+949. 
+950. The title is the one given by John Childe presumably from the earliest
+951. printed copy in his possession. The abbreviated title, freemen’s oath,
+952. as given by John Winthrop, first appearing in the Code of 1648, which
+953. seems to justify the belief that Winthrop wrote his Journal some years
+954. after the press was established.
+955. 
+956. The letters B. L. indicate that the printed text is in black-letter.
+957. While there is no evidence of the number and kinds of fonts of type
+958. purchased for the first press by Joseph Glover, there is an itemized
+959. statement of the number and names of the fonts of type for the second
+960. press sent over later by the Society for Propagating the Gospel among
+961. the Indians in New England, for printing the Bible in the Indian
+962. language, and among them is a small font of “blacks,” i.e. black-letter,
+963. which would indicate that a small font of that letter was generally
+964. considered a part of the equipment of a printing-office of the period.
+965. Even if this was not so, on the good authority of Isaiah Thomas, the
+966. type used in printing the Bay Psalm Book, of 1640, was “small bodied
+967. English,” a type commonly used for works in quarto and folio, which
+968. approximates in size to black-letter, but without the ceriphs, or fine
+969. projecting points of that letter. It is not unreasonable to suppose that
+970. a cataloguer might, hastily, consider the thickly inked, heavy
+971. press-work we find in the Bay Psalm Book, under the same conditions in a
+972. somewhat crudely printed sheet, to be black-letter printing.
+973. 
+974. The brackets enclosing the imprint indicate that the place and date
+975. given do not appear on the printed sheet, but are the personal judgment
+976. of the cataloguer regarding them. Having already determined the printing
+977. to be in black-letter English, it naturally follows in his judgment that
+978. the place of printing is London. His guess of the year, 1645, which he
+979. queries, is a close one; but is open to the criticism that an Oath of a
+980. Freeman could never have been printed or exacted in England during the
+981. reign of Charles the First. Ten years later, under Cromwellian rule, it
+982. might have been done. But the only place on earth it could have been
+983. printed and exacted without imprisonment, in 1645, was in the freemen’s
+984. Colony of Massachusetts-Bay.
+985. 
+986. In this connection it may be well to observe, as a further illustration
+987. that Governor Winthrop wrote his Journal years later than the events he
+988. records, that his date of 1638/9, should be one year later, for the date
+989. of the half-sheet almanac by William Peirce, mariner. Following
+990. Winthrop, if the almanac was calculated for the year beginning in March,
+991. 1639, it would suppose its printing sometime before the 25th of March,
+992. or in the Julian year 1638. This would leave nearly a whole year during
+993. which no other printing was done. If the almanac was calculated for the
+994. year beginning in March, 1640—the year the Bay Psalm Book is dated—then
+995. it would suppose the Oath, and the Almanac, printed in the eleventh or
+996. twelfth months of the Julian year 1639, which is more probable. Isaiah
+997. Thomas, writing in 1810, leaves this question in doubt by not stating
+998. whether his January, 1639, refers to the Julian, or the Gregorian
+999. Calendar.
+1000. 
+1001. To continue our analysis: The format, and size, agrees with the known
+1002. facts that the Oath was printed “on the face of a half sheet of small
+1003. paper.” The shelf-mark indicates the permanent place on the shelves of
+1004. the Library.
+1005. 
+1006. The singular appearance of the only known copy of this important and
+1007. interesting document in the Colonial history of New England, nearly
+1008. three hundred years after its printing, so far from its place of
+1009. publication, calls for explanation, which is apparently furnished in a
+1010. work published in London, in April, 1647, entitled: “New-Englands Jonas
+1011. cast up at London.” On the title-page it purports to be written by Major
+1012. John Childe, a brother of Doctor Robert Childe, of Hingham, who was
+1013. detained by order of the General Court of Massachusetts-Bay; but
+1014. according to William Hubbard, in his History, and affirmed by John
+1015. Winthrop, in his Journal, the real author of everything, except the
+1016. Preface, was William Vassall.
+1017. 
+1018. [Illustration:
+1019. 
+1020.   FAC-SIMILE OF ORIGINAL MANUSCRIPT
+1021.   in the Handwriting of Thomas Dudley,
+1022.   in the Public Library of the City of Boston
+1023. 
+1024.   Issued with Bulletin, July, 1894]
+1025. 
+1026. [Illustration:
+1027. 
+1028.   FAC-SIMILE OF ORIGINAL MANUSCRIPT
+1029.   in the Handwriting of Thomas Dudley,
+1030.   in the Public Library of the City of Boston
+1031. 
+1032.   Issued with Bulletin, July, 1894]
+1033. 
+1034. [Illustration:
+1035. 
+1036.   FAC-SIMILE OF ORIGINAL MANUSCRIPT
+1037.   in the Handwriting of John Winthrop,
+1038.   in the Public Library of the City of Boston
+1039. 
+1040.   Issued with Bulletin, July, 1894]
+1041. 
+1042. Its odd title was suggested by a remark made by the Reverend John
+1043. Cotton, in a Thursday-Lecture, preached November 5, 1646, just previous
+1044. to the departure of the vessel which was carrying back to England some
+1045. of the dissatisfied signers of a Petition to the General Court, who
+1046. rumor gave were taking with them this and other incriminating documents
+1047. against the Government of the Colony. The learned preacher took for his
+1048. text, Canticles, II: 15. “Take us the foxes, the little foxes, which
+1049. destroy the vines,” and made pointed allusions to the current rumors,
+1050. and the punishment which their acts would receive in a stormy voyage,
+1051. and how it could be averted. But later we shall let Vassall tell the
+1052. story in his own words. The effect upon his hearers was so great that
+1053. some who had engaged passage withdrew rather than risk the dangers of a
+1054. stormy voyage in the winter season.
+1055. 
+1056. After a brief summary of the reasons for publication the Preface states
+1057. that the Relation is made up of the following particulars:
+1058. 
+1059.   First, the Petition of the greater part of the Inhabitants of
+1060.   Hingham, and the proceedings therein.
+1061. 
+1062.   Secondly, a Petition of Doctor Child and others delivered to the
+1063.   General Court at Boston with some passages thereon.
+1064. 
+1065.   Thirdly, the Capital Laws of the Massachusetts Bay, with the
+1066.   Freemans Oath, _as they are printed there by themselves_.
+1067. 
+1068. The italics are mine. Here, then, we have direct proof confirming the
+1069. statement of John Winthrop that the Freeman’s Oath was printed at
+1070. Cambridge in 1639, and, in the body of the work, is given the full text
+1071. of The Oath of a Free man as printed. It is probable that only the
+1072. number of copies necessary for officials authorized to administer the
+1073. Oath were printed, and the copy taken to England was surreptitiously
+1074. obtained from some member of the Government. Its importance lay in the
+1075. fact that it afforded printed evidence that nowhere in it is any
+1076. reference made to the King’s Majesty, or of allegiance to any power on
+1077. earth save that of their own Government as constituted.
+1078. 
+1079. [Illustration:
+1080. 
+1081.   FAC-SIMILE OF ORIGINAL MANUSCRIPT
+1082.   in the Handwriting of John Winthrop,
+1083.   in the Public Library of the City of Boston
+1084. 
+1085.   Issued with Bulletin, July, 1894]
+1086. 
+1087. The Capital Laws were printed at Cambridge in 1642, probably under the
+1088. same restriction, as to number; and, as printed evidence, open to the
+1089. same construction as the Oath. Whatever the purpose, however, it had
+1090. been forestalled some four years earlier when the Capital Laws were
+1091. re-printed in London in a folio broadside. The copy in the British
+1092. Museum bears the Colophon: “Printed first in New-England, and re-printed
+1093. in London for Ben. Allen in Popes-Head Allen [_sic_] 1643.”
+1094. 
+1095.   Fourthly, a relation of that story of Jonas verbatim as it was
+1096.   delivered to me in writing by a Gentleman that was then a passenger
+1097.   in the ship.
+1098. 
+1099.   “When the first ship that came this year 1646 from New-England, was
+1100.   almost ready to come from thence; Mr. Cotton in his Thursday-Lecture
+1101.   at Boston, preached out of that Scripture, Cant. 2, 15. Take us the
+1102.   little Foxes, &c. In his uses took occasion to say, That if any
+1103.   shall carry any Writings, Complaints against the people of God in
+1104.   that Country it would be a Jonas in the ship. * * He also advised
+1105.   the Ship-Master, that if storms did arise, to search if they had not
+1106.   in any Chest or Trunk any such Jonas aboard, which if you find (said
+1107.   he) I do not advise you to throw the persons over-board, but the
+1108.   Writings; or words to that effect. Whereupon, having great storms
+1109.   (as could not be otherwise expected) some of the Passengers
+1110.   remembering Mr. Cotton’s Sermon, it seems were much affected with
+1111.   what he had said; and a woman amongst them came up from between the
+1112.   decks about Midnight, or after, in a distracted passionate manner to
+1113.   Mr. William Vassall who lay in the great Cabin, but for the present
+1114.   was in the Sterage-door-way looking abroad: she earnestly desired
+1115.   him, if there were any Jonas in the ship, that as Mr. Cotton had
+1116.   directed it might be thrown over-board, with many broken expressions
+1117.   to that purpose. He asked her why she came to him? and she said
+1118.   because it was thought that he had some Writings against the people
+1119.   of God: but he answered her, He had nothing but a Petition to the
+1120.   Parliament that they might enjoy the liberty of English subjects,
+1121.   and that could be no Jonas; and that if the best of New-Englands
+1122.   friends could shew him any evil in that, he would not prefer it.
+1123.   After this she went into the great Cabin to Mr. Tho. Fowle in like
+1124.   distracted manner; who told her he had nothing but the Copy of
+1125.   Petition which himself and others had presented to the Court at
+1126.   Boston; and showed, and read it to her, and then told her, That if
+1127.   she and others thought that to be the cause of the storm, she and
+1128.   they might do what they would with it; but he professed that he saw
+1129.   no evil in it, neither was his Conscience troubled with it. So she
+1130.   took it and carried it between Decks to them from whom she came, and
+1131.   they agreed to throw it over-board and it was thrown over-board: but
+1132.   the storm did not leave us upon the throwing of the Paper over-board
+1133.   as it is reported; for they had many great storms after that; much
+1134.   lesse was the great and wonderfull deliverance which by Gods mercy
+1135.   he gave unto them from shipwrack and drowning at the Isles of Silly,
+1136.   upon the throwing of that Writing over-board; for that was thrown
+1137.   over long before, at least 14 dayes. Also the error is the more in
+1138.   this, That the report is that it was the petition to the Parliament
+1139.   that was thrown over-board; and it was only a Copy of a Petition to
+1140.   their own Court at Boston, and the Petition to the Parliament was
+1141.   still in the ship, together with another copy of that which was
+1142.   thrown over-board, and other writings of that nature, some of which
+1143.   are printed in this book, and were as well saved as their lives and
+1144.   other goods, and are here in London to be seen and made use of in
+1145.   convenient time.”
+1146. 
+1147. It is true that at any time in the intervening years of a quarter of a
+1148. century I could have written to the British Museum authorities and been
+1149. sure of a courteous reply; but the matter seemed too important to be
+1150. settled in so prosaic a way. This, and the hope that sometime I might be
+1151. able to determine the matter personally, and achieve the honor that
+1152. would attach to its discovery, deterred me.
+1153. 
+1154. I suppose that men of all professions, in their callings, feel an
+1155. unwonted glow in the achievement of some object; but I know of no
+1156. greater joy than that which fills the lover of books when his long
+1157. search for a rare book is rewarded. Then it is that you seem to enter
+1158. into the holy of holies of delight, when the whole body thrills with
+1159. suppressed emotions, the eyes moisten, and the trembling hand stretched
+1160. out to take the volume does so with a touch which is almost a caress.
+1161. The feeling, I think, must be somewhat akin to the “buck fever” of the
+1162. deer hunter, whose mind and shaking limbs refuse to function, as he
+1163. looks into the luminous eyes, and notes the startled look, and graceful
+1164. beauty of his prey, until it has bounded into safety in the forest. Why,
+1165. I reasoned with myself, should I give to another the pleasure of these
+1166. emotions which were mine by right of discovery.
+1167. 
+1168. The opportunity of voyaging to England, which I had so long looked
+1169. forward to, did not come to me until the Spring of the present year, and
+1170. the pleasant anticipations with which I set out were comparable in my
+1171. own mind with those which must have animated the Knights of Arthur’s
+1172. Round Table in their quest for the holy grail. The morning after my
+1173. arrival in London found me an early visitor at the British Museum. The
+1174. preliminaries of admittance to the Reading-Room are not difficult, and
+1175. are soon over with, and I found myself within the great rotunda, its
+1176. walls lined in tiers with what is best in the literatures of the world,
+1177. and from which has gone out so much that is worth while in English
+1178. literature. From the Catalogue I filled out slips for some half dozen
+1179. works, artfully to conceal the one uppermost in my mind, handed them in
+1180. at the desk, and returned to my chosen seat to await with such calmness
+1181. as I could command the culmination of years of desire. Heeding the
+1182. legend that when the grail was approached by any one not perfectly pure
+1183. it vanished from sight; and that to be qualified to discover it one must
+1184. be perfectly chaste in thought and act, I endeavored to prepare myself
+1185. for its appearance. Somewhere I have read of an Oriental visionary who
+1186. attained a high degree of saintly perfection by fixing his gaze
+1187. steadfastly for hours upon his navel, which a growing embonpoint made an
+1188. easy thing to do, and I sought for holiness in the same way.
+1189. 
+1190. In time the white slips of my wants came fluttering back to me by
+1191. messengers, all marked, very properly for security on account of rarity,
+1192. that they could only be consulted in the North Library, until all were
+1193. in but the one most desired. Then followed a much longer wait and
+1194. then—the slip was handed back to me with a notation that I had given a
+1195. wrong shelf-mark! Gone in an instant were all the perfectly pure and
+1196. chaste thoughts with which I had been regaling myself while I was
+1197. apparently looking at the wrong button on my vest. I think I could have
+1198. stood the blow better if it had been that hoary old fiction of careless
+1199. assistants that it was “out”, but this is a boon denied to any assistant
+1200. in the British Museum, where nothing is allowed to go out. A comparison
+1201. with the printed Catalogue showed an exact correspondence, and I sought
+1202. the Superintendent of the Reading-Room, who assured me that the matter
+1203. would have his personal attention; and for the rest of the day I busied
+1204. myself with my other wants in the North Library without any word of the
+1205. missing broadside reaching me. That evening, in communion with myself, I
+1206. determined to throw off the mask of secrecy and frankly confide the
+1207. importance of my quest to the Keeper of the Printed Books—the somewhat
+1208. expressive and imposing title of the Librarian of the British Museum.
+1209. 
+1210. Before calling upon him I sought as an introducer Henry N. Stevens—the
+1211. worthy son of an illustrious father who follows closely in his footsteps
+1212. as the best authority on early printed American books in Europe—at his
+1213. shop across the street from the imposing Museum building, and to him I
+1214. told my story. As I proceeded his interest grew, and before I had
+1215. finished he excitedly grasped my arm with one hand and his hat with the
+1216. other, exclaiming: “Come with me. This is not a subject for underlings,”
+1217. and rushed me across the street without pause until we were in the
+1218. sanctum sanctorum of the learned and accomplished Keeper, Alfred W.
+1219. Pollard. And to him I told my simple tale, and asked his assistance. Mr.
+1220. Pollard is himself a bibliographer of note in his special field, and my
+1221. story was not without interest to him, but he refused to share my belief
+1222. that the missing broadside was what I supposed it to be, laying much
+1223. stress upon the black-letter feature as proof of its English origin. The
+1224. unsuccessful search for the missing broadside had evidently been called
+1225. to his notice, and the failure to produce anything in the millions of
+1226. books catalogued in that vast collection, he considered a challenge to
+1227. the efficiency of himself and his staff of assistants. A few days later,
+1228. he acknowledged failure; but gave me the interesting information that in
+1229. tracing the broadside back to its accession he had found that it was
+1230. acquired by the Museum in the year 1865, and formed part of a bundle of
+1231. miscellaneous matter, being considered of so little importance as not
+1232. even to have been mentioned in the contents of the bundle. Printing of
+1233. the letter F of the Catalogue was completed in 1888, and since that time
+1234. an expansion of the classification of books upon the shelves had been
+1235. made, from which dated its disappearance. He would not, however,
+1236. discontinue his efforts to find it. After apologizing for giving him a
+1237. “bad half-hour,” which only the importance of the broadside excused, our
+1238. second interview ended. On my last day in London, I went again with Mr.
+1239. Stevens to call on Mr. Pollard about the matter, and told him that I had
+1240. made my arrangements to fly from London to Paris on the morrow, and
+1241. asked him if these old eyes of mine were never to behold the holy grail.
+1242. “In black-letter?” he queried, touching the weak spot in my armor. “In
+1243. duodecimo!” I countered, pointing to the rent in his own. And the third
+1244. interview ended with his assurance that the search would go on until the
+1245. missing broadside was found.
+1246. 
+1247. And there the matter rests, very much in the condition of the story of
+1248. the cook who asked the skipper: “Is any thing lost when you know where
+1249. it is?” And to the skipper’s gruff response, “Of course not,” he
+1250. pleasantly replied: “I am glad to know that our only iron soup kettle
+1251. wasn’t lost when it fell over-board into the Bay.”
+1252. 
+1253. Through the courtesy of our fellow-members, Henry Edwards Huntington,
+1254. Esquire, and the accomplished bibliographer and librarian of his
+1255. unrivaled collection of books and art, George Watson Cole, the Society
+1256. is permitted to give a reproduction from the only known copy of “The
+1257. Book of General Lawes and Libertyes concerning the Inhabitants of the
+1258. Massachusetts”—the long-lost Code of 1648. No copy or fragment of a copy
+1259. was known to be extant for over two hundred and fifty years, when, in
+1260. 1906, this copy was discovered in a small private library in England,
+1261. and was sold to the late Edmund Dwight Church for the highest price ever
+1262. paid for an American printed book—a record which is not likely to be
+1263. surpassed. The almost miraculous recovery of this volume, will, I have
+1264. given my reasons to hope, sometime have a counterpart in the recovery of
+1265. the only known copy of the first work printed in the United States of
+1266. America—The Oath of a Free man. From the year 1641, this bore the
+1267. abbreviated title of the
+1268. 
+1269. 
+1270.                              FREEMANS OATH
+1271. 
+1272.   I (A. B.) being by Gods providence an Inhabitant within the
+1273.   Jurisdiction of this Common-wealth, and now to be made free; doe
+1274.   heer freely acknowledge my self to be subject to the Government
+1275.   therof: and therfore do heer swear by the great and dreadfull Name
+1276.   of the Ever-living God, that I will be true and faithfull to the
+1277.   same, & will accordingly yeild assistance & support therunto, with
+1278.   my person and estate, as in equitie I am bound, and will also truly
+1279.   indeavour to maintein & preserve all the Liberties and Priviledges
+1280.   therof, submitting my self unto the wholsom Laws made and
+1281.   established by the same. And farther, that I will not plot or
+1282.   practice any evil against it, or consent to any that shall so doe;
+1283.   but will timely discover & reveal the same to lawfull authoritie now
+1284.   heer established, for the speedy prevention therof.
+1285. 
+1286.   Moreover, I do solemnly binde my self in the sight of God, that when
+1287.   I shall be called to give my voice touching any such matter of this
+1288.   State, wherin Free-men are to deal; I will give my vote and
+1289.   _suffrage_ as I shall in mine own conscience judge best to conduce
+1290.   and tend to the publick weal of the Body, without respect of
+1291.   persons, or favour of any man. So help me God in our Lord Jesus
+1292.   Christ. [1641.] From Code of 1648.
+1293. 
+1294. 
+1295.                              FREEMANS OATH
+1296. 
+1297.   I [A. B.] being by Gods providence an inhabitant within the
+1298.   Jurisdiction of this Common-wealth, and now to be made free; doe
+1299.   here freely acknowledg my self to be subject to the Government
+1300.   thereof: And therefore do here Swear by the great and dreadfull Name
+1301.   of the Ever-living God, that I will be true and faithfull to the
+1302.   same, and will accordingly yeild assistance and support thereunto,
+1303.   with my person and estate, as in equity I am bound, and will also
+1304.   truely indeavour to maintain and preserve all the Liberties and
+1305.   Priviledges thereof, submitting my self unto the wholsom Laws made
+1306.   and established by the same. And farther, that I will not plot or
+1307.   practice an evill against it, or consent to any that shall so doe;
+1308.   but will timely discover and reveal the same to lawfull Authority
+1309.   now here established, for the speedy prevention thereof.
+1310. 
+1311.   Moreover, I do solemnly bind my self in the sight of God, that when
+1312.   I shall be called to give my voice touching any such matter of this
+1313.   State, wherein Free-men are to deal; I will give my vote and
+1314.   suffrage as I shall in mine own conscience judg best to conduce and
+1315.   tend to the publick weal of the Body, without respect of persons, or
+1316.   favour of any man. So help me God &c. [1641.] From Code of 1660.
+1317. 
+1318.   It is Ordered and by this Court declared, that no man shall be urged
+1319.   to take any Oath or subscribe to any _Articles_, _Covenants_ or
+1320.   _Remonstrances_, of publick and Civil nature, but such as the
+1321.   Generall Court hath Considered, allowed and required, and no Oath of
+1322.   any Magistrate or of any Officer, shall bind him any further or
+1323.   longer, then he is Resident or Reputed an Inhabitant of this
+1324.   Jurisdiction. [1641.]
+1325. 
+1326.   Every Court in this Jurisdiction, where two Magistrates are present,
+1327.   may admitt any church members that are fitt, to be Freemen, giving
+1328.   them the Oath, and the Clerke of each Court, shall certify their
+1329.   names to the Secretary at the next General Court. [1641 [2]].
+1330. 
+1331. [Illustration:
+1332. 
+1333.   FREEMAN’S OATH
+1334. 
+1335.   Reproduced from “The Book of General Lawes and Libertyes concerning
+1336.     the Inhabitants of the Massachusetts”-–1648
+1337. 
+1338.   By the courtesy of Henry Edwards Huntington]
+1339. 
+1340. In 1643, the Colonies of Massachusetts-Bay, New Plymouth, Connecticut,
+1341. and New Haven, concluded a Confederacy by which they entered into a
+1342. solemn compact to afford each other mutual advice and assistance on all
+1343. necessary occasions, whether offensive, defensive, or prudential. Among
+1344. the reasons assigned for this Union were the dependent condition of the
+1345. colonists; the vicinity of the French and Dutch, who were inclined to
+1346. make encroachments; the warlike attitude of the neighboring Indians; the
+1347. commencement of civil war in England, and impracticability of aid from
+1348. thence in any emergency; and the sacred ties of religion which already
+1349. bound them. The Province of Maine was not included because it was
+1350. subject to rulers of Episcopal tenets, and was infrequently an asylum
+1351. for excommunicants. This Union lasted for forty years without any
+1352. general Oath of Allegiance being required from the inhabitants of the
+1353. several Colonies.
+1354. 
+1355. 
+1356.                            OATH OF FIDELITIE
+1357. 
+1358.   I (A B) being by Gods providence an Inhabitant within the
+1359.   Jurisdiction of this Common-wealth, doe freely and sincerely
+1360.   acknowledge my selfe to be subject to the Government thereof. And
+1361.   doe heer swear by the great and dreadful name of the Everliving God,
+1362.   that I will be true and faithfull to the same, and will accordingly
+1363.   yeild assistance therunto, with my person and estate, as in equitie
+1364.   I am bound: and will also truly indeavour to maintein and preseve
+1365.   all the Liberties & Priviledges thereof, submitting my self unto the
+1366.   wholsom Laws made, & established by the same. And farther, that I
+1367.   will not plot or practice any evil against it, or consent to any
+1368.   that shall so doe: but will timely discover and reveal the same to
+1369.   lawfull Authoritie now heer established, for the speedy preventing
+1370.   thereof. So help me God in our Lord Jesus Christ. [1646.] From Code
+1371.   of 1648.
+1372. 
+1373. 
+1374.                            OATH OF FIDELITIE
+1375. 
+1376.   I [A. B.] being by Gods providence an inhabitant within the
+1377.   Jurisdiction of the Commonwealth, do freely and sincerely
+1378.   acknowledge my selfe to be subject to the Government thereof. And do
+1379.   here Swear by the great and dreadful name of the everliving God,
+1380.   that I will be true & faithfull to the same, and will accordingly
+1381.   yeild assistance thereunto, with my person and estate, as in equity
+1382.   I am bound: And will also truely endeavour to Maintain and preserve
+1383.   all the Liberties & Priviledges thereof submitting my self unto the
+1384.   wholesom Laws made, and established by the same.
+1385. 
+1386.   And farther that I will not plot or practice any evill against it,
+1387.   or consent to any that shall so do: but will timely discover and
+1388.   reveal the same to lawfull Authority now here established, for the
+1389.   speedy preventing thereof. So help me God in our Lord Jesus Christ.
+1390.   [1646.] From Code of 1660.
+1391. 
+1392.   _To the end the body of the freemen may be preserved of honest and
+1393.   good men_, It is Ordered, That henceforth no man shall be admitted
+1394.   to the freedome of this Common-wealth, but such as are members of
+1395.   some of the Churches, within the limits of this Iurisdiction; _And
+1396.   whereas many members of Churches to exempt themselves from Publick
+1397.   Service, will not come in to be made freemen_, It is Ordered, That
+1398.   no members of Churches within this Iurisidiction, shall be exempt
+1399.   from any publick service, they shall be chosen to, by the
+1400.   Inhabitants of the severall Townes, as Constables, Iurors, Select
+1401.   men, surveiors of the High-wayes. And if any such person shall
+1402.   refuse to serve in, or to take upon him any such Office, being
+1403.   legally chosen therunto, he shall pay for every such refusall, such
+1404.   fine, as the Town shall impose not exceeding _Twenty shillings_ for
+1405.   one Offence. [1647.]
+1406. 
+1407.   Any non freemen, who have taken or shall take the Oath of fidelity
+1408.   to this government could be jury men and vote in certain matters,
+1409.   after he had attained the age of 24 years. [1647.]
+1410. 
+1411.   _For as much as divers Inhabitants of this Jurisdiction who have
+1412.   long continued amongst us, receiving Protection, from this
+1413.   Government, have as we are informed uttered Offencive speeches,
+1414.   whereby their fidelity to this Government may justly be suspected,
+1415.   and also that divers strangers of forreign parts do repaire to us of
+1416.   whose fidelity we have not that Assurance which is Commonly required
+1417.   of all Governments._
+1418. 
+1419.   It is therefore Ordered by this Court and the Authority thereof.
+1420.   That the County Courts or any one Magistrate out of Court, shall
+1421.   have power and is hereby Authorized to Require the Oath of fidelity
+1422.   of all settled Inhabitants amongst us who have not already taken the
+1423.   same, as also to Require the Oath under written, of all strangers,
+1424.   who after two months have their abode here; And if any Person shall
+1425.   refuse to take the Respective Oath, he or they shall be bound over
+1426.   to the next County Court or Court of Assistants, where if he shall
+1427.   refuse, he shall forfeit _five pound a week_ for every week he shall
+1428.   Continue in this Jurisdiction after his sayd Refusall, unles he can
+1429.   give sufficient security to the satisfaction of the Court or
+1430.   Magistrate for his fidelity, during his or their residence amongst
+1431.   us.
+1432. 
+1433. 
+1434.                              STRANGERS OATH
+1435. 
+1436.   _You A. B. Do acknowledge your self subject to the Lawes of this
+1437.   Jurisdiction during your Residence under this Government, and do
+1438.   here Swear, by the Great Name of the Everliving GOD, and engage your
+1439.   self to be true and faithfull to the same, and not to plot,
+1440.   contrive, or conceal any thing that is to the hurt or detriment
+1441.   thereof._ [1652.].
+1442. 
+1443. This was, apparently, aimed at the Quakers, whose offensive attitude
+1444. towards the Government was made the subject of further drastic laws and
+1445. orders by the General Court, in October, 1656, and May, 1658.
+1446. 
+1447.   _This Court having considered of the proposals presented to this
+1448.   Court by several of the inhabitants of the County of Middlesex_; Do
+1449.   Declare and Order, That no man whosoever, shall be admitted to the
+1450.   Freedome of this Body Politick, but such as are members of some
+1451.   Church of Christ and in full Communion, which they declare to be the
+1452.   true intent of the ancient Law, _page the eighth of the second
+1453.   Book_, Anno. 1631. [1660.]
+1454. 
+1455. This was construed as being directed against the members of the Church
+1456. of England, and was largely responsible for the strained relations with
+1457. his Majesty’s Commission in 1665. It was repealed before the 1672
+1458. Revision of the Laws.
+1459. 
+1460. For causes already mentioned the publication of the first Code of Laws,
+1461. in 1648, was unnoticed in England; but it was very different with the
+1462. publication of the second Code, in 1660. When it appeared its provisions
+1463. were subjected to critical scrutiny by enemies of the Puritan
+1464. Commonwealth, and the worst possible constructions placed upon them. In
+1465. particular, the loyalty of the framers, who took an Oath of Fidelity to
+1466. their Government, and none to the King, was questioned; and the
+1467. provisions for the admission of freemen which, practically, prohibited
+1468. members of the Church of England. By letter, his Majesty ordered a
+1469. redress of these grievances, and appointed a Commission who proceeded,
+1470. in a partisan manner, to execute their powers. In 1665, the
+1471. Commissioners presented to the General Court a list of twenty-six
+1472. changes which they desired to have made in the Code of 1660. The
+1473. principal ones were the substitution of an acknowledgment of the royal
+1474. authority for all expressions of the supremacy of the Commonwealth; a
+1475. recognition of the Church of England; and a repeal of the long-standing
+1476. limitation of citizenship to church members. To one or two of their
+1477. points the General Court gave consent. A comparison with the Code of
+1478. 1672, shows that while the recognition of his majesty’s supremacy was
+1479. allowed, in a score of instances the powers of the government under
+1480. their Charter were asserted. The right of strangers to become citizens
+1481. was nominally conceded, but on conditions which afforded only a minimum
+1482. of relief to members of the Church of England.
+1483. 
+1484.   On the 3 August, 1664 it was Ordered by the General Court:
+1485. 
+1486.   _In Answer to that part of his Majestyes Letter_, of June 28, 1662,
+1487.   _concerning admission of freemen_. This Court doth Declare, That the
+1488.   Law prohibiting all persons, except Members of Churches, and, that
+1489.   also for allowance of them in any County Court, are hereby Repealed,
+1490.   And do hereby also Order and Enact That, from henceforth all English
+1491.   men presenting a Certificate under the hand of the Ministers, or
+1492.   Minister of the Place where they dwell, that they are Orthodox in
+1493.   Religion, and not vicious in their Lives, and also a certificate
+1494.   under the hands of the Select men of the place, or of the major Part
+1495.   of them, that they are Free-holders: and are for their own propper
+1496.   Estate (without heads of Persons) Rateable to the Country in a
+1497.   single Country Rate, after the usuall manner of valuation in the
+1498.   place where they live, to the full vallue of _Ten Shillings_, or
+1499.   that they are in full Communion with some Church amongst us; It
+1500.   shall be in the Liberty of all and every such Person or Persons,
+1501.   being _twenty-four_ yeares of age, Householders and settled
+1502.   Inhabitants in this Jurisdiction, from time to time to themselves
+1503.   and their desires to this Court, for their addmittance to the
+1504.   freedome of this commonwealth, and shall be allowed the priviledge,
+1505.   to have such their desire Propounded and put to Vote in the General
+1506.   Court, for acceptance to the freedome of the body pollitick, by the
+1507.   sufferage of the major parte according to the Rules of our Patent.
+1508.   [1664.].
+1509. 
+1510.                   *       *       *       *       *
+1511. 
+1512.   It was also Ordered by the General Court on the 19 October, 1664.
+1513. 
+1514.   _Forasmuch as several Persons who from time to time are to be made
+1515.   freemen, live remote and are not able without great trouble and
+1516.   charge to appear before this Court to take their respective Oaths_:
+1517.   It is therefore Ordered, that henceforth it shall be in the power of
+1518.   any County Court, to administer the Oath of Freedome to any persons
+1519.   approved of by the General Court who shall desire the same, any Law
+1520.   or Custome to the contrary notwithstanding. [1664.]
+1521. 
+1522.                   *       *       *       *       *
+1523. 
+1524.   And, at the May, 1665, session, to conform to the criticism of his
+1525.   Majesty’s Commission concerning the Oath of Allegiance:
+1526. 
+1527.   It is ordered by this Court, & the authority thereof, that the
+1528.   following oath be annexed vnto the oathes of euery freeman & oath of
+1529.   fidellity, & to the Gouerno^r, Dep^{t-}Gouerno^r, & Assistants, & to
+1530.   all other publicke officers, as followeth:—
+1531. 
+1532.   The oath of a freeman & fidelity to runne thus:—
+1533. 
+1534. 
+1535.                            OATH OF FIDELITIE
+1536. 
+1537.   Whereas I [A. B.] am an inhabitant within this Jurisdiction,
+1538.   Considering how I stand Obliged to the Kings Majesty, his heires and
+1539.   Successors by our Charter and the Government established thereby; Do
+1540.   Swear accordingly by the great and dreadfull Name of the Ever-Living
+1541.   God, that I will bear Faith and true Allegiance to our Soveraingn
+1542.   Lord the King, his Heires and Successors; and that I will be True
+1543.   and Faithfull to this Government, and accordingly yeild Assistance
+1544.   thereunto, with my person and estate, as in equity I am bound;
+1545. 
+1546.   And will also truely endeavour to Maintain and Preserve all the
+1547.   Liberties and Priviledges thereof, Submiting my self unto the
+1548.   wholesom Laws made and established by the same.
+1549. 
+1550.   And farther that I will not Plot or practice any evill against it,
+1551.   or consent to any that shall so do: but will timely discover and
+1552.   reveal the same to Lawfull Authority now here established, for the
+1553.   speedy preventing thereof. So help me God in our Lord Jesus Christ.
+1554.   [1665.]
+1555. 
+1556. 
+1557.                              FREEMANS OATH
+1558. 
+1559.   Whereas I [A. B.] being an inhabitant of the Jurisdiction of the
+1560.   _Massachusets_, and now to be made free. Do hereby acknowledge my
+1561.   selfe to be subject to the Government thereof (Considering how I
+1562.   stand obliged to the Kings Majesty, his Heires and Successors, by
+1563.   our Charter and the Government established thereby Do Swear
+1564.   accordingly, by the Great and Dreadfull Name of the Ever-Living GOD,
+1565.   that I will bear Faith and true Alegiance to our Soveraigne Lord the
+1566.   King, his heires and Successors,) and that I will be true and
+1567.   Faithfull to the same, and will accordingly yeild Assistance and
+1568.   Support thereunto with my person and estate, as in equity I am
+1569.   bound; And will also truely endeavour to maintain and preserve all
+1570.   the Liberties and priviledges thereof, submitting my selfe to the
+1571.   wolesome Laws made and established by the same.
+1572. 
+1573.   And farther that I will not Plot nor Practice any Evill against it,
+1574.   or consent to any that shall so do, but will timely discover and
+1575.   reveal the same to Lawfull Authority now here established, for the
+1576.   speedy prevention thereof.
+1577. 
+1578.   Moreover I do Solemnly bind my selfe in the sight of God, that when
+1579.   I shall be called to give my Voyce touching any such matter of this
+1580.   State wherein Freemen are to deal, I will give my Vote and Suffrage
+1581.   as I shall in mine own Conscience judge best to conduce and tend to
+1582.   the Publick Weale of the body, without respect of persons or favour
+1583.   of any man. So help me God in our Lord Jesus Christ. [1665.]
+1584. 
+1585.                   *       *       *       *       *
+1586. 
+1587.   The oath of the Goūno^r, Dept Goūno^r, & other publicke officers,
+1588.   to runne thus:—
+1589. 
+1590.   Whereas I, A. B., am chosen Gouerno^r, &c., considering how I stand
+1591.   obliged to the kings majesty, his heires & successors, by our
+1592.   charter and the gouerment here established thereby, doe sweare, &c,
+1593.   as aboue. [1665.]
+1594. 
+1595. In their demand for changes in the 1660 Book of the General Laws and
+1596. Liberties, the Commissioners in their 14th section proposed: “That, page
+1597. 33, ‘none be admitted freemen but such as are members of some of the
+1598. churches w^{th} in the limitts of this jurisdiction’ may be explained, &
+1599. comp̄hend such as are members of y^e church of England.”
+1600. 
+1601.   At the General Court of 23 May, 1666.
+1602. 
+1603.   It is ordered that the Secretary, at the request of all such as are
+1604.   admitted to the freedome of this Colony or any in their behalf, give
+1605.   a true copy out of this Courts Records, of their names, by them to
+1606.   be delivered to the clerks or recorders of those Courts in the
+1607.   severall Counties to which they do belong, with a copy of the Oath
+1608.   of Freemen as it is now stated, that they may there take their
+1609.   Oathes &c. [1666.]
+1610. 
+1611.                   *       *       *       *       *
+1612. 
+1613.   At the General Court of 15 October, 1673:
+1614. 
+1615.   As an addition to the Law, title Freemen, section the third, it is
+1616.   ordered by this Court and the authority thereof that henceforth the
+1617.   names of such as desire to be admitted to the freedome of this
+1618.   Com̄on-wealth, not being members of churches in full comunion, shall
+1619.   be entred w^{th} the secretary, from tjme to tjme, at the Court of
+1620.   election, and read ouer before the whole Court sometime that
+1621.   sessions and shall not be put to vote in the Court till the Court of
+1622.   election next followg. [1673.]
+1623. 
+1624.   This order of Court was repealed 9 February 1682/3.
+1625. 
+1626.                   *       *       *       *       *
+1627. 
+1628.   Att a Generall Court, held at Boston, 10^{th} of October, 1677.
+1629. 
+1630.   Whereas many secret attempts haue binn lately made by euil minded
+1631.   persons to set fire in the toune of Boston and other places, tending
+1632.   to the destruction of the whole, this Court doeth account it their
+1633.   duty to vse all lawfull meanes to discouer such persons and prevent
+1634.   the like for time to come.
+1635. 
+1636.   Bee it therefore ordered & enacted by this Court and the Authority
+1637.   thereof, That the Law, _title_ Oathes and Subscriptions, page 120
+1638.   sect. 2., requiring all persons, as well inhabitants as strangers,
+1639.   (that have not taken it) to take the Oath of Fidelity to the
+1640.   Country, be revived and put in practice through this Jurisdiction.
+1641.   And for the more effectual execution thereof, It is ordered by this
+1642.   Court; That the select men, Constables, and Tithing-men, in every
+1643.   town do, once every quarter of a year so proportion and divide the
+1644.   precincts of each town, and go from house to house, and take an
+1645.   exact list of the Names, quality and callings of every person,
+1646.   whether Inhabitant or Stranger, that have not taken the said Oath,
+1647.   and cannot make due proof thereof; and the Officers aforesaid are
+1648.   hereby required forthwith to return the names of such persons unto
+1649.   the next magistrate, or County Court, or chief military officer in
+1650.   the town where no Magistrate is, who are required to give such
+1651.   persons the said Oath prescribed in the Law, wherein not only
+1652.   Fidelity to the Country, but Allegiance to our King, is required;
+1653.   And all such as take the said oath shall be Recorded and Enrolled in
+1654.   the County Records by the clerk of each County Court. And all such
+1655.   as refuse to take the said Oath, they shall be proceeded against as
+1656.   the said Law directs. And further, this Court doth Declare; That all
+1657.   such refusers to take the said Oath shall not have the benefit of
+1658.   our Laws to Implead, Sue, or recover any Debt in any Court or Courts
+1659.   within this Jurisdiction, nor have protection from this Government
+1660.   whilest they continue in such obstinate refusal.
+1661. 
+1662.   And furthermore, It is Ordered; That if any Officer intrusted with
+1663.   the Execution of this Order, do, neglect, or omit his or their duty
+1664.   therein, they shall be fined according to their demerits, not
+1665.   exceeding five pounds for one offence, being complained of, or
+1666.   presented to the County Courts or Court of Assistants, And this Law
+1667.   to be forthwith Printed and Published, and effectually executed from
+1668.   and after the last of _November_ next. And that all persons that
+1669.   administer the Oath abovesaid, shall in like manner make return of
+1670.   the Names of such persons so sworn to the respective Clerks of the
+1671.   County Courts. Made October 10, 1677.
+1672. 
+1673.                   *       *       *       *       *
+1674. 
+1675.   Att the second sessions of the Gen̄ll Court held at Boston, 2
+1676.   October, 1678.
+1677. 
+1678.   _Whereas it hath pleased his most excellent Majesty, our gracious
+1679.   king by his letter bearing date the twenty-seventh of Aprill, 1678,
+1680.   to signifie his Royall pleasure, That the Authority of this his
+1681.   Colony of Massachusetts in New-England, do give forth Orders that
+1682.   the Oath of Allegiance, as it is by Law established within his
+1683.   Kingdome of England, be administred and taken by all his subjects
+1684.   within this Colony who are of years to take an oath_:
+1685. 
+1686.   In Obedience whereunto, and as a demonstration of our Loyalty; It is
+1687.   ordered and enacted by this Court and the Authority thereof, that,
+1688.   as the members of this Court now sitting have readily taken the Oath
+1689.   of Allegiance, so, by their Example and Authority, they do require
+1690.   and command that the same Oath be given and taken by all his
+1691.   Majesties subjects within this Jurisdiction that are of sixteen
+1692.   years of age and upwards. And to the end this Order be duely
+1693.   executed, it is hereby Ordered, that a convenient number of printed
+1694.   Copies of the said Oath of Allegiance, exactly agreeing with the
+1695.   written copy inclosed in his majesties Letter, and signed by the
+1696.   Secretary of State, to be sent forth unto every Magistrate and
+1697.   Justice of peace, and to the Constable of every town within this
+1698.   Jurisdiction.
+1699. 
+1700.   And it is further Ordered that the Magistrates and Justices, or such
+1701.   as are Commissioned with Magistratical Authority in every County of
+1702.   this Colony do with all convenient speed repair to the several Towns
+1703.   and Villages within this Jurisdiction, at such time, and in such
+1704.   order as they best may, and accomplish the same; giving forth their
+1705.   warrant to the Constables of each Town to convene all the
+1706.   inhabitants of the Age abovesaid, and taking their names in writing,
+1707.   administer the said Oath of Allegiance to each of them, and return
+1708.   their Names to the Recorder of each County Court to be enrolled. And
+1709.   if any shall refuse to take the said Oath, or absent themselves
+1710.   unless in case of sickness, the Names of such shall be returned to
+1711.   the Recorder of the County, who are to be proceeded against by the
+1712.   County Courts respectively, for the first offence whereof he is
+1713.   legally convicted, to pay such a fine as the County Court shall
+1714.   impose, not exceeding five pounds, or three Moneths Imprisonment in
+1715.   the common prison or house of Correction: And for the second offence
+1716.   whereof he shall be lawfully convicted, what summe the County Court
+1717.   shall inflict, provided it exceed not ten pounds, or six Moneths
+1718.   Imprisonment without Baile, or Mainprise. [1678.]
+1719. 
+1720. The officials of the Government, ignoring the copy of the Oath of
+1721. Allegiance given them by the royal commissioners, took the Oath in Court
+1722. as it is given in Michael Dalton’s “The Countrey Justice,”—a work of
+1723. much esteem in its time, which passed through some ten or eleven
+1724. editions, three of which are in the valuable Library of this Society,
+1725. and one of them, there is reason to believe, may have been the volume
+1726. used in this historical incident,—all of them declaring that the same is
+1727. to be understood as not infringing the liberties and privileges granted
+1728. in his Majesty’s royal Charter to this Colony of the Massachusetts.
+1729. 
+1730. Regarding the manner of taking the Oath; the New England custom was by
+1731. holding up the right hand, as opposed to the custom in England of
+1732. holding, or laying the hand on the Bible, or kissing it. This was one of
+1733. the irritating questions in dispute between the Colonists and the Andros
+1734. faction. Samuel Sewall, in his Diary, under date of June 11, 1686, says:
+1735. “I read the Oath myself holding the book in my left hand, and holding up
+1736. my right hand to Heaven.” And, in 1687, Increase Mather discoursed on
+1737. the “laying the hand on and kissing the booke in swearing.” This
+1738. question continued to irritate, and was one of the predisposing causes
+1739. of the Revolutionary War in the Province of New York. In 1772, a Bill
+1740. was lost in Council, “For Removing Doubts in the administration of
+1741. Oaths.” This Bill was designed to favor a number of people, chiefly from
+1742. Scotland and the north of Ireland, who held conscientious scruples
+1743. against the present legal form of kissing the Bible; and allow them to
+1744. use the form in use in Scotland and the New England Colonies of lifting
+1745. up the right hand. The weight of Episcopal authority denied them this
+1746. right.
+1747. 
+1748. In the colonization of New England the figure of John Winthrop looms
+1749. colossal. Given time, he would have built an Empire whose only ruler
+1750. would have been the Lord of Hosts. He can hardly be called a Puritan—his
+1751. conversion came too late—but he was a Congregationalist. His method was
+1752. so simple as to be open to the understanding of anyone, but it was a
+1753. firm principle of government. As an illustration: when he was appealed
+1754. to by a small group of settlers near the border line of New Hampshire
+1755. for information as to how they could become freemen of the Colony of
+1756. Massachusetts-Bay, his reply was: “Get a Minister.” When they answered
+1757. that they had no Minister, and did not know where to get one, again came
+1758. back his uncompromising reply: “Get a Minister.” In this reply rested
+1759. his whole system of colonization. It was simplicity itself. The English
+1760. Government recognized its power when, by Proclamation, they endeavored
+1761. to prevent the emigration of Puritan Ministers from England. “Get a
+1762. Minister!” Gather about him! Build him a church, and homes for
+1763. yourselves and families. This done, you have a Plantation. When you have
+1764. thus qualified to become freemen, and have taken the Oath of a Freeman,
+1765. you will be entitled to hold office; assist in framing laws, and
+1766. enforcing those already made; and, as members of the Commonwealth, be
+1767. assured that all your rights will be protected. This principle of
+1768. government was firm, but not repellent. If you could not conform to it
+1769. there was no reason for remaining among them. The world was wide enough
+1770. for every one. And you could go to Maine, or Rhode Island. Under it was
+1771. formed a government that has never been equalled in prosperity, morality
+1772. and all that makes for happiness. No less a personage than Hugh Peters
+1773. has declared that in the six years of his residence in the Colony of
+1774. Massachusetts-Bay, he had never seen a drunken man or heard a profane
+1775. oath.
+1776. 
+1777. The limits of their territory they continually enlarged by firmly
+1778. insisting upon the border lines of their Patent, and even stretching
+1779. them when near some natural boundary; by purchasing the rights of New
+1780. Plymouth in the Colony of Maine, for 400 pounds, they added a tract of
+1781. seven hundred square miles; by the purchase of the Gorges Patent, for
+1782. 1,250 pounds sterling, they acquired a jurisdiction over the rest of the
+1783. Province of Maine which made it a District of Massachusetts down to the
+1784. year 1820. There has been a good deal of sympathy, and many unnecessary
+1785. tears have been shed over the so-called banishment of Roger Williams to
+1786. Rhode Island; but it was his friend, John Winthrop, who whispered in his
+1787. ear the desirability of the location of the Providence Plantations. And
+1788. there was no reason why Roger Williams could not have gone out from
+1789. Salem with head erect, and with his gaze fixed on the stars, as every
+1790. good missionary should go, knowing that the powers of the government of
+1791. Massachusetts-Bay was as much behind his settlement, without an Oath, as
+1792. it was behind the colonists of Connecticut, and New Haven, who had gone
+1793. out from Cambridge, Watertown and Roxbury, carrying with them the Oath
+1794. of a Freeman as a principle of their governments. In the Union of the
+1795. Colonies of Massachusetts-Bay, New Plymouth, Connecticut, and New Haven,
+1796. of which John Winthrop was the first President, a new idea was advanced
+1797. in his system of government, which eventually attained greater results.
+1798. 
+1799. It cannot be said that John Winthrop accomplished these things unaided.
+1800. There were others who ably assisted him, whose names, also, should be
+1801. held in honored remembrance. But through it all, can be seen the firm,
+1802. directing mind and purpose of a man whose vision looked beyond his
+1803. present to a future, and a Republic that was to be.
+1804. 
+1805. And this is why our people should look upon The Oath of a Freeman, which
+1806. was his work, not alone as the glorious first fruit of the
+1807. Printing-Press in this Country; but also as a great state paper which
+1808. accomplished without bloodshed, on a smaller scale it is true, all that
+1809. was achieved, one hundred and thirty-seven years later, after seven
+1810. years of warfare, through the Declaration of Independence.
+1811. 
+1812. 
+1813. 
+1814. 
+1815. _In Connecticut and New Haven Colonies._
+1816. 
+1817. 
+1818. The colonists of Connecticut, in the main, followed closely the general
+1819. system of laws of the Massachusetts Bay Colony, from which they had
+1820. emigrated. Their form of government was theocratic, the Oath of a
+1821. Freeman being the test of citizenship. The settlers of Windsor, who came
+1822. from Dorchester with John Warham, in 1635, did not, however, make church
+1823. membership a necessary qualification for holding civil office.
+1824. 
+1825. The settlers of Guilford, who were joined to New Haven Colony, exercised
+1826. their powers of government by a system which conformed to the grant from
+1827. Lord Say and Brook to Theophilus Eaton and his company. Like that at New
+1828. Haven it was an aristocracy, but modelled in a singular way. As a part
+1829. of New Haven Colony they were entitled to one Magistrate, who was their
+1830. head and invested with the whole executive and judicial power. The
+1831. settlers were divided into two classes, freemen and planters. The
+1832. freemen could consist only of those who were church members, and partook
+1833. of the sacrament. They were all under oath agreeably to their form of
+1834. government. Out of their number were chosen three or four deputies to
+1835. sit with the Magistrate in General Courts, and all public officers. The
+1836. planters consisted of all inhabitants above the age of twenty-one years,
+1837. with a certain estate, which qualified them to vote in town meetings.
+1838. 
+1839.   5 ^{to} Ap^r 1638. A gen^rall Cort at Hartford.
+1840. 
+1841.   Forasmuch as it has pleased the Allmighty God by the wise
+1842.   disposition of his diuyne p^ruidence so to Order and dispose of
+1843.   things that we the Inhabitants and Residents of Windsor, Hartford
+1844.   and Wethersfield are now cohabiting and dwelling in and vppon the
+1845.   River of Conectecotte and the Lands thereunto adioyneing; And well
+1846.   knowing where a people are gathered togather the word of God
+1847.   requires that to mayntayne the peace and vnion of such a people
+1848.   there should be an orderly and decent Gouerment established
+1849.   according to God, to order and dispose of the affayres of the people
+1850.   at all seasons as occation shall require: doe therefore assotiate
+1851.   and conioyne our selues to be as one publike State or Com̄onwelth;
+1852.   and doe, for our selues and our Successors and such as shall be
+1853.   adioyned to vs att any tyme hereafter, enter into Combination and
+1854.   Confederation togather, to mayntayne and p^rsearue the liberty and
+1855.   purity of the gospell of our Lord Jesus w^{ch} we now p^rfesse, as
+1856.   also the disciplyne of the Churches w^{ch} according to the truth of
+1857.   the said gospell is now practiced amongst vs; As also in o^r Ciuill
+1858.   Affaires to be guided and gouerned according to such Lawes, Rules,
+1859.   Orders and decrees as shall be made, ordered & decreed, as
+1860.   followeth: [The eleven Fundamentalls.] [1638.]
+1861. 
+1862. In Connecticut, it would appear that the Oath of Fidelity required of
+1863. all that were admitted freemen up to July 1640, was as follows:
+1864. 
+1865. 
+1866.              AN OATH FOR PAQUA’ AND THE PLANTATIONS THERE:
+1867. 
+1868. 
+1869.   I A. B. being by the P^ruidence of God an inhabitant w^{th}in the
+1870.   Jurisdiction of Conectecotte, doe acknowledge my selfe to be subject
+1871.   to the gou^rment thereof, and doe sweare by the great and dreadfull
+1872.   name of the eu^r liueing God to be true and faythfull vnto the same,
+1873.   and doe submitt boath my P^rson & estate thereunto, according to all
+1874.   the holsome lawes & orders that ether are or hereafter shall be
+1875.   there made by lawfull authority: And that I will nether plott nor
+1876.   practice any euell agaynst the same, nor consent to any that shall
+1877.   so doe, but will tymely discou^r the same to lawfull authority
+1878.   established there; and that I will maynetayne, as in duty I am
+1879.   bownd, the honor of the same & of the lawfull Magestrats thereof,
+1880.   promoteing the publike good thereof, whilst I shall so continue an
+1881.   Inhabitant there, and whensou^r I shall give my vote, suffrage or
+1882.   p^rxy, being cauled thereunto touching any matter w^{ch} conserns
+1883.   this Com̄onwelth, I will giue y^t as in my conscience may conduce to
+1884.   the best good of the same, w^{th}out respect of p^rson or favor of
+1885.   any man; So helpe me God in the Lo: Jesus Christ. [1640.]
+1886. 
+1887. 
+1888.                          THE OATH OF A FREEMAN
+1889. 
+1890.   I, A. B. being by the P^ruidence of God an Inhabitant w^{th}in the
+1891.   Jurisdiction of Conectecotte, doe acknowledge myselfe to be subiecte
+1892.   to the Gouerment thereof, and doe sweare by the great and fearefull
+1893.   name of the euerliueing God, to be true and faythfull vnto the same,
+1894.   and doe submitt boath my p^rson and estate thereunto, according to
+1895.   all the holsome lawes and orders that there are, or here after shall
+1896.   be there made, and established by lawfull authority, and that I will
+1897.   nether plott nor practice any euell ag^t the same, nor consent to
+1898.   any that shall so doe, but will tymely discouer the same to lawfull
+1899.   authority there established; and that I will, as I am in duty bownd,
+1900.   mayntayne the honner of the same and of the lawfull Magestratts
+1901.   thereof, p^rmoting the publike good of y^t, whilst I shall soe
+1902.   continue an inhabitant there; and whensoeu^r I shall giue my voate
+1903.   or suffrage touching any matter w^{ch} conserns this Com̄on welth
+1904.   being cauled there unto, will give y^t as in my conscience I shall
+1905.   judge may conduce to the best good of the same, w^{th}out respect of
+1906.   p^rsons or favor of any man. Soe helpe me God in o^r Lord Jesus
+1907.   Christe. Aprill the xth, 1640.
+1908. 
+1909.                   *       *       *       *       *
+1910. 
+1911.   At a Generall Assembly held at Hartford, Aprill 20th, 1665, there
+1912.   was presented to the Court the Propositions of his Majesty’s Royal
+1913.   Commission which were read and answered as follows;
+1914. 
+1915.   1. That all householders inhabiting this Colony take the oath of
+1916.   allegiance, and that the administration of justice be in his
+1917.   Majesties name.
+1918. 
+1919.   To this we returne, that according to his Majesties pleasure exprest
+1920.   in o^r Charter, o^r Gouernour formerly hath nominated and appoynted
+1921.   meet persons to administer the oath of allegiance, whoe haue,
+1922.   according to their order, administred the s^d oath to seuerall
+1923.   persons allready; and the administration of justice amongst us hath
+1924.   been, is and shall be in his Majesties name.
+1925. 
+1926.   2nd Propos: That all men of competent estates and of ciuill
+1927.   conuersation, though of different judgments, may be admitted to be
+1928.   freemen, and haue liberty to chuse or to be chosen officers, both
+1929.   military and ciuill.
+1930. 
+1931.   To the 2d, our order for admission of freemen is consonant w^{th}
+1932.   that proposition.
+1933. 
+1934.   3. Propos: That all persons of ciuill liues may freely injoy the
+1935.   liberty of their consciences, and the worship of God in that way
+1936.   which they thinke best, prouided that this liberty tend not to the
+1937.   disturbance of the publique, nor to the hindrance of the maintenance
+1938.   of Ministers regularly chosen in each respectiue parish or township.
+1939. 
+1940.   To the 3d Propos: We say, we know not if any one that hath bin
+1941.   troubled by us for attending his conscience, prouided he hath not
+1942.   distu^rbed the publique.
+1943. 
+1944.   4 Propos: That all lawes and expressions in lawes, derogatory to his
+1945.   Majestie, if any such haue bin made in these late troublesome times,
+1946.   may be repealed, altered and taken off the file.
+1947. 
+1948.   To the 4th p^rpos: We return, we know not of any lawe or expressions
+1949.   in any law that is derogatory to his Majesty amongst us; but if any
+1950.   such be found, we count it o^r duty to repeal, alter it, and take it
+1951.   off the file, and this we attended upon the receipt of our Charter.
+1952.   [1665].
+1953. 
+1954.                   *       *       *       *       *
+1955. 
+1956.   At a Gen^{ll} Assembly for election held at Hartford, May 11, ‘65.
+1957.   This Court declare that it is their full sense and determination
+1958.   that such persons as are or hereafter shalbe approued to be freemen
+1959.   of this Corporation shal take y^e Oath that is already established
+1960.   vpon record to be administered to y^e respectiue freemen: And
+1961.   further, that all such as shal refuse to take the said oath, though
+1962.   otherwise approued p^rsons yet shal not p^rtake of the privilidges
+1963.   of those that have bene formally incorporated into this civil
+1964.   society, vntil y^e said Oath be administred vnto them: Provided that
+1965.   this order includes not either freemen formerly admitted and sworne
+1966.   or Assistants and Com̄issioners that haue taken their corporal oaths
+1967.   or Deputies that haue bene accepted into y^e Gen^{ll} Assembly to
+1968.   assist in ye concernments of this corporation. [1665.]
+1969. 
+1970. 
+1971. 
+1972. 
+1973. _In New Haven Colony._
+1974. 
+1975. 
+1976. “On the 4^{th} day of the 4^{th} month called June 1639, all the free
+1977. planters of the town to be called a year later Newhaven, assembled
+1978. together in a general meetinge to consult about settling ciuill
+1979. Gouernm^t according to God. * * * Mr. John Davenport propounded divers
+1980. (6) quæries to them publiquely praying them to consider seriously * * *
+1981. and to giue their answers in such sort as they would be willing they
+1982. should stand upon recorde for posterity.”
+1983. 
+1984. These six fundamental agreements were assented to by the lifting up of
+1985. hands twice: once at the proposal and again after when the written words
+1986. were read unto them.
+1987. 
+1988. And on the 25th of October next, the following charge was given and
+1989. accepted by them:
+1990. 
+1991. 
+1992.                             FREEMAN’S CHARGE
+1993. 
+1994.   Yow shall neither plott, practise, nor consent, to any euill, or
+1995.   hurt, against this Jurisdiction, or any part of it, nor against The
+1996.   Civill Gouerment here established: And if you shall know any person
+1997.   or persons w^{ch} intend, plott, or conspire anything, w^{ch} tends
+1998.   to the hurt, or prjudice, of the same, you shall timely discouer the
+1999.   same to Lawfull Authority here established, and you shall assist,
+2000.   and be helpfull, in all the affaires of the Jurisdiction, and by all
+2001.   meanes shall promoue the publique wellfare of the same, according to
+2002.   yo^r place, abillity, and opportunity; you shall giue due hono^r to
+2003.   the Lawfull Magistrats, and shall be obedient, and subject, to all
+2004.   the wholesome Lawes, and Orders, allready made, or w^{ch} shall be
+2005.   hereafter made, by Lawfull Authority afforesaide, and that both in
+2006.   yo^r person, and estate, and when you shall be duely called, to giue
+2007.   yo^r vote, or suffrage, in any Election, or touching any other
+2008.   matter, w^{ch} concerneth this Common wellth, yow shall giue it, as
+2009.   in yo^r conscience, you shall judg may conduse to the best good of
+2010.   the same. [1639.]
+2011. 
+2012.                   *       *       *       *       *
+2013. 
+2014.   At A Gen. Court held att Newhaven the 3^d of Aprill 1644.
+2015. 
+2016.   This day, a forme of an oath for the Governo^r and magistrats to
+2017.   take, and another forme of an oath to be imposed upon all the
+2018.   inhabitants w^thin this jurisdiction was propounded to the
+2019.   consideratiō of the court, who, after some serious debate and
+2020.   consideratiō rested satisfyed w^th the said formes. And therevpon
+2021.   ordered thatt itt should be forthw^th putt in executiō, and whereas
+2022.   the Governo^r doth shortly intend a journey to Stamforde on other
+2023.   occasions, the Court desired him to improve thatt opportunity, both
+2024.   at Stamforde and att Milford, for the giveing of the oath, and the
+2025.   like att Guilforde in time convenient. Itt was further ordered thatt
+2026.   no person or persons shall hereafter be admitted as an inhabitant in
+2027.   this jurisdictiō or any of the plantations therein butt he or they
+2028.   shall take the said oath vpon his or their admittance.
+2029. 
+2030.                   *       *       *       *       *
+2031. 
+2032.   On the 23 of June, 1644, The formes of two oathes were propounded to
+2033.   the Court to be taken the next second day in the morning, by all the
+2034.   inhabitants in this plantatiō, one of them is to be taken by all,
+2035.   and the other by the Governo^r onely.
+2036. 
+2037.                   *       *       *       *       *
+2038. 
+2039.   Att a Gen^{rll} Court held att Newhaven the 1^t of July, 1644. The
+2040.   Governo^r tooke this oath as followeth,
+2041. 
+2042.   I [Theophilus Eaton] being att a Gen^{rll} Co^{rt} in October last,
+2043.   chosen Governo^r w^thin Newhaven Jurisdictiō for a yeare then to
+2044.   ensue, and vntill a new Governo^r be chosen, do sweare by the great
+2045.   and dreadfull name of the ever living God, to promove the publique
+2046.   good and peace of the same, according to the best of my skill, and
+2047.   will allso maintaine all the lawfull priviledges of this
+2048.   comōwealth, according to the fundamentall order and agreem^t made
+2049.   for governm^t in this jurisdictiō, and in like manner will endeuo^r
+2050.   thatt all wholsome lawes thatt are or shall be made by lawfull
+2051.   authority here established be duely executed, and will further the
+2052.   executiō of justice according to the righteous rules of Gods worde,
+2053.   so help me God in o^r Lord Jesus Christ.
+2054. 
+2055.                   *       *       *       *       *
+2056. 
+2057.   The Governo^r haveing allso received the
+2058. 
+2059. 
+2060.                             OATH OF FIDELITY
+2061. 
+2062.   as followeth,
+2063. 
+2064.   I [Theophilus Eaton] being by the providence of God an inhabitant
+2065.   w^thim Newhaven Jurisdictiō, doe acknowledge myselfe to be subject
+2066.   to the goverm^t thereof, and doe sweare by the great and dreadfull
+2067.   name of the ever living God, to be true and faithfull vnto the same,
+2068.   and doe submitt both my person and my whole estate thervnto
+2069.   according to all the wholsome lawes and orders thatt for present are
+2070.   or hereafter shall be there made and established by lawfull
+2071.   authority, and thatt I will neither plott nor practise any evill
+2072.   agst the same, nor consent to any thatt shall so doe, butt will
+2073.   timely discover the same to lawfull authority here established, and
+2074.   thatt I will as I am in duety bounde, maintaine the hono^r of the
+2075.   same and off the lawfull magistrates thereoff, promoting the
+2076.   publique good of the same whilest I shall continue an inhabitant
+2077.   there. And whensoever I shall be duely called a free burgesse,
+2078.   according to the fundamentall order and agreem^t for governm^t in
+2079.   this jurisdictiō to give my vote or suffrage touching any matter
+2080.   w^ch concerneth this comō wealth, I will give itt as in my
+2081.   conscience I shall judge may conduce to the best good of the same
+2082.   w^thout respect of persons, So help me God in our Lord Jesus Christ.
+2083. 
+2084.   Then he gave itt to all those whose names are herevnder written,
+2085.   [Two hundred and sixteen names.] [1644.]
+2086. 
+2087. In May, 1665, the Colonies of Connecticut, and New Haven were united as
+2088. the Colony of Connecticut in New England.
+2089. 
+2090. 
+2091.                            OATH OF ALLEGIANCE
+2092. 
+2093.   Administered at New Haven, in May 1666, under powers granted by
+2094.   Governor John Winthrop, according to his Maj^{ties} Charter granted
+2095.   to this Colony of Connecticut in New England.
+2096. 
+2097.   You J[asper] C[rane], doe sweare faith and Allegeance to his
+2098.   Maj^{tie} Charles y^e Second, as duty binds according to y^e word of
+2099.   God. And yo^u doe hereby acknowledge that the Pope, nor any other
+2100.   potentate hath powe^r or autority or iurisdiction in any of his
+2101.   Maj^{ties} dominions, and y^t only his Ma^{tie} our sover^n Lord
+2102.   King Charles hath under God, supreme power in his Ma^{ties}
+2103.   dominions. And I doe abhor y^e detestable opinion y^t the pope hath
+2104.   pow^r to Depose princes. And this I doe from my hart, soe help me
+2105.   God.
+2106. 
+2107. On the 31 October, 1687, Sir Edmund Andros, Knt. took over into his
+2108. hands the government of the Colony of Connecticut in New England.
+2109. 
+2110. 
+2111. 
+2112. 
+2113. _In Rhode Island and Providence Plantations._
+2114. 
+2115. 
+2116. The settlement of Rhode Island by Roger Williams, being partly
+2117. occasioned by his refusal to take either the Oath of Fidelity, or the
+2118. Stranger’s Oath to the Colony of Massachusetts-Bay will account for the
+2119. absence of all Oaths of Allegiance in the early history of the Colony
+2120. which he founded. From the first settlement of the Colony of Rhode
+2121. Island and Providence Plantations to the present time an Oath could not
+2122. be required of any one; but in its place is required a property
+2123. qualification and an Affirmation.
+2124. 
+2125. 
+2126.                              CIVIL COMPACT
+2127. 
+2128.   We whose names are hereunder, desirous to inhabit in the town of
+2129.   Providence, do promise to subject ourselves in active and passive
+2130.   obedience to all such orders or agreements as shall be made for
+2131.   public good of the body in an orderly way, by the major consent of
+2132.   present inhabitants, masters of families, incorporated together in a
+2133.   Towne fellowship, and others whom they shall admit unto them only in
+2134.   civil things. [Richard Scott, and twelve others.] August the 20th,
+2135.   [1637.]
+2136. 
+2137. This limiting of the powers of town meetings to “civil things,” is the
+2138. first expression in the new world of a severance of the bonds of Church
+2139. and State, and of that principle of freedom of conscience for which the
+2140. founder had contended. This first Civil Compact was followed, on the 7th
+2141. day of the first month, 1638, by the settlers at Aquidneck, with a
+2142. 
+2143. 
+2144.                           SECOND CIVIL COMPACT
+2145. 
+2146.   We whose names are underwritten do here, solemnly, in the presence
+2147.   of Jehovah incorporate ourselves into a Bodie Politick and as he
+2148.   shall help, will submit our persons, lives and estates unto our Lord
+2149.   Jesus Christ, the King of Kings and Lord of Lords and to all those
+2150.   perfect and most absolute lawes of his given us in his holy word of
+2151.   truth, to be guided and judged thereby. Exod. 24. 3. 4, 2 Cron.
+2152.   11.3, 2 Kings, 11. 17. [William Coddington, and eighteen others.]
+2153. 
+2154.   The 7th of the first month, 1638. We that are Freemen Incorporate of
+2155.   this Bodie Politick do Elect and Constitute William Coddington,
+2156.   Esquire, a Judge amongst us, and so covenant to yield all due honour
+2157.   unto him according to the lawes of God, and so far as in us lyes to
+2158.   maintaine the honour and privileges of his place which shall
+2159.   hereafter be ratifyed according unto God, the Lord helping us so to
+2160.   do.
+2161. 
+2162.                                             William Aspinwall, Sec’ry.
+2163. 
+2164.   I, William Coddington, Esquire, being called and chosen by the
+2165.   Freemen Incorporate of this Bodie Politick, to be a Judge amongst
+2166.   them, do covenant to do justice and Judgment impartially according
+2167.   to the lawes of God, and to maintaine the Fundamentall Rights and
+2168.   Privileges of this Bodie Politick, which shall hereafter be ratifyed
+2169.   according unto God, the Lord helping us so to do.
+2170. 
+2171.   On the 3d Month, 13 day, 1638. It is ordered that none shall be
+2172.   received as inhabitants or Freemen to build or plant upon the Island
+2173.   but such as shall be received in by the consent of the Bodye, and do
+2174.   submitt to the government that is or shall be established, according
+2175.   to the word of God. [1638.]
+2176. 
+2177. From this arrangement, the first recorded Act regarding freemen in the
+2178. Colony, a minority seceded, taking the Records with them, and drew up
+2179. the following instrument:
+2180. 
+2181.                               It is agreed
+2182. 
+2183.   By vs whose hands are underwritten, to propagate a Plantation in the
+2184.   midst of the Island or elsewhere; And doe engage ourselves to bear
+2185.   equall charges, answerable to our strength and estates in common;
+2186.   and that our determinations shall be by major voice of judge and
+2187.   elders; the Judge to have a double voice. [William Coddington, and
+2188.   eight others.] On the 28th of the 2d Month, 1639.
+2189. 
+2190. Agreeing and ordering that the Plantation now begun shall be called
+2191. Newport.
+2192. 
+2193. The remaining members of the Aquidneck settlement then organized a new
+2194. government.
+2195. 
+2196.                          Aprill the 30th, 1639.
+2197. 
+2198.   We whose names are underwritten doe acknowledge ourselves the legall
+2199.   subjects of his Majestie King Charles, and in his name doe hereby
+2200.   binde ourselves into a civill body Politicke, assenting unto his
+2201.   lawes according to right and matters of justice. [William
+2202.   Hutchinson, and thirty associates.]
+2203. 
+2204.                   *       *       *       *       *
+2205. 
+2206.   By the Body Politicke on the Ile of Agethnec, inhabiting this
+2207.   present, 25 of 9 = month, 1639.
+2208. 
+2209.   In the fourteenth yeare of y^e Raign of our Sovereign Lord King
+2210.   Charles. It is agreed, That as natural subjects to our Prince, and
+2211.   subject to his Lawes, all matters that concerne the Peace shall be
+2212.   by those that are officers of the Peace transacted; And all actions
+2213.   of the Case or Dept, shall be in such Courts as by order are here
+2214.   appointed, and by such Judges as are Deputed: Heard and Legally
+2215.   Determined.
+2216. 
+2217.                   *       *       *       *       *
+2218. 
+2219.   At the Generall Court of Election began and held at Portsmouth, from
+2220.   the 16th of March to the 19th of the same mo., 1641.
+2221. 
+2222.   1. It was ordered and agreed before the Election, that an Ingagement
+2223.   by oath should be taken of all the officers of this Body now to be
+2224.   elected, as likewise for the time to come; the ingagement which the
+2225.   severall officers of the State shall give is this; To the execution
+2226.   of this office I judge myself bound before God to walk faithfully,
+2227.   and this I profess in y^e presence of God.
+2228. 
+2229.   3. It is ordered and unanimously agreed upon that the Government
+2230.   which this Bodie Politick doth attend vnto in this Island, and the
+2231.   Jurisdiction thereof, in favour of our Prince is a Democracie, or
+2232.   popular Government; that is to say, It is in the Powre of the Body
+2233.   of Freemen orderly assembled, or the major part of them, to make or
+2234.   constitute Just Lawes, by which they will be regulated, and to
+2235.   depute from among themselves such Ministers as shall see them
+2236.   faithfully executed between Man and Man.
+2237. 
+2238.   16. It is ordered that Ingagement shall be taken by the Justices of
+2239.   the Peace in their Quarter Sessions of all men or youth above
+2240.   fifteen years of age, eyther by the oath of Fidelity, or some other
+2241.   strong cognizance.
+2242. 
+2243.   28. It is ordered and received, that the Ingagement that already was
+2244.   given by the Freemen was and is of the same force as that oath is
+2245.   which is authorized to be administered to the Inhabitants, which
+2246.   oath Nicholas Easton, Rob’t Jeoffreys, and Wm. Dyre did take in
+2247.   presence of the Courte.
+2248. 
+2249.   29. It is ordered, that if any person or persons on the Island,
+2250.   whether Freeman or Inhabitant, shall by any meanes open or covert,
+2251.   endeavour to bring in any other Powre than what is now established
+2252.   (except it be from our Prince by lawfull commission), shall be
+2253.   accounted a delinquent under the head of Perjurie.
+2254. 
+2255.   30. It is ordered, that the Law of the last Court made concerning
+2256.   Libertie of Conscience in point of Doctrine is perpetuated.
+2257. 
+2258. 
+2259.                      THE ENGAGEMENT OF THE OFFICERS
+2260. 
+2261.   You, A. B. being called and chosen vnto public employment, and the
+2262.   office of ——, by the free vote and consent y^e Inhabitants of the
+2263.   Province of Providence Plantations (now orderly met), do, in the
+2264.   present Assemblie, engage yourself faithfully and truly to the
+2265.   utmost of your power to execute the commission committed vnto you;
+2266.   and do hereby promise to do neither more nor less in that respect
+2267.   than that which the Colonie have or shall authorize you to do
+2268.   according to the best of your understanding.
+2269. 
+2270. 
+2271.          THE RECIPROCAL ENGAGEMENT OF THE STATE TO Y^E OFFICERS
+2272. 
+2273.   We, the Inhabitants of the Province of Providence Plantations being
+2274.   here orderly met, and having by free vote chosen you ——, to public
+2275.   office and officers for the due administration of Justice and the
+2276.   execution thereof throughout the whole Colonie, do hereby engage
+2277.   ourselves to the utmost of our power to support and vphold you in
+2278.   your faithfull performance thereof. [1641.]
+2279. 
+2280.   This Engagement was also agreed to by the Court of Commissioners and
+2281.   Election. September y^e 13th, 1654.
+2282. 
+2283.   It is ordered by the present Assemblie, that this is y^e engagement
+2284.   of y^e Generall officers any former forme to the contrarie
+2285.   notwithstandinge.
+2286. 
+2287.                   *       *       *       *       *
+2288. 
+2289.   At the General Court of the 21st of May, 1661, the words: “in his
+2290.   Majesties name” was added after (“now orderly met”).
+2291. 
+2292.                   *       *       *       *       *
+2293. 
+2294.   And Att a Generall Assembly of the Collony of Rhode Iland and
+2295.   Providence Plantations the 4th of May, 1664:
+2296. 
+2297.   This Assembly alsoe declareth against any parson acting in any
+2298.   publike office, except hee first take the engagement according to
+2299.   the forme hear subjoyned.
+2300. 
+2301.   You, A. B., &c., sollemly engage to be true and faythfull vnto our
+2302.   Soveraigne Lord the King, Charles the Second, of England, Scotland,
+2303.   France and Ireland, and dominiones and terrytoryes therevnto
+2304.   belonging; and to his sayd Majesty, his heirs and successors, true
+2305.   allegeance to beare and exicute your commission, charge and office,
+2306.   according to the best of your skill and knowledge without
+2307.   partiallyty or affection to any; and that according to the lawes
+2308.   already established, or to be established in this Colony. This
+2309.   ingagement you make and ingage to obsearve, vnder the penalty of
+2310.   perjury....
+2311. 
+2312.   At the taking of the ingagement by any, ther must bee a
+2313.   re-engagement given in the Colloneys name, to stand by and assist
+2314.   such parsones in the exicution of ther offices and performance of
+2315.   ther dutyes.
+2316. 
+2317.   It is alsoe the pleasuer and appoynment of this Generall Assembly,
+2318.   that none presume to vote in the matters afforesayd, but such whome
+2319.   this Generall Assembly expresly by ther writting shal admit as
+2320.   freemen.
+2321. 
+2322.   The 19^{th} of the ii^{th} Month, 1645. Wee whose names are heere
+2323.   after Subscribed, having obteyned a free Grante of Twenty five Akers
+2324.   of Land a peece with right of Commoning, according to the said
+2325.   proportion of Land; from the free Jnhabitants of this Towne of
+2326.   providence; doe thankfully acsept of the same; And heereby doe
+2327.   promise to yield Actiue; or passiue Obeydience to the authority of
+2328.            established in this Collonye; according to our Charter; and
+2329.   to all Such wholesome Lawes & Orders, that are or shall be made, by
+2330.   the major consent of this Towne of Providence; As alsoe not to
+2331.   clayme any Righte, to the Purchasse of the Said plantation; Nor any
+2332.   privilidge of Vote in Towne Affaires; untill we shall be received as
+2333.   free = Men of the said Towne of Providence. [1645.]
+2334. 
+2335. 
+2336.                 THE PREAMBLE TO THE LAW AGAINST PERJURY
+2337. 
+2338.   Forasmuch as the consciences of sundry men, truly conscionable, may
+2339.   scruple the giving or the taking of an oath, and it would be nowise
+2340.   suitable to the nature and constitution of our place, who profess
+2341.   ourselves to be men of different consciences and not one willing to
+2342.   force another to debar such as cannot do so, either from bearing
+2343.   office among us or from giving in testimony in a case depending; be
+2344.   it enacted by the authority of this present Assembly, that a solemn
+2345.   profession or testimony in a court of record, or before a judge of
+2346.   record, shall be accounted, throughout the whole colony, of as full
+2347.   force as an oath. [1647.]
+2348. 
+2349. This is the more remarkable because at this time the Friends did not yet
+2350. as a distinct Society, hold to the unlawfulness of oaths. And it is in
+2351. complete concordance with the teachings of Roger Williams.
+2352. 
+2353.   Acts and Orders of the Generall Assembly, sitting at Newport, May
+2354.   the 3, 1665.
+2355. 
+2356.   Ordered, that this following shall be the forme for engaging all
+2357.   officers in this Collony, called to place of publicke concernment,
+2358.   &c., for the administration of justice, (viz):
+2359. 
+2360.   Whereas, you are, A. B., by the free vote of the freemen of this
+2361.   Collony of Rhode Island and Providence Plantations, &c., called and
+2362.   chosen vnto the place and office of ——, in the said Collony, &c.,
+2363.   doe sollemly engage true eleageance vnto his Majestye, his heires
+2364.   and successors, to beare, and in your said office equall justice and
+2365.   right to doe vnto all persones within this jurisdiction to the
+2366.   vtmost or best of your skill and ability without partiality,
+2367.   according to the laws established, or that shall be established in
+2368.   this said jurisdiction; [according to the Charter as well in matters
+2369.   military as civill.] And this engagement you make and give vpon the
+2370.   perill of the penalty of perjury.
+2371. 
+2372.   The reciprocall engagement is as follows, ordered to be given by he
+2373.   that takes or administers the abovesaid engagement.
+2374. 
+2375.   I doe, in the name and behalfe of this Collony, &c., re-ingage to
+2376.   stand by you and to support you by all due assistance and
+2377.   incouradgment in your performance and execution of your aforesaid
+2378.   office according to your engagement.
+2379. 
+2380.   Ordered, that the forme of engagement aforesaid shall be used vntill
+2381.   further order; any former order or forme vsed or prescribed to the
+2382.   contrary, or differing herefrom notwithstanding. [1665.] These forms
+2383.   were re-enacted in 1677.
+2384. 
+2385. The Commission appointed by the King to assert the rights of the Crown
+2386. to the seven New England Colonies, as the first of the propositions of
+2387. his Majesty’s will and pleasure in Rhode Island, proposed:
+2388. 
+2389.   That all householders inhabiting this Collony take the oath of
+2390.   alleagence and the administration of justice be in his Majestyes
+2391.   name.
+2392. 
+2393.   Wherevpon, and in a deepsence of his Majestyes most Royall and
+2394.   wonderful grace and favour more pertickerlerly ... in his letters
+2395.   pattents ... in which is expresed his ... indulgence extended to
+2396.   tender consiences, differing in matters of religious worshipe and
+2397.   conceanments; and more especially in matters of formes of oathes and
+2398.   cerimonyes or circumstances relating therevnto, ... considering
+2399.   therein the liberty of concience therein granted.
+2400. 
+2401.   The Assembly doe with one consent ... in all cheerfull obediance ...
+2402.   and therein minding the preveledge granted to tender conciences, doe
+2403.   in the first place order and declare: that whereas in this Collony
+2404.   it hath ben alwayes accounted and granted a liberty to such as make
+2405.   a scruple of swearing and taken an oath, that in stead thereof they
+2406.   shall engage, under the penalty of false swearing, though they
+2407.   sweare not in publicke engagement, as well as if they did sweare,
+2408.   that therefore this most loyall and resonable engagement be given by
+2409.   all men capable within this jurisdiction for their allegiance to the
+2410.   King, &c.
+2411. 
+2412.                   *       *       *       *       *
+2413. 
+2414.   The forme of which engagement shall be as followeth:
+2415. 
+2416.   You, A. B., sollemly and sincearly engage true and faithfull
+2417.   aleagiance vnto his Majestye Charles the Second, King of England,
+2418.   his heires and successors, to beare and due obediance vnto the lawes
+2419.   established, from time to time in this jurisdiction, to yeald vnto
+2420.   the vtmost of your power, according to the previlidge by his said
+2421.   Majesty granted, in religioues and civill concearnments to this
+2422.   Collony in the Charter; which said engagement you make vnder the
+2423.   perill and penalty of perjury. [1665.]
+2424. 
+2425. They further ordered that “this engagement shall be administered to all
+2426. that are already admitted freemen, and that no man shall be admitted a
+2427. freeman, and all men that are householders or aged eighteen or more,
+2428. shall take the engagement or loose the priviledge of freemen until they
+2429. give the engagement premised.” The passage of this law led to a long
+2430. agitation by those who thought it to be hard on the consciences by many
+2431. whom it rendered incapable from carrying on the affairs of the
+2432. corporation. And, in the following year, the Assembly ordered and
+2433. declared, “That such as are free in their conscience so to do, give the
+2434. Engagement, or if they rather choose to give the oath of allegiance now
+2435. required in England, that shall be taken; but if there are some words in
+2436. either which, in conscience they cannot condescend to say or use, may in
+2437. open court, or before two Magistrates adopt in equivalent words
+2438. significant of allegiance and submission to yield obedience actively and
+2439. passively, to the laws made by virtue of his Majesty’s authority, he
+2440. shall be restored or admitted as freeman, any former law to the contrary
+2441. notwithstanding.”
+2442. 
+2443.   At a Court held in his Majesty’s name, and under his authority, at
+2444.   the towne of Westerly, in the King’s Province, the 17th of
+2445.   September, 1679.
+2446. 
+2447.   The inhabitants of Westerly, being by warrant required to appeare at
+2448.   this Court to give the oath of allegiance to his Majesty, and of
+2449.   fidellity to his Majesty’s authority for this Collony, these persons
+2450.   hereunder named appeared and gave oath, viz. [Thirty-three names.]
+2451. 
+2452.   The oath given by the above written persons was in these followinge
+2453.   words:
+2454. 
+2455.   I doe truly and sincerely acknowledge, profess, testify and declare
+2456.   in my conscience before God and the world, that our Soverreign Lord,
+2457.   King Charles, is lawfull and rightfull King of the Realm of England,
+2458.   and of all other his dominions and countries; and that the Pope,
+2459.   neither of himselfe, nor by any authority of the Church, or See of
+2460.   Rome, or by any other meanes with any other, hath any power or
+2461.   authority to depose the King, or to dispose of his Majesty’s
+2462.   kingdoms or dominions, or to authorize any forreigne prince to
+2463.   invade, or annoy him, or his country, or to discharge any of his
+2464.   subjects from their allegiance and obedience to his Majesty; or to
+2465.   give license or leave to any of them to beare armes, raise tumults,
+2466.   or offer any violence or hurt to his Majesty’s Royall person, State
+2467.   or Government, or to any of his Majesty’s subjects within his
+2468.   Majesty’s dominions. Alsoe I doe sweare from my heart, that
+2469.   notwithstanding any declaration or sentence of ex-communication, or
+2470.   deprivation, made or granted, or to be made or granted by the Pope
+2471.   or his successors, or by any authority derived or pretended to be
+2472.   derived from him or his See against the said King, his heires or
+2473.   successors, or any absolution of the said subjects from their
+2474.   obedience, I will beare faith and true allegiance to his Majesty,
+2475.   his heires and successors, and him and them will defend to the
+2476.   uttermost of my power against all conspiracies and attempts
+2477.   whatsoever which shall be made against his or their persons, their
+2478.   Crowne and dignity, by reason or clause of any such sentence or
+2479.   declaration or otherwise, and will doe my best endeavour to
+2480.   disclose, and make knowne unto his Majesty, his heires and
+2481.   successors, all treasons and traiterous conspiracies, which I shall
+2482.   know or hear of, to be against him or any of them. And I doe further
+2483.   sweare that I doe from my heart, abhor, detest and abjure as impious
+2484.   and herritical, this damnable doctrine and position, that princes
+2485.   which be excommunicated or deprived by the Pope, may be deposed or
+2486.   murthered by their subjects, or any other whatsoever. And I doe
+2487.   believe and in my conscience am resolved, that neither the Pope nor
+2488.   any person whatsoever, hath power to absolve me of this oath, or any
+2489.   part thereof, which I acknowledge by good and full authority to bee
+2490.   ministered unto me; and doe renounce all pardons and dispensations
+2491.   to the contrary. And all these things I doe plainly and sincerely
+2492.   acknowledge and sweare according to these express words by me
+2493.   spoken, according to the plaine and common sense and understandinge
+2494.   of the same words, without any equivocation or mentall evasion or
+2495.   secrett reservation whatsoever. And further, I doe here solemnly
+2496.   engage all true and loyall obedience unto his Majesty’s authority
+2497.   placed and established in this his Collony of Rhode Island and
+2498.   Providence Plantations, and King’s Province. And I doe make this
+2499.   recognition heartily, willingly, and truly, upon the true faith of a
+2500.   Christian. So help me God. [1679.]
+2501. 
+2502. No further oaths, or engagements, appear until the Administration of Sir
+2503. Edmund Andros, in 1686, reduced the Colony to the nature of a County
+2504. under his government.
+2505. 
+2506. 
+2507. 
+2508. 
+2509. _In New Hampshire Colony._
+2510. 
+2511. 
+2512. As there was no constituted authorities over the patent of New
+2513. Hampshire, the Exeter settlers, under the leadership of John
+2514. Wheelwright, who had purchased a tract thirty miles square from certain
+2515. Indian Sachems in April, 1638, were driven to the expedient of agreeing
+2516. upon a voluntary association for governmental purposes. The executive
+2517. and judicial functions were vested in a board of three magistrates or
+2518. elders, of whom the chief was styled Ruler. They were chosen by the
+2519. whole body of freemen, who were the electors and legislators, their
+2520. enactments, however, requiring the approval of the Ruler. An inhabitant
+2521. had to be admitted a freeman, before he could enjoy the privileges of an
+2522. elector. Under this association, an agreement was drawn up by the
+2523. Reverend John Wheelwright, their leader, as follows:
+2524. 
+2525. 
+2526.  THE COMBINATION FOR GOVERNMENT AT EXETER, WITH THE FORMS OF OATHS FOR
+2527.                            RULERS AND PEOPLE
+2528. 
+2529.   Whereas it hath pleased the lord to moue the heart of our Dread
+2530.   Soveraigne Charles by the grace of God, King of England, Scotland,
+2531.   France & Ireland, to grant license & liberty to sundry of his
+2532.   subjects to plant themselves in the Westerne partes of America: Wee,
+2533.   his loyall subjects, brethren of the church of Exeter, situate &
+2534.   lying upon the river of Piscataquacke, wh other inhabitants there,
+2535.   considering w^{th} ourselves the holy will of god and our owne
+2536.   necessity, that we should not live w^{th}out wholsome lawes &
+2537.   government amongst us, of w^{ch} we are altogether destitute; doe in
+2538.   the name of Christ & in the sight of god combine ourselves together,
+2539.   to erect & set up amongst us such government as shall be to our best
+2540.   discerning, agreeable to the will of god, professing ourselves
+2541.   subjects to our Soveraigne Lord King Charles, according to the
+2542.   libertys of our English Colony of the Massachusets & binding
+2543.   ourselves solemnely by the grace & helpe of Christ & in his name &
+2544.   feare to submit our selves to such godly & Christian laws as are
+2545.   established in the realme of England to our best knowledge, & to all
+2546.   other such lawes wch shall upon good grounds be made & inacted
+2547.   amongst us according to god y^t we may live quietly & peaceably
+2548.   together in all godliness and honesty. Mon. 5th d., 4th, 1639. [John
+2549.   Whelewright, and thirty-four others.]
+2550. 
+2551. This was soon found to be unsatisfactory to some other settlers, who
+2552. thought its expressions too lavish of loyalty to the King, and, in
+2553. consequence, of prelacy; and while they were willing to acknowledge in a
+2554. general way his sovereignty, and that they were his subjects, they had
+2555. no disposition to make any unnecessary professions of allegiance.
+2556. Another compact was then drawn of the same purport, simply acknowledging
+2557. the King to be their Sovereign, and themselves his subjects. This was
+2558. executed in due form and went into effect as the basis of government.
+2559. But it did not bear the test of trial. Curiously, because it did not
+2560. contain loyalty enough. And the original Combination was re-executed
+2561. with the following explanatory preamble:
+2562. 
+2563.   Whereas a certen combination was made by us, the brethren of the
+2564.   Church of Exeter, with the rest of the Inhabitants, bearing date
+2565.   Mon. 5th. d. 4, 1639, wh afterwards, upon the instant request of
+2566.   some of the brethren, was altered, & put into such a forme of
+2567.   wordes, wherein howsoever we doe acknowledge the King’s Majesty our
+2568.   dread Sovereigne & ourselves his subjects: yet some expressions are
+2569.   contained therein wh may seeme to admit of such a sence as somewhat
+2570.   derogates from that due Allegiance wh we owe to his Highnesse, quite
+2571.   contrary to our true intents and meanings: We therefore doe revoke,
+2572.   disannull, make voyd and frustrate the said latter combination, as
+2573.   if it never had beene done, and doe ratify, confirme and establish
+2574.   the former, wh wee onely stand as being in force & virtue, the wh
+2575.   for substance is here set downe in manner and form following. Mon.,
+2576.   2d d., 2, 1640.
+2577. 
+2578. Both the Elders and the People were required to take certain prescribed
+2579. oaths, as follows:
+2580. 
+2581. 
+2582.                        THE ELDERS OR RULERS OATH
+2583. 
+2584.   You shall sweare by the great and dreadfull Name of the high God
+2585.   maker & Gov^r of heaven and earth, and by the Lord Jesus Christ y^e
+2586.   Prince of the Kings and Rulers of the earth that in his name and
+2587.   feare you will Rule and Governe this people according to the
+2588.   righteous will of God’s Ministeringe Justice and Judgm^t upon the
+2589.   workers of iniquity and Ministering due incurreagm^t and Countenance
+2590.   to well doers protecting of people so farre as in you by the helpe
+2591.   of God lyeth from forren Annoyance and inward disturbance that they
+2592.   may live a quiett and peacable life in all godlyness and honesty.
+2593.   Soe God bee helpful and gratious to you and yo^{rs} in Christ Jesus.
+2594. 
+2595. 
+2596.                          THE OATH OF THE PEOPLE
+2597. 
+2598.   Wee doe here sweare by the Great and dreadful name of y^e high God,
+2599.   maker and Gouern^r of Heaven & earth and by the Lord Jesus X y^e
+2600.   King & Savio^r of his people that in his name & fear we will submitt
+2601.   o^r selves to be ruld & gouerned by, according to y^e will & Word of
+2602.   God and such holsome Laws & ordinances as shall be derived theire
+2603.   from by O^r honr^d Rulers and y^e Lawfull assistance with the
+2604.   consent of y^e people and y^t wee will be ready to assist them by
+2605.   the helpe of God in the administration of Justice and p^rservacon of
+2606.   peace with o^r bodys and goods and best endeavo^{rs} according to
+2607.   God, so God protect & saue us and O^{rs} in Christ Jesus. [1640.]
+2608. 
+2609. 
+2610.           THE COMBINATION OF THE PEOPLE OF DOVER TO ESTABLISH
+2611.                           A FORM OF GOVERNMENT
+2612. 
+2613.   Whereas sundry Mischiefes and inconveniences have befaln us, and
+2614.   more and greater may in regard of want of Civill Government, his
+2615.   Gratious Matie haveing hitherto settled no Order for us to our
+2616.   knowledge:
+2617. 
+2618.   Wee whose names are underwritten being inhabitants upon the River
+2619.   Piscataquack have voluntarily agreed to combine our selves into a
+2620.   Body Politique that wee may the more comfortably enjoy the benefit
+2621.   of his Maties Lawes. And do hereby actually ingage our Selves to
+2622.   Submit to his Royal Maties Lawes together with all such Orders as
+2623.   shalbee concluded by a Major part of the Freemen of our Society, in
+2624.   case they bee not repugnant to the Lawes of England and administered
+2625.   in the behalfe of his Majesty.
+2626. 
+2627.   And this wee have mutually promised and concluded to do and so to
+2628.   continue till his Excellent Matie shall give other Order concerning
+2629.   us.
+2630. 
+2631.   In Witness wee have hereto Set our hands the two & twentieth day of
+2632.   October in the sixteenth yeare of the Reign of our Sovereign Lord
+2633.   Charles by the grace of God King of Great Brittain, France & Ireland
+2634.   Defender of the Faith &c. Annoq Domi, 1640. [John Follett, and
+2635.   forty-one others.]
+2636. 
+2637. Under these forms the administration of the affairs of Exeter, and
+2638. Dover, went on satisfactorily until, together with Hampton and
+2639. Portsmouth, they came under the sway of Massachusetts-Bay in 1643; a
+2640. part of the price the latter were ready to pay for the extension of
+2641. their jurisdiction was that the citizens of the New Hampshire towns were
+2642. to be allowed the elective franchise without reference to their being
+2643. church members. This arrangement continued under the Laws of
+2644. Massachusetts-Bay, as a part of Norfolk County, until New Hampshire
+2645. became, in 1680, a Royal Province.
+2646. 
+2647.   In the Generall Lawes and Liberties of the Province of New
+2648.   Hampshire, made by the Generall Assembly in Portsm^o the 16th of
+2649.   March, 1679/80 and Aproved by the Presid^t and Councill. The
+2650.   following is given as the status of
+2651. 
+2652. 
+2653.                                 FREEMEN
+2654. 
+2655.   8. It is ordered by this Assembly and the authority thereof y^t all
+2656.   Englishmen being Protestants, y^t are settled Inhabitants and
+2657.   freeholders in any towne of this Province, of y^e age of 24 years,
+2658.   not viceous in life but of honest and good conversation, and such as
+2659.   have 201 Rateable estate w^{th}out heads of persons having also
+2660.   taken the oath of allegiance to his Maj^s, and no others shall be
+2661.   admitted to y^e liberty of being freemen of this Province, and to
+2662.   give theire votes for the choice of Deputies for the Generall
+2663.   Assembly, Constables, Selectmen, Jurors and other officers and
+2664.   concernes in y^e townes where they dwell; provided this order give
+2665.   no liberty to any pson or psons to vote in the dispossion or
+2666.   distribution of any lands, timber or other properties in y^e Towne,
+2667.   but such as have reall right thereto; and if any difference arise
+2668.   about s^d right of voting, it shall be judged and determined by y^e
+2669.   Presid^t and Councill w^{th} the Gen^{ll} Assembly of this Province.
+2670. 
+2671. This Body of Laws when sent to England for Royal approval was
+2672. disallowed.
+2673. 
+2674. 
+2675. 
+2676. 
+2677. _In Province or County of Maine._
+2678. 
+2679. 
+2680. The Colonization of what is called in the Charter granted by Charles the
+2681. First to Sir Ferdinando Gorges in 1639, “The Province or Countie of
+2682. Mayne,” presented many difficulties. The extraordinary governmental
+2683. powers given to the Lord-Proprietary, which were transmissible with the
+2684. property to his heirs and assigns, made of it a vast landed estate in
+2685. which there could not be much voluntary co-operation. To assist in its
+2686. government a board of Councilors was appointed who before taking office
+2687. were required to “take the Oath of Allegiance according to the forme now
+2688. used in this his highness’ realme of England, and shall alsoe take the
+2689. Oath hereunto subscribed.”
+2690. 
+2691. 
+2692.                 OATH OF COUNCILORS OF PROVINCE OF MAYNE
+2693. 
+2694.   I do swear and protest before God Allmighty and by the holy contents
+2695.   of this Book to be a faithfull Servant and Councellor unto Sir
+2696.   Ferdinando Gorges Knight my Lord of the Province of Mayne, and to
+2697.   his heirs and assigns, to do and perform to the utmost of my power
+2698.   all dutiful respects to him or them belonging, concealing their
+2699.   Councells, and without respect of persons to do, perform and give my
+2700.   opinion in all causes according to my conscience, and best
+2701.   understanding both as I am a Councellor for hearing of causes, and
+2702.   otherwise freely to give him or them my opinion as I am a Councellor
+2703.   for matters of State or Common-wealths and that I will not conceal
+2704.   from him or them and their Councell any matter of conspiracy or
+2705.   mutinous practice against my said Lord and his heirs but will
+2706.   instantly after my knowledge thereof discover the same, and
+2707.   prosecute the authors thereof with all diligence and severity
+2708.   according to Justice, and thereupon do humbly kiss the Book. Taken
+2709.   September 2, 1639.
+2710. 
+2711. On the death of Sir Ferdinando in 1647, his estate in Maine passed to
+2712. his son, John Gorges, who totally neglected his inheritance not even
+2713. replying to repeated letters from the Gorges Colonists.
+2714. 
+2715. A Patent for lands on the Kennebeck River had been given to the New
+2716. Plymouth Colony in 1629. In 1649, they let the trade upon it for a
+2717. period of three years to Governor William Bradford, and four associates.
+2718. In 1652, the trade was sold to the same men for three years longer. In
+2719. that year, from actual survey, the east line of the Massachusetts-Bay
+2720. Colony was found to encroach upon the liberties of the trade sold by and
+2721. to the New Plymouth officers; and, in 1653, Thomas Prence was authorized
+2722. to summon all and every inhabitant of the Kennebeck country to assemble
+2723. and receive from him the instructions of the Plymouth General Court: “1.
+2724. That the people should take the Oath of fidelity to the State of
+2725. England, and to the government of New Plymouth. 2. That they were to be
+2726. made acquainted with the Colony laws, applicable to them, and establish
+2727. suitable rules and regulations to guide and govern them in their civil
+2728. affairs. 3. None were to be inhabitants there but such as should take
+2729. the Oath of Allegiance. 4. None could vote for an Assistant but such as
+2730. should take the Oath.”
+2731. 
+2732. The Oath required was in these words:
+2733. 
+2734.   You shall be true and faithfull to the State of England, as it is
+2735.   now established, and whereas you chuse at present to reside within
+2736.   the government of New Plymouth, you shall not do, or cause to be
+2737.   done, any act, or acts, directly or indirectly by land or water,
+2738.   that shall, or may tend to the destruction or overthrow of the whole
+2739.   or part of this government, that shall be ordered, erected or
+2740.   established; but shall contrarywise, hinder, oppose, or discover
+2741.   such intents and purposes, as tend thereunto, to those that are in
+2742.   place for the time being; that the government may be informed
+2743.   thereof with all convenient speed; You shall also submitt, and
+2744.   observe all such good and wholesome laws, ordinances, and officers
+2745.   as are, or shall be established within the several limits thereof,
+2746.   So help you God, who is the God of Truth and the punisher of
+2747.   falsehood. [1653.]
+2748. 
+2749. This action constituted them freemen of Massachusetts, on taking the
+2750. Oath, without the prerequisite of church membership. It was followed by
+2751. a growing discontent against the chief officers in New Plymouth being
+2752. lessees of the trade. The large returns which had been confidently
+2753. expected were not being realized, and a jealousy of the people against
+2754. those in power, finally led to the sale of the Patent, embracing seven
+2755. hundred square miles, to a committee representing the Massachusetts-Bay
+2756. Colony, for four hundred pounds. In 1677, after much controversy and
+2757. trouble with the heirs, Ferdinando Gorges, a grandson of the
+2758. Lord-Proprietary, sold his rights to the Massachusetts-Bay Colony for
+2759. one thousand two hundred and fifty pounds sterling, and the Territory of
+2760. Maine became a District of Massachusetts down to the year 1820.
+2761. 
+2762.                   *       *       *       *       *
+2763. 
+2764. The power of an Oath is a subject for the Casuist. But, in the brief
+2765. period of this paper—less than the span of life the Psalmist gives to
+2766. man—we have seen an Oath throne and dethrone monarchs; build up and
+2767. destroy flourishing Commonwealths; make and unmake Statehoods; be a
+2768. guarantee of peace, and an incentive for war. Who, under these
+2769. conflicting conditions, can measure their influence but Him in whose
+2770. name and power they are made!
+2771. 
+2772. 
+2773. 
+2774. 
+2775. ------------------------------------------------------------------------
+2776. 
+2777. 
+2778. 
+2779. 
+2780. Transcriber’s note:
+2781. 
+2782.  1. Spelling in oaths or quoted sections is uncorrected.
+2783. 
+2784.  2. Silently corrected typographical errors.
+2785. 
+2786.  3. Table of contents added by transcriber.
+2787. 
+2788. 
+2789. 
+2790. ***END OF THE PROJECT GUTENBERG EBOOK OATHS OF ALLEGIANCE IN COLONIAL NEW
+2791. ENGLAND***
+2792. 
+2793. 
+2794. ******* This file should be named 53843-0.txt or 53843-0.zip *******
+2795. 
+2796. 
+2797. This and all associated files of various formats will be found in:
+2798. http://www.gutenberg.org/dirs/5/3/8/4/53843
+2799. 
+2800. 
+2801. Updated editions will replace the previous one--the old editions will
+2802. be renamed.
+2803. 
+2804. Creating the works from print editions not protected by U.S. copyright
+2805. law means that no one owns a United States copyright in these works,
+2806. so the Foundation (and you!) can copy and distribute it in the United
+2807. States without permission and without paying copyright
+2808. royalties. Special rules, set forth in the General Terms of Use part
+2809. of this license, apply to copying and distributing Project
+2810. Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm
+2811. concept and trademark. Project Gutenberg is a registered trademark,
+2812. and may not be used if you charge for the eBooks, unless you receive
+2813. specific permission. If you do not charge anything for copies of this
+2814. eBook, complying with the rules is very easy. You may use this eBook
+2815. for nearly any purpose such as creation of derivative works, reports,
+2816. performances and research. They may be modified and printed and given
+2817. away--you may do practically ANYTHING in the United States with eBooks
+2818. not protected by U.S. copyright law. Redistribution is subject to the
+2819. trademark license, especially commercial redistribution.
+2820. 
+2821. START: FULL LICENSE
+2822. 
+2823. THE FULL PROJECT GUTENBERG LICENSE
+2824. PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+2825. 
+2826. To protect the Project Gutenberg-tm mission of promoting the free
+2827. distribution of electronic works, by using or distributing this work
+2828. (or any other work associated in any way with the phrase "Project
+2829. Gutenberg"), you agree to comply with all the terms of the Full
+2830. Project Gutenberg-tm License available with this file or online at
+2831. www.gutenberg.org/license.
+2832. 
+2833. Section 1. General Terms of Use and Redistributing Project
+2834. Gutenberg-tm electronic works
+2835. 
+2836. 1.A. By reading or using any part of this Project Gutenberg-tm
+2837. electronic work, you indicate that you have read, understand, agree to
+2838. and accept all the terms of this license and intellectual property
+2839. (trademark/copyright) agreement. If you do not agree to abide by all
+2840. the terms of this agreement, you must cease using and return or
+2841. destroy all copies of Project Gutenberg-tm electronic works in your
+2842. possession. If you paid a fee for obtaining a copy of or access to a
+2843. Project Gutenberg-tm electronic work and you do not agree to be bound
+2844. by the terms of this agreement, you may obtain a refund from the
+2845. person or entity to whom you paid the fee as set forth in paragraph
+2846. 1.E.8.
+2847. 
+2848. 1.B. "Project Gutenberg" is a registered trademark. It may only be
+2849. used on or associated in any way with an electronic work by people who
+2850. agree to be bound by the terms of this agreement. There are a few
+2851. things that you can do with most Project Gutenberg-tm electronic works
+2852. even without complying with the full terms of this agreement. See
+2853. paragraph 1.C below. There are a lot of things you can do with Project
+2854. Gutenberg-tm electronic works if you follow the terms of this
+2855. agreement and help preserve free future access to Project Gutenberg-tm
+2856. electronic works. See paragraph 1.E below.
+2857. 
+2858. 1.C. The Project Gutenberg Literary Archive Foundation ("the
+2859. Foundation" or PGLAF), owns a compilation copyright in the collection
+2860. of Project Gutenberg-tm electronic works. Nearly all the individual
+2861. works in the collection are in the public domain in the United
+2862. States. If an individual work is unprotected by copyright law in the
+2863. United States and you are located in the United States, we do not
+2864. claim a right to prevent you from copying, distributing, performing,
+2865. displaying or creating derivative works based on the work as long as
+2866. all references to Project Gutenberg are removed. Of course, we hope
+2867. that you will support the Project Gutenberg-tm mission of promoting
+2868. free access to electronic works by freely sharing Project Gutenberg-tm
+2869. works in compliance with the terms of this agreement for keeping the
+2870. Project Gutenberg-tm name associated with the work. You can easily
+2871. comply with the terms of this agreement by keeping this work in the
+2872. same format with its attached full Project Gutenberg-tm License when
+2873. you share it without charge with others.
+2874. 
+2875. 1.D. The copyright laws of the place where you are located also govern
+2876. what you can do with this work. Copyright laws in most countries are
+2877. in a constant state of change. If you are outside the United States,
+2878. check the laws of your country in addition to the terms of this
+2879. agreement before downloading, copying, displaying, performing,
+2880. distributing or creating derivative works based on this work or any
+2881. other Project Gutenberg-tm work. The Foundation makes no
+2882. representations concerning the copyright status of any work in any
+2883. country outside the United States.
+2884. 
+2885. 1.E. Unless you have removed all references to Project Gutenberg:
+2886. 
+2887. 1.E.1. The following sentence, with active links to, or other
+2888. immediate access to, the full Project Gutenberg-tm License must appear
+2889. prominently whenever any copy of a Project Gutenberg-tm work (any work
+2890. on which the phrase "Project Gutenberg" appears, or with which the
+2891. phrase "Project Gutenberg" is associated) is accessed, displayed,
+2892. performed, viewed, copied or distributed:
+2893. 
+2894.   This eBook is for the use of anyone anywhere in the United States and
+2895.   most other parts of the world at no cost and with almost no
+2896.   restrictions whatsoever. You may copy it, give it away or re-use it
+2897.   under the terms of the Project Gutenberg License included with this
+2898.   eBook or online at www.gutenberg.org. If you are not located in the
+2899.   United States, you'll have to check the laws of the country where you
+2900.   are located before using this ebook.
+2901. 
+2902. 1.E.2. If an individual Project Gutenberg-tm electronic work is
+2903. derived from texts not protected by U.S. copyright law (does not
+2904. contain a notice indicating that it is posted with permission of the
+2905. copyright holder), the work can be copied and distributed to anyone in
+2906. the United States without paying any fees or charges. If you are
+2907. redistributing or providing access to a work with the phrase "Project
+2908. Gutenberg" associated with or appearing on the work, you must comply
+2909. either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+2910. obtain permission for the use of the work and the Project Gutenberg-tm
+2911. trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+2912. 
+2913. 1.E.3. If an individual Project Gutenberg-tm electronic work is posted
+2914. with the permission of the copyright holder, your use and distribution
+2915. must comply with both paragraphs 1.E.1 through 1.E.7 and any
+2916. additional terms imposed by the copyright holder. Additional terms
+2917. will be linked to the Project Gutenberg-tm License for all works
+2918. posted with the permission of the copyright holder found at the
+2919. beginning of this work.
+2920. 
+2921. 1.E.4. Do not unlink or detach or remove the full Project Gutenberg-tm
+2922. License terms from this work, or any files containing a part of this
+2923. work or any other work associated with Project Gutenberg-tm.
+2924. 
+2925. 1.E.5. Do not copy, display, perform, distribute or redistribute this
+2926. electronic work, or any part of this electronic work, without
+2927. prominently displaying the sentence set forth in paragraph 1.E.1 with
+2928. active links or immediate access to the full terms of the Project
+2929. Gutenberg-tm License.
+2930. 
+2931. 1.E.6. You may convert to and distribute this work in any binary,
+2932. compressed, marked up, nonproprietary or proprietary form, including
+2933. any word processing or hypertext form. However, if you provide access
+2934. to or distribute copies of a Project Gutenberg-tm work in a format
+2935. other than "Plain Vanilla ASCII" or other format used in the official
+2936. version posted on the official Project Gutenberg-tm web site
+2937. (www.gutenberg.org), you must, at no additional cost, fee or expense
+2938. to the user, provide a copy, a means of exporting a copy, or a means
+2939. of obtaining a copy upon request, of the work in its original "Plain
+2940. Vanilla ASCII" or other form. Any alternate format must include the
+2941. full Project Gutenberg-tm License as specified in paragraph 1.E.1.
+2942. 
+2943. 1.E.7. Do not charge a fee for access to, viewing, displaying,
+2944. performing, copying or distributing any Project Gutenberg-tm works
+2945. unless you comply with paragraph 1.E.8 or 1.E.9.
+2946. 
+2947. 1.E.8. You may charge a reasonable fee for copies of or providing
+2948. access to or distributing Project Gutenberg-tm electronic works
+2949. provided that
+2950. 
+2951. * You pay a royalty fee of 20% of the gross profits you derive from
+2952.   the use of Project Gutenberg-tm works calculated using the method
+2953.   you already use to calculate your applicable taxes. The fee is owed
+2954.   to the owner of the Project Gutenberg-tm trademark, but he has
+2955.   agreed to donate royalties under this paragraph to the Project
+2956.   Gutenberg Literary Archive Foundation. Royalty payments must be paid
+2957.   within 60 days following each date on which you prepare (or are
+2958.   legally required to prepare) your periodic tax returns. Royalty
+2959.   payments should be clearly marked as such and sent to the Project
+2960.   Gutenberg Literary Archive Foundation at the address specified in
+2961.   Section 4, "Information about donations to the Project Gutenberg
+2962.   Literary Archive Foundation."
+2963. 
+2964. * You provide a full refund of any money paid by a user who notifies
+2965.   you in writing (or by e-mail) within 30 days of receipt that s/he
+2966.   does not agree to the terms of the full Project Gutenberg-tm
+2967.   License. You must require such a user to return or destroy all
+2968.   copies of the works possessed in a physical medium and discontinue
+2969.   all use of and all access to other copies of Project Gutenberg-tm
+2970.   works.
+2971. 
+2972. * You provide, in accordance with paragraph 1.F.3, a full refund of
+2973.   any money paid for a work or a replacement copy, if a defect in the
+2974.   electronic work is discovered and reported to you within 90 days of
+2975.   receipt of the work.
+2976. 
+2977. * You comply with all other terms of this agreement for free
+2978.   distribution of Project Gutenberg-tm works.
+2979. 
+2980. 1.E.9. If you wish to charge a fee or distribute a Project
+2981. Gutenberg-tm electronic work or group of works on different terms than
+2982. are set forth in this agreement, you must obtain permission in writing
+2983. from both the Project Gutenberg Literary Archive Foundation and The
+2984. Project Gutenberg Trademark LLC, the owner of the Project Gutenberg-tm
+2985. trademark. Contact the Foundation as set forth in Section 3 below.
+2986. 
+2987. 1.F.
+2988. 
+2989. 1.F.1. Project Gutenberg volunteers and employees expend considerable
+2990. effort to identify, do copyright research on, transcribe and proofread
+2991. works not protected by U.S. copyright law in creating the Project
+2992. Gutenberg-tm collection. Despite these efforts, Project Gutenberg-tm
+2993. electronic works, and the medium on which they may be stored, may
+2994. contain "Defects," such as, but not limited to, incomplete, inaccurate
+2995. or corrupt data, transcription errors, a copyright or other
+2996. intellectual property infringement, a defective or damaged disk or
+2997. other medium, a computer virus, or computer codes that damage or
+2998. cannot be read by your equipment.
+2999. 
+3000. 1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+3001. of Replacement or Refund" described in paragraph 1.F.3, the Project
+3002. Gutenberg Literary Archive Foundation, the owner of the Project
+3003. Gutenberg-tm trademark, and any other party distributing a Project
+3004. Gutenberg-tm electronic work under this agreement, disclaim all
+3005. liability to you for damages, costs and expenses, including legal
+3006. fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+3007. LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+3008. PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+3009. TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+3010. LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+3011. INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+3012. DAMAGE.
+3013. 
+3014. 1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+3015. defect in this electronic work within 90 days of receiving it, you can
+3016. receive a refund of the money (if any) you paid for it by sending a
+3017. written explanation to the person you received the work from. If you
+3018. received the work on a physical medium, you must return the medium
+3019. with your written explanation. The person or entity that provided you
+3020. with the defective work may elect to provide a replacement copy in
+3021. lieu of a refund. If you received the work electronically, the person
+3022. or entity providing it to you may choose to give you a second
+3023. opportunity to receive the work electronically in lieu of a refund. If
+3024. the second copy is also defective, you may demand a refund in writing
+3025. without further opportunities to fix the problem.
+3026. 
+3027. 1.F.4. Except for the limited right of replacement or refund set forth
+3028. in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO
+3029. OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+3030. LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+3031. 
+3032. 1.F.5. Some states do not allow disclaimers of certain implied
+3033. warranties or the exclusion or limitation of certain types of
+3034. damages. If any disclaimer or limitation set forth in this agreement
+3035. violates the law of the state applicable to this agreement, the
+3036. agreement shall be interpreted to make the maximum disclaimer or
+3037. limitation permitted by the applicable state law. The invalidity or
+3038. unenforceability of any provision of this agreement shall not void the
+3039. remaining provisions.
+3040. 
+3041. 1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+3042. trademark owner, any agent or employee of the Foundation, anyone
+3043. providing copies of Project Gutenberg-tm electronic works in
+3044. accordance with this agreement, and any volunteers associated with the
+3045. production, promotion and distribution of Project Gutenberg-tm
+3046. electronic works, harmless from all liability, costs and expenses,
+3047. including legal fees, that arise directly or indirectly from any of
+3048. the following which you do or cause to occur: (a) distribution of this
+3049. or any Project Gutenberg-tm work, (b) alteration, modification, or
+3050. additions or deletions to any Project Gutenberg-tm work, and (c) any
+3051. Defect you cause.
+3052. 
+3053. Section 2. Information about the Mission of Project Gutenberg-tm
+3054. 
+3055. Project Gutenberg-tm is synonymous with the free distribution of
+3056. electronic works in formats readable by the widest variety of
+3057. computers including obsolete, old, middle-aged and new computers. It
+3058. exists because of the efforts of hundreds of volunteers and donations
+3059. from people in all walks of life.
+3060. 
+3061. Volunteers and financial support to provide volunteers with the
+3062. assistance they need are critical to reaching Project Gutenberg-tm's
+3063. goals and ensuring that the Project Gutenberg-tm collection will
+3064. remain freely available for generations to come. In 2001, the Project
+3065. Gutenberg Literary Archive Foundation was created to provide a secure
+3066. and permanent future for Project Gutenberg-tm and future
+3067. generations. To learn more about the Project Gutenberg Literary
+3068. Archive Foundation and how your efforts and donations can help, see
+3069. Sections 3 and 4 and the Foundation information page at
+3070. www.gutenberg.org 
+3071. 
+3072. Section 3. Information about the Project Gutenberg Literary 
+3073. Archive Foundation
+3074. 
+3075. The Project Gutenberg Literary Archive Foundation is a non profit
+3076. 501(c)(3) educational corporation organized under the laws of the
+3077. state of Mississippi and granted tax exempt status by the Internal
+3078. Revenue Service. The Foundation's EIN or federal tax identification
+3079. number is 64-6221541. Contributions to the Project Gutenberg Literary
+3080. Archive Foundation are tax deductible to the full extent permitted by
+3081. U.S. federal laws and your state's laws.
+3082. 
+3083. The Foundation's principal office is in Fairbanks, Alaska, with the
+3084. mailing address: PO Box 750175, Fairbanks, AK 99775, but its
+3085. volunteers and employees are scattered throughout numerous
+3086. locations. Its business office is located at 809 North 1500 West, Salt
+3087. Lake City, UT 84116, (801) 596-1887. Email contact links and up to
+3088. date contact information can be found at the Foundation's web site and
+3089. official page at www.gutenberg.org/contact
+3090. 
+3091. For additional contact information:
+3092. 
+3093.     Dr. Gregory B. Newby
+3094.     Chief Executive and Director
+3095.     gbnewby@pglaf.org
+3096. 
+3097. Section 4. Information about Donations to the Project Gutenberg
+3098. Literary Archive Foundation
+3099. 
+3100. Project Gutenberg-tm depends upon and cannot survive without wide
+3101. spread public support and donations to carry out its mission of
+3102. increasing the number of public domain and licensed works that can be
+3103. freely distributed in machine readable form accessible by the widest
+3104. array of equipment including outdated equipment. Many small donations
+3105. ($1 to $5,000) are particularly important to maintaining tax exempt
+3106. status with the IRS.
+3107. 
+3108. The Foundation is committed to complying with the laws regulating
+3109. charities and charitable donations in all 50 states of the United
+3110. States. Compliance requirements are not uniform and it takes a
+3111. considerable effort, much paperwork and many fees to meet and keep up
+3112. with these requirements. We do not solicit donations in locations
+3113. where we have not received written confirmation of compliance. To SEND
+3114. DONATIONS or determine the status of compliance for any particular
+3115. state visit www.gutenberg.org/donate
+3116. 
+3117. While we cannot and do not solicit contributions from states where we
+3118. have not met the solicitation requirements, we know of no prohibition
+3119. against accepting unsolicited donations from donors in such states who
+3120. approach us with offers to donate.
+3121. 
+3122. International donations are gratefully accepted, but we cannot make
+3123. any statements concerning tax treatment of donations received from
+3124. outside the United States. U.S. laws alone swamp our small staff.
+3125. 
+3126. Please check the Project Gutenberg Web pages for current donation
+3127. methods and addresses. Donations are accepted in a number of other
+3128. ways including checks, online payments and credit card donations. To
+3129. donate, please visit: www.gutenberg.org/donate
+3130. 
+3131. Section 5. General Information About Project Gutenberg-tm electronic works.
+3132. 
+3133. Professor Michael S. Hart was the originator of the Project
+3134. Gutenberg-tm concept of a library of electronic works that could be
+3135. freely shared with anyone. For forty years, he produced and
+3136. distributed Project Gutenberg-tm eBooks with only a loose network of
+3137. volunteer support.
+3138. 
+3139. Project Gutenberg-tm eBooks are often created from several printed
+3140. editions, all of which are confirmed as not protected by copyright in
+3141. the U.S. unless a copyright notice is included. Thus, we do not
+3142. necessarily keep eBooks in compliance with any particular paper
+3143. edition.
+3144. 
+3145. Most people start at our Web site which has the main PG search
+3146. facility: www.gutenberg.org
+3147. 
+3148. This Web site includes information about Project Gutenberg-tm,
+3149. including how to make donations to the Project Gutenberg Literary
+3150. Archive Foundation, how to help produce our new eBooks, and how to
+3151. subscribe to our email newsletter to hear about new eBooks.
+3152. 
