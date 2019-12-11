@@ -1,0 +1,1 @@
+dictionary = {"b", ["bagong", "bsddsfs"]}
