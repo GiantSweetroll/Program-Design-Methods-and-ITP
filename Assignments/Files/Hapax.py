@@ -1,3 +1,4 @@
+import io
 class Hapax():
     
     #Fields
@@ -7,25 +8,22 @@ class Hapax():
     def __init__(self):
         self.listings = {}
         
-        f = open("textbook.txt", encoding="utf8")
+        f = io.open("textbook.txt", encoding="utf8")
         if f.mode == 'r':
             contents = f.readlines()
             for x in contents:
-                try:
-                    substrings = x.split()
-                    for substring in substrings:
-                        #print(substring,":", substring[-1:len(substring)], "->", substring[0:-1])
-                        if substring[-1:] in [",", ".", "?", "!", ":", ";", "\"", "\'", ")", "]"]:
-                            substring = substring[0:-1]
-                        if substring[0:1] in ["\"", "\'", "(", "["]:
-                            substring = substring[1:]
+                substrings = x.split()
+                for substring in substrings:
+                    #print(substring,":", substring[-1:len(substring)], "->", substring[0:-1])
+                    if substring[-1:] in [",", ".", "?", "!", ":", ";", "\"", "\'", ")", "]"]:
+                        substring = substring[0:-1]
+                    if substring[0:1] in ["\"", "\'", "(", "["]:
+                        substring = substring[1:]
                         
-                        if substring in self.listings:
-                            self.listings[substring.casefold()] += 1
-                        else:
-                            self.listings[substring.casefold()] = 1
-                except UnicodeEncodeError:
-                    pass
+                    if substring in self.listings:
+                        self.listings[substring.casefold()] += 1
+                    else:
+                        self.listings[substring.casefold()] = 1
             f.close()
     
     #Methods
