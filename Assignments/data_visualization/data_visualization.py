@@ -90,4 +90,5 @@ for day in rawMap:
 print("Total missing values:", totalNA)
 
 
+
 csv_file.close()
