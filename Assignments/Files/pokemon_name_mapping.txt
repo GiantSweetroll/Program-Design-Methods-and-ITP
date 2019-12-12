@@ -1,0 +1,180 @@
+a:
+    audino
+b:
+    bagon
+    baltoy
+    banette
+    bidoof
+    braviary
+    bronzor
+c:
+    carracosta
+    charmeleon
+    cresselia
+    croagunk
+d:
+    darmanitan
+    deino
+e:
+    emboar
+    emolga
+    exeggcute
+g:
+    gabite
+    girafarig
+    gulpin
+h:
+    haxorus
+    heatmor
+    heatran
+i:
+    ivysaur
+j:
+    jellicent
+    jumpluff
+k:
+    kangaskhan
+    kricketune
+l:
+    landorus
+    ledyba
+    loudred
+    lumineon
+    lunatone
+m:
+    machamp
+    magnezone
+    mamoswine
+n:
+    nosepass
+p:
+    petilil
+    pidgeotto
+    pikachu
+    pinsir
+    poliwrath
+    poochyena
+    porygon2
+    porygonz
+r:
+    registeel
+    relicanth
+    remoraid
+    rufflet
+s:
+    sableye
+    scolipede
+    scrafty
+    seaking
+    sealeo
+    silcoon
+    simisear
+    snivy
+    snorlax
+    spoink
+    starly
+t:
+    tirtouga
+    trapinch
+    treecko
+    tyrogue
+v:
+    vigoroth
+    vulpix
+w:
+    wailord
+    wartortle
+    whismur
+    wingull
+y:
+    yamask
+a:
+    audino
+b:
+    bagon
+    baltoy
+    banette
+    bidoof
+    braviary
+    bronzor
+c:
+    carracosta
+    charmeleon
+    cresselia
+    croagunk
+d:
+    darmanitan
+    deino
+e:
+    emboar
+    emolga
+    exeggcute
+g:
+    gabite
+    girafarig
+    gulpin
+h:
+    haxorus
+    heatmor
+    heatran
+i:
+    ivysaur
+j:
+    jellicent
+    jumpluff
+k:
+    kangaskhan
+    kricketune
+l:
+    landorus
+    ledyba
+    loudred
+    lumineon
+    lunatone
+m:
+    machamp
+    magnezone
+    mamoswine
+n:
+    nosepass
+p:
+    petilil
+    pidgeotto
+    pikachu
+    pinsir
+    poliwrath
+    poochyena
+    porygon2
+    porygonz
+r:
+    registeel
+    relicanth
+    remoraid
+    rufflet
+s:
+    sableye
+    scolipede
+    scrafty
+    seaking
+    sealeo
+    silcoon
+    simisear
+    snivy
+    snorlax
+    spoink
+    starly
+t:
+    tirtouga
+    trapinch
+    treecko
+    tyrogue
+v:
+    vigoroth
+    vulpix
+w:
+    wailord
+    wartortle
+    whismur
+    wingull
+y:
+    yamask
