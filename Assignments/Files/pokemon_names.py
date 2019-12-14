@@ -1,5 +1,6 @@
 import copy
 import io
+import time
 
 
 f = io.open("pokemonNames.txt")
@@ -46,6 +47,7 @@ def getPokemonNameList(firstLetter:str, index:int, currentChain, remainingNames:
         addChainToAllCombinationsList(currentChain)  
 
 #Start
+startTime = time.time()
 createFirstLetterDictionary()
 mutableFirstNames = firstNames
 for letter in firstNames:
@@ -64,3 +66,4 @@ for i in range(len(allCombinations)):
 print("Longest chain:", highest)
 for name in allCombinations[index]:
     print(name)
+print(startTime - time.time())
