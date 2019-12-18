@@ -16,7 +16,7 @@ class Menu():
     def displayRecords(self, staff:[Staff]):
         print("|ID    |Name        |Position        |Salary        |")
         for stf in staff:
-            print("|" + stf.staffID + "  |" + stf.name + "       |" + stf.position + "        |" + str(stf.salary))
+            print("|" + stf.staffID + " |" + stf.name + "       |" + stf.position + "        |" + str(stf.salary))
     
     def displayRecordsAndOptions(self, staff:[Staff]):
         self.displayRecords(staff)
