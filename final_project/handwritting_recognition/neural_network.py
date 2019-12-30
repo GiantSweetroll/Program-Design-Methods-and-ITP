@@ -34,10 +34,10 @@ class NeuralNetwork():
         """Method to predict what character is the image, returns the image."""
         #If show_pred_graph = True, it will draw the image and the prediction in a matplotlib graph
         prediction = self.getModel().predict(image)
-        for pred in prediction:
-            print(pred)
+#         for pred in prediction:
+#             print(pred)
         prediction_argmax = prediction.argmax()
-        print("Argmax:", prediction_argmax)
+#         print("Argmax:", prediction_argmax)
         predLabel:str = constants.char_list[int(prediction_argmax.__str__())]
         
         if show_pred_graph:

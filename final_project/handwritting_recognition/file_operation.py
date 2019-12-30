@@ -46,10 +46,10 @@ def load_nist_database(dataset_num = 1, data_size:float = 1.):
     elif data_size < 0:
         data_size = 0
     
-    groups:() = ("digit", "lower", "upper")
+    groups:() = ("digit", "upper", "lower")
     for group in groups:        #("const", "digit", "lower", "upper")
         for hexa in constants.ascii_hex:
-            files = glob.glob('images/nist_database/hsf_' + str(dataset_num) + "/" + group + "/" + hexa + "/*.png")
+            files = glob.glob(constants.nist_database_location + 'hsf_' + str(dataset_num) + "/" + group + "/" + hexa + "/*.png")
             for i in range(int(len(files) * data_size)):
                 filename = files[i]
                 image = image = load_image(filename)

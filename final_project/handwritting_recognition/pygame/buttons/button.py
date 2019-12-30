@@ -1,10 +1,14 @@
 import pygame.font
 
+from final_project.handwritting_recognition.pygame.settings import Settings
+
+
 class Button():
     
     #Constructor
-    def __init__(self, screen, msg, width:int = 200, height:int = 50, button_color:() = (0, 255, 0), text_color:() = (255, 255, 255)):
+    def __init__(self, screen, settings:Settings, msg, width:int = 200, height:int = 50, button_color:() = (0, 255, 0), text_color:() = (255, 255, 255)):
         self.screen = screen
+        self.settings = settings
         self.screenRect = screen.get_rect()
         
         #Set the dimensions and properties of the button
@@ -12,7 +16,7 @@ class Button():
         self.__button_color = button_color
         self.__text_color = text_color
         self.__msg = msg
-        self.__font = pygame.font.SysFont(None, 48)
+        self.__font = settings.button_text_font
         self.__text = msg
         
         #Build the button's rect object and center it

@@ -1,12 +1,12 @@
 import pygame
 
-import final_project.handwritting_recognition.pygame.game_functions as gf
-from final_project.handwritting_recognition.pygame.gui_objects.clear_button import ClearButton
-from final_project.handwritting_recognition.pygame.gui_objects.exit_button import ExitButton
-from final_project.handwritting_recognition.pygame.gui_objects.guess_button import GuessButton
-from final_project.handwritting_recognition.pygame.settings import Settings
-from final_project.handwritting_recognition.pygame import globals
 from final_project.handwritting_recognition.neural_network import NeuralNetwork
+import final_project.handwritting_recognition.pygame.game_functions as gf
+from final_project.handwritting_recognition.pygame.game_panels.draw_panel import DrawPanel
+from final_project.handwritting_recognition.pygame.settings import Settings
+from final_project.handwritting_recognition.pygame import game_functions
+from final_project.handwritting_recognition.pygame.game_panels.main_menu_panel import MainMenuPanel
+
 
 class MainGame():
     
@@ -18,16 +18,15 @@ class MainGame():
     def run_game(self, neural_network:NeuralNetwork):
         pygame.init()
         settings = Settings()
-        screen = pygame.display.set_mode((settings.screen_width, settings.screen_height))
-        pygame.display.set_caption("Guess the Letter")
+        screen = game_functions.create_screen(settings)
+        pygame.display.set_caption("AI Roulette")
         
-        exit_button = ExitButton(screen)
-        guess_button = GuessButton(screen)
-        clear_button = ClearButton(screen)
-        globals.buttons_to_draw = [exit_button, guess_button, clear_button]
+        #Panel initialization
+        draw_panel:Panel = DrawPanel(screen, settings)
+        draw_panel.set_neural_network(neural_network)
+        main_menu_panel:Panel = MainMenuPanel(screen, settings)
         
         #While game runs
         while True:
-            gf.check_events(neural_network, screen, settings, exit_button, guess_button, clear_button)
-            
-            gf.update_screen(screen, settings, globals.buttons_to_draw)
+            gf.check_events(main_menu_panel)
+            gf.update_screen(screen, settings, main_menu_panel)

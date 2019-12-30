@@ -49,11 +49,12 @@ def convert_data_map_to_lists(data_map:{}):
 
 def convert_labels_to_one_hot(labels, categories:int):
     """Convert the labels to one-hot format (so that we know what character it is"""
-    convert_labels_to_index_correspondence(labels)
-    return tensorflow.keras.utils.to_categorical(labels, categories)
+    new_labels:[] = convert_labels_to_index_correspondence(labels)
+    return tensorflow.keras.utils.to_categorical(new_labels, categories)
 
 def convert_labels_to_index_correspondence(labels):
     """Method to convert the characters of the sorted labels to correspond to the index of the char_list in constants"""
+    new_labels:[] = []
     i = -1
     current_char = ""
     prev_char = ""
@@ -62,7 +63,8 @@ def convert_labels_to_index_correspondence(labels):
         if current_char != prev_char:
             i+=1
         prev_char = labels[a]
-        labels[a] = str(i)
+        new_labels.append(str(i))
+    return new_labels
 
 def shape_image_for_2d_mlp_input(images, width:int = constants.image_width, height:int = constants.image_height, color_channels:int=3):
     """A method to reshape the images to be ready for MLP input"""
@@ -117,6 +119,12 @@ def get_image_and_label_for_mlp_input(image_map:{}, width:int = constants.image_
 def show_prediction_graph(image, prediction:str):
     """Method to display the prediction and the image in the same matplotlib graph"""
     plt.title("Prediction: " + prediction)
+    plt.imshow(image, cmap="gray")
+    plt.show()
+
+def show_prediction_graph_with_label(image, prediction:str, label:str):
+    """Method to display the prediction and the image in the same matplotlib graph. The actual label is also displayed"""
+    plt.title("Prediction: " + prediction + " Label: " + label)
     plt.imshow(image, cmap="gray")
     plt.show()
     
@@ -174,11 +182,11 @@ def train_neural_network(neural_network,
     """Trains the selected neural network with default settings"""
     #Load train and test images
     train_images, train_labels = get_image_and_label_for_mlp_input(file_operation.load_nist_database(1), width, height, color_channels)
-    test_images, test_labels = get_image_and_label_for_mlp_input(file_operation.load_nist_database(2, 0.1), width, height, color_channels)
+    test_images, test_labels = get_image_and_label_for_mlp_input(file_operation.load_nist_database(2, 0.3), width, height, color_channels)
     
     #Train neural network
-    for i in range(loaded_model, loaded_model + iterations):
-        neural_network.train(train_images, train_labels, batch_size=64, epochs=1, verbose=1, validation_data=(test_images, test_labels))
+    for i in range(loaded_model+1, loaded_model + 1 + iterations):
+        neural_network.train(train_images, train_labels, batch_size=64, epochs=3, verbose=1, validation_data=(test_images, test_labels))
         neural_network.save("model_" + str(i))
         neural_network = nn.NeuralNetwork(file_operation.load_model("model_" + str(i)))
         
