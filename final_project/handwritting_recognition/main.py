@@ -5,10 +5,10 @@ from final_project.handwritting_recognition.pygame.main_game import MainGame
 import numpy
 
 
-nn = NeuralNetwork(file_operation.load_model("model_11"))
+# nn = NeuralNetwork(file_operation.load_model("model_11"))
 # nn = NeuralNetwork()
 # methods.train_neural_network(nn, 8, 5)
-game = MainGame(nn)
+game = MainGame()
 # methods.make_prediction_from_test_images(nn, iterations = 12)
     
 

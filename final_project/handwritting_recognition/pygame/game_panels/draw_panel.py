@@ -1,10 +1,5 @@
 import sys
 
-import pygame
-from pygame.event import Event
-from pygame.rect import Rect
-
-import final_project.handwritting_recognition.pygame.globals as globals
 from final_project.handwritting_recognition import constants, file_operation, \
     methods
 from final_project.handwritting_recognition.neural_network import NeuralNetwork
@@ -13,7 +8,11 @@ from final_project.handwritting_recognition.pygame.buttons.clear_button import C
 from final_project.handwritting_recognition.pygame.buttons.exit_button import ExitButton
 from final_project.handwritting_recognition.pygame.buttons.guess_button import GuessButton
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
+import final_project.handwritting_recognition.pygame.globals as globals
 from final_project.handwritting_recognition.pygame.settings import Settings
+import pygame
+from pygame.event import Event
+from pygame.rect import Rect
 
 
 class DrawPanel(Panel):
@@ -63,20 +62,17 @@ class DrawPanel(Panel):
     #Other Methods
     def check_clear_button(self, mouse_pos:()):
         """Clear image when the clear button is clicked"""
-        button_clicked = self.__clear_button.get_rect().collidepoint(mouse_pos[0], mouse_pos[1])
-        if button_clicked:
+        if gf.button_clicked(self.__clear_button, mouse_pos):
             self.__colored_pixels.clear()
             self.set_screen(gf.create_screen(self.get_settings()))
     def check_exit_button(self, mouse_pos:()):
         """Exit game when exit button is clicked"""
-        button_clicked = self.__exit_button.get_rect().collidepoint(mouse_pos[0], mouse_pos[1])
-        if button_clicked:
+        if gf.button_clicked(self.__exit_button, mouse_pos):
             sys.exit()  #Stops game
     def check_guess_button(self, mouse_pos:()):
         """Make prediction of drawn image when guess button is clicked"""
         if self.__neural_network != None:   #Check if the neural network has been specified
-            button_clicked = self.__guess_button.get_rect().collidepoint(mouse_pos[0], mouse_pos[1])
-            if button_clicked:
+            if gf.button_clicked(self.__guess_button, mouse_pos):
                 self.__guess_button_pressed = True
                 #Remove the exit, guess, and clear buttons to capture only the drawn image
                 self.__buttons_to_draw.clear()

@@ -10,3 +10,4 @@ class Settings():
         self.pen_color = (0, 0, 0)
         self.pen_size = 10
         self.button_text_font = pygame.font.SysFont(None, 48)
+        self.sub_title_font = pygame.font.SysFont(None, 56)

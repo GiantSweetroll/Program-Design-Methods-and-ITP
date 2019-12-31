@@ -2,6 +2,7 @@ import sys
 
 import pygame
 
+from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.settings import Settings
 
@@ -25,4 +26,7 @@ def get_mouse_position() -> ():
     """Method to get the current coordinates of the mouse"""
     x, y = pygame.mouse.get_pos()
     return x, y
+
+def button_clicked(button:Button, mouse_pos:()):
+    return button.get_rect().collidepoint(mouse_pos[0], mouse_pos[1])
         
