@@ -1,6 +1,7 @@
 import sys
 
 import pygame
+from pygame.rect import Rect
 
 from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
@@ -27,6 +28,9 @@ def get_mouse_position() -> ():
     x, y = pygame.mouse.get_pos()
     return x, y
 
-def button_clicked(button:Button, mouse_pos:()):
-    return button.get_rect().collidepoint(mouse_pos[0], mouse_pos[1])
+def mouse_on_button(button:Button, mouse_pos:()):
+    return mouse_in_area(button.get_rect(), mouse_pos)
+
+def mouse_in_area(rect:Rect, mouse_pos:()):
+    return rect.collidepoint(mouse_pos[0], mouse_pos[1])
         

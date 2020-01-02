@@ -143,9 +143,9 @@ def prepare_images_for_mlp_input(images,
 def create_model(input_shape:int, label_count:int):
     """Creates the neural network model"""
     model = Sequential()
+    model.add(Conv2D(16, kernel_size=(4, 4), activation='relu', input_shape=input_shape))
     model.add(Conv2D(32, kernel_size=(3, 3),
-                     activation='relu',
-                     input_shape=input_shape))
+                     activation='relu'))
     # 64 3x3 kernels
     model.add(Conv2D(64, (3, 3), activation='relu'))
     # Reduce by taking the max of each 2x2 block
@@ -155,7 +155,6 @@ def create_model(input_shape:int, label_count:int):
     # Flatten the results to one dimension for passing into our final layer
     model.add(Flatten())
     # A hidden layer to learn with
-    model.add(Dense(1024, activation='relu'))
     model.add(Dense(1024, activation='relu'))
     model.add(Dense(512, activation='relu'))
     model.add(Dense(128, activation='relu'))

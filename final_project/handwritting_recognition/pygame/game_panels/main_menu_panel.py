@@ -3,11 +3,12 @@ import sys
 import pygame
 from pygame.event import Event
 
-from final_project.handwritting_recognition.pygame import game_functions as gf
+from final_project.handwritting_recognition.pygame import game_functions as gf,\
+    globals
 from final_project.handwritting_recognition.pygame.buttons.button import Button
-from final_project.handwritting_recognition.pygame.buttons.exit_button import ExitButton
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.settings import Settings
+from final_project.handwritting_recognition import constants
 
 
 class MainMenuPanel(Panel):
@@ -23,7 +24,7 @@ class MainMenuPanel(Panel):
         #Fields initialization
         self.__start_button = Button(screen, settings, "Start")
         self.__instructions_button = Button(screen, settings, "Instructions")
-        self.__exit_button = ExitButton(screen, settings)
+        self.__exit_button = Button(screen, settings, "Exit", button_color=constants.color_red)
         
         #Configure Buttons
         self.get_start_button().set_width(3*self.get_settings().screen_width//5)
@@ -56,22 +57,23 @@ class MainMenuPanel(Panel):
         return self.__start_button
     def get_instructions_button(self) -> Button:
         return self.__instructions_button
-    def get_exit_button(self) -> ExitButton:
+    def get_exit_button(self) -> Button:
         return self.__exit_button
     
     #Other Methods
     def check_exit_button(self, mouse_pos:()):
         """If exit button is pressed, exit the game"""
-        if gf.button_clicked(self.get_exit_button(), mouse_pos):
+        if gf.mouse_on_button(self.get_exit_button(), mouse_pos):
             sys.exit()
     def check_start_button(self, mouse_pos:()):
         """Method to check if the start button was pressed"""
-        if gf.button_clicked(self.get_start_button(), mouse_pos):
+        if gf.mouse_on_button(self.get_start_button(), mouse_pos):
             #TO-DO start the game
+            globals.panel_index+=1
             pass
     def check_instructions_button(self, mouse_pos:()):
         """Method to check if the instructions button was pressed"""
-        if gf.button_clicked(self.get_instructions_button(), mouse_pos):
+        if gf.mouse_on_button(self.get_instructions_button(), mouse_pos):
             #TO-DO open instructions
             pass
     

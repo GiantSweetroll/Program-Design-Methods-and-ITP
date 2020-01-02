@@ -1,0 +1,13 @@
+Layer (type),Output Shape,Param #   
+Conv2D,(None%nbsp%125%nbsp%125%nbsp%16),784       
+Conv2D,(None%nbsp%123%nbsp%123%nbsp%32),4640      
+Conv2D,(None%nbsp%121%nbsp%121%nbsp%64),18496     
+MaxPooling2D,(None%nbsp%60%nbsp%60%nbsp%64),0         
+Dropout,(None%nbsp%60%nbsp%60%nbsp%64),0         
+Flatten,(None%nbsp%230400),0         
+Dense,(None%nbsp%1024),235930624 
+Dense,(None%nbsp%512),524800    
+Dense,(None%nbsp%128),65664     
+Dense,(None%nbsp%64),8256      
+Dropout,(None%nbsp%64),0         
+Dense,(None%nbsp%62),4030      

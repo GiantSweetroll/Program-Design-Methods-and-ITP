@@ -5,14 +5,13 @@ from final_project.handwritting_recognition.pygame.main_game import MainGame
 import numpy
 
 
-# nn = NeuralNetwork(file_operation.load_model("model_11"))
+# nn = NeuralNetwork(file_operation.load_model("model_2"))
 # nn = NeuralNetwork()
-# methods.train_neural_network(nn, 8, 5)
+# methods.train_neural_network(nn, 2, 5)
 game = MainGame()
 # methods.make_prediction_from_test_images(nn, iterations = 12)
-    
 
-# eval_images, eval_labels = methods.get_image_and_label_for_mlp_input(file_operation.load_nist_database(7, 0.1))
+# eval_images, eval_labels = methods.get_image_and_label_for_mlp_input(file_operation.load_nist_database(4, 0.5))
 # nn.evaluate(eval_images, eval_labels, verbose = 1)
 # for _ in range(1000):
 #     x = numpy.random.randint(0, len(eval_images)) 
@@ -24,8 +23,8 @@ game = MainGame()
 #     if (prediction != label):
 #         methods.show_prediction_graph_with_label(image, prediction, label)
 
-# #Model evaluation
-# for i in range(1, 11):
+#Model evaluation
+# for i in range(1, 6):
 #     nn = NeuralNetwork(file_operation.load_model("model_" + str(i)))
 #     print("Model", i)
 #     nn.evaluate(eval_images, eval_labels, verbose = 2)

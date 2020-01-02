@@ -1,18 +1,16 @@
 import sys
 
+import pygame
+from pygame.event import Event
+from pygame.rect import Rect
+
 from final_project.handwritting_recognition import constants, file_operation, \
     methods
 from final_project.handwritting_recognition.neural_network import NeuralNetwork
 from final_project.handwritting_recognition.pygame import game_functions as gf
-from final_project.handwritting_recognition.pygame.buttons.clear_button import ClearButton
-from final_project.handwritting_recognition.pygame.buttons.exit_button import ExitButton
-from final_project.handwritting_recognition.pygame.buttons.guess_button import GuessButton
+from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
-import final_project.handwritting_recognition.pygame.globals as globals
 from final_project.handwritting_recognition.pygame.settings import Settings
-import pygame
-from pygame.event import Event
-from pygame.rect import Rect
 
 
 class DrawPanel(Panel):
@@ -22,9 +20,9 @@ class DrawPanel(Panel):
         super().__init__(screen, settings)
         
         #Fields initialization
-        self.__exit_button:Button = ExitButton(self.get_screen(), self.get_settings())
-        self.__guess_button:Button = GuessButton(self.get_screen(), self.get_settings())
-        self.__clear_button:Button = ClearButton(self.get_screen(), self.get_settings())
+        self.__exit_button:Button = Button(self.get_screen(), self.get_settings(), "Exit", button_color = constants.color_red)
+        self.__guess_button:Button = Button(self.get_screen(), self.get_settings(), "Guess")
+        self.__clear_button:Button = Button(self.get_screen(), self.get_settings(), "Clear")
         self.__buttons_to_draw:[Button] =   [self.__exit_button, self.__guess_button, self.__clear_button]
         self.__guess_button_pressed:boolean = False
         self.__colored_pixels = set(())
@@ -33,14 +31,14 @@ class DrawPanel(Panel):
         #Configure button placements
         #Exit button
         self.get_exit_button().get_rect().left = self.get_screen().get_rect().left + 20
-        self.get_exit_button().get_rect().centery = self.get_screen().get_rect().bottom - self.get_exit_button().height
+        self.get_exit_button().get_rect().centery = self.get_screen().get_rect().bottom - self.get_exit_button().get_height()
         self.get_exit_button().prep_msg(self.get_exit_button().get_text())
         #Guess button
-        self.get_guess_button().get_rect().centery = self.get_screen().get_rect().bottom - self.get_guess_button().height
+        self.get_guess_button().get_rect().centery = self.get_screen().get_rect().bottom - self.get_guess_button().get_height()
         self.get_guess_button().prep_msg(self.get_guess_button().get_text())
         #Clear button
         self.get_clear_button().get_rect().right = self.get_screen().get_rect().right - 20
-        self.get_clear_button().get_rect().centery = self.get_screen().get_rect().bottom - self.get_clear_button().height
+        self.get_clear_button().get_rect().centery = self.get_screen().get_rect().bottom - self.get_clear_button().get_height()
         self.get_clear_button().prep_msg(self.get_clear_button().get_text())
     
     #Setters and Getters
@@ -62,17 +60,17 @@ class DrawPanel(Panel):
     #Other Methods
     def check_clear_button(self, mouse_pos:()):
         """Clear image when the clear button is clicked"""
-        if gf.button_clicked(self.__clear_button, mouse_pos):
+        if gf.mouse_on_button(self.__clear_button, mouse_pos):
             self.__colored_pixels.clear()
             self.set_screen(gf.create_screen(self.get_settings()))
     def check_exit_button(self, mouse_pos:()):
         """Exit game when exit button is clicked"""
-        if gf.button_clicked(self.__exit_button, mouse_pos):
+        if gf.mouse_on_button(self.__exit_button, mouse_pos):
             sys.exit()  #Stops game
     def check_guess_button(self, mouse_pos:()):
         """Make prediction of drawn image when guess button is clicked"""
         if self.__neural_network != None:   #Check if the neural network has been specified
-            if gf.button_clicked(self.__guess_button, mouse_pos):
+            if gf.mouse_on_button(self.__guess_button, mouse_pos):
                 self.__guess_button_pressed = True
                 #Remove the exit, guess, and clear buttons to capture only the drawn image
                 self.__buttons_to_draw.clear()

@@ -1,0 +1,5 @@
+Cintra-01000010
+House-1100001
+Echo-1100111
+Glados-1110101
+Talos-1110011

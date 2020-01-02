@@ -39,7 +39,10 @@ class Label():
         self.__text:str = text
         self.__text_image = self.get_font().render(self.get_text(), True, foreground_color, background_color)
         self.__bgcolor:() = background_color if background_color != None else (255, 255, 255)
+        self.__fgcolor:() = foreground_color if foreground_color != None else (0, 0, 0)
         self.__rect = Rect(0, 0, width, height)
+        
+        self.prep_text()
         
     #Setters and Getters
     def get_font(self):
@@ -52,6 +55,8 @@ class Label():
         return self.__bgcolor
     def get_rect(self):
         return self.__rect
+    def get_foreground_color(self) -> ():
+        return self.__fgcolor
     def set_font(self, font):
         self.__font = font
     def set_text(self, text:str, render_text:bool = False):
@@ -71,11 +76,20 @@ class Label():
         """
         self.__bgcolor = bgcolor
         if render_text:
-            self.prep_text()    
+            self.prep_text()   
+    def set_foreground_color(self, fgcolor:(), render_text:bool = False):
+        """
+        fgcolor: the foreground color in a set of RGB or RGBA tuple
+        render_text: whether to render the text image immediately (bool)
+         """
+        self.__fgcolor = fgcolor
+        if render_text:
+            self.prep_text()
     #Other Methods
     def draw(self, screen):
         screen.fill(self.get_background_color(), self.get_rect())
         screen.blit(self.get_text_image(), self.get_rect())
     def prep_text(self):
-        self.set_text_image(self.get_font().render(self.get_text(), True, self.get_font().fgcolor, self.get_background_color()))
+        self.set_text_image(self.get_font().render(self.get_text(), True, self.get_foreground_color(), self.get_background_color()))
         self.get_text_image().get_rect().center = self.get_rect().center
+        

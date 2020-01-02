@@ -1,4 +1,4 @@
-import pygame.font
+import pygame
 
 from final_project.handwritting_recognition.pygame.settings import Settings
 
@@ -6,18 +6,28 @@ from final_project.handwritting_recognition.pygame.settings import Settings
 class Button():
     
     #Constructor
-    def __init__(self, screen, settings:Settings, msg, width:int = 200, height:int = 50, button_color:() = (0, 255, 0), text_color:() = (255, 255, 255)):
+    def __init__(self, 
+                 screen, 
+                 settings:Settings, 
+                 msg, 
+                 width:int = 200, 
+                 height:int = 50, 
+                 button_color:() = (0, 0, 255), 
+                 text_color:() = (255, 255, 255),
+                 padding:int = 3):
         self.screen = screen
         self.settings = settings
         self.screenRect = screen.get_rect()
         
         #Set the dimensions and properties of the button
-        self._width, self._height = width, height
+        self._width, self._height = width + padding*2, height + padding*2
         self.__button_color = button_color
         self.__text_color = text_color
-        self.__msg = msg
         self.__font = settings.button_text_font
         self.__text = msg
+        txt_width, _ = self.__font.size(self.__text)
+        self._width = txt_width + padding*2 if self._width < txt_width else self._width
+        self.__action_command:str = self.get_text() #used for button action identifiers, similar to Java's ActionCommand
         
         self._prepare_button_and_text()
     
@@ -31,6 +41,7 @@ class Button():
     get_rect = lambda self: self.__rect
     get_msg_img = lambda self: self.__msgImg
     get_msg_img_rect = lambda self: self.__msgImgRect
+    get_action_command = lambda self: self.__action_command
     def set_width(self, width:int):
         """Set width of the button, button is recreated after this method call"""
         self._width = width
@@ -52,7 +63,7 @@ class Button():
         self.__text_color = color
     def set_text(self, msg):
         """Set the text message"""
-        self.__msg = msg
+        self.__text = msg
         self.prep_msg(msg)
     def set_font(self, font):
         """Set the font of the button text"""
@@ -60,6 +71,9 @@ class Button():
     def set_rect(self, rect):
         """Set the rect of the button"""
         self.__rect = rect
+    def set_action_command(self, string:str):
+        """Sets the action command of the button"""
+        self.__action_command = string
     
     #Other Methods
     def prep_msg(self, msg):
