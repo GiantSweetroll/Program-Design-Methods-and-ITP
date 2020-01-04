@@ -12,7 +12,7 @@ class Button():
                  msg, 
                  width:int = 200, 
                  height:int = 50, 
-                 button_color:() = (0, 0, 255), 
+                 button_color:() = (0, 0, 150), 
                  text_color:() = (255, 255, 255),
                  padding:int = 3):
         self.screen = screen
@@ -20,6 +20,8 @@ class Button():
         self.screenRect = screen.get_rect()
         
         #Set the dimensions and properties of the button
+        self._disabled_color:() = (125, 125, 125)
+        self._enabled_color:() = button_color
         self._width, self._height = width + padding*2, height + padding*2
         self.__button_color = button_color
         self.__text_color = text_color
@@ -28,6 +30,8 @@ class Button():
         txt_width, _ = self.__font.size(self.__text)
         self._width = txt_width + padding*2 if self._width < txt_width else self._width
         self.__action_command:str = self.get_text() #used for button action identifiers, similar to Java's ActionCommand
+        self.__enabled:bool = True
+        
         
         self._prepare_button_and_text()
     
@@ -42,6 +46,8 @@ class Button():
     get_msg_img = lambda self: self.__msgImg
     get_msg_img_rect = lambda self: self.__msgImgRect
     get_action_command = lambda self: self.__action_command
+    get_disabled_color = lambda self: self._disabled_color
+    is_enabled = lambda self: self.__enabled
     def set_width(self, width:int):
         """Set width of the button, button is recreated after this method call"""
         self._width = width
@@ -74,16 +80,27 @@ class Button():
     def set_action_command(self, string:str):
         """Sets the action command of the button"""
         self.__action_command = string
+    def set_enabled(self, b:bool):
+        """Enable or disable the button"""
+        self.__enabled = b
+        
+        if (b):
+            self.__button_color = self._enabled_color
+        else:
+            self.__button_color = self._disabled_color
+        self.prep_msg(self.get_text())
     
     #Other Methods
     def prep_msg(self, msg):
         self.__msgImg = self.__font.render(msg, True, self.__text_color, self.__button_color)
         self.__msgImgRect = self.__msgImg.get_rect()
         self.__msgImgRect.center = self.__rect.center
+        
     def draw_button(self):
         #Draw blank button and then draw message
         self.screen.fill(self.__button_color, self.__rect)
         self.screen.blit(self.__msgImg, self.__msgImgRect)
+        
     def _prepare_button_and_text(self):
         #Build the button's rect object and center it
         self.__rect = pygame.Rect(0, 0, self._width, self._height)

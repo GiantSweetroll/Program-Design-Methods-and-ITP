@@ -21,7 +21,7 @@ class ChooseAIPanel(Panel):
         super().__init__(screen, settings)
         
         #Initialize components
-        self.__sub_title_label = Label("Choose your AI")
+        self._sub_title_label = Label("Choose your AI")
         self.__ai_buttons:[] = [AIButton(screen, settings, constants.ai_cintra)]
         self.__ai_model_label:Label = Label("")
         self.__choose_button = Button(screen, settings, "Choose")
@@ -30,11 +30,14 @@ class ChooseAIPanel(Panel):
         self.__ai_details_screen:AIInfoDisplay = AIInfoDisplay()
         self.__active_ai_image = None
         
+        #Properties
+        self.__choose_button.set_enabled(False)
+        
         #Configure component placement
         screen_rect:Rect = screen.get_rect()
         #Sub title
-        self.__sub_title_label.get_rect().top = screen_rect.top + 20
-        self.__sub_title_label.get_rect().centerx = screen_rect.centerx
+        self._sub_title_label.get_rect().top = screen_rect.top + 20
+        self._sub_title_label.get_rect().centerx = screen_rect.centerx
         #AI Buttons
         cintra:AIButton = self.get_ai_buttons()[0]
         cintra.get_rect().centerx = screen_rect.centerx//3
@@ -68,6 +71,7 @@ class ChooseAIPanel(Panel):
             self.__selected_button.set_selected(updated_selection)
             self.get_ai_details_display_screen().set_image(self.__selected_button.get_ai().get_image_info_screen_path())
             self.prep_ai_idle_image(self.__selected_button.get_ai().get_image_idle())
+            self.__choose_button.set_enabled(updated_selection)
             if updated_selection == False:
                 self.__selected_button = None
             else:
@@ -80,8 +84,9 @@ class ChooseAIPanel(Panel):
     
     def check_choose_button(self, mouse_pos:()):
         """Method to check when the choose button is pressed"""
-        #TO-DO -> connect to draw panel
-        pass
+        if gf.mouse_on_button(self.__choose_button, mouse_pos) and self.__choose_button.is_enabled():
+            globals.active_ai = self.__selected_button.get_ai()
+            globals.panel_index += 1
     
     def prep_ai_idle_image(self, image):
         """Method to prepare the ai idle image for display"""
@@ -122,7 +127,7 @@ class ChooseAIPanel(Panel):
     def draw_components(self):
         super().draw_components()
         
-        self.__sub_title_label.draw(self.get_screen())
+        self._sub_title_label.draw(self.get_screen())
         
         self.__back_button.draw_button()
         self.__choose_button.draw_button()
