@@ -48,8 +48,9 @@ class GamemodePanel(Panel):
         self.get_back_button().prep_msg(self.get_back_button().get_text())
         #Sub title text
         self.get_sub_title_label().get_rect().top = screen_rect.top + 20
-        txt_width, _ = self.get_sub_title_label().get_font().size(self.get_sub_title_label().get_text())
-        self.get_sub_title_label().get_rect().left = screen_rect.centerx - txt_width//2 #Fake center of text
+#         txt_width, _ = self.get_sub_title_label().get_font().size(self.get_sub_title_label().get_text())
+#         self.get_sub_title_label().get_rect().left = screen_rect.centerx - txt_width//2 #Fake center of text
+        self.get_sub_title_label().get_rect().centerx = screen_rect.centerx
         #Console image
         console_rect = self.get_console().get_rect()
         console_rect.centerx = screen_rect.centerx + screen_rect.centerx//2

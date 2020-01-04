@@ -40,7 +40,9 @@ class Label():
         self.__text_image = self.get_font().render(self.get_text(), True, foreground_color, background_color)
         self.__bgcolor:() = background_color if background_color != None else (255, 255, 255)
         self.__fgcolor:() = foreground_color if foreground_color != None else (0, 0, 0)
-        self.__rect = Rect(0, 0, width, height)
+        
+        txt_width, txt_height = self.__font.size(self.__text)
+        self.__rect = Rect(0, 0, txt_width, txt_height)
         
         self.prep_text()
         
@@ -87,8 +89,9 @@ class Label():
             self.prep_text()
     #Other Methods
     def draw(self, screen):
-        screen.fill(self.get_background_color(), self.get_rect())
-        screen.blit(self.get_text_image(), self.get_rect())
+#         screen.fill(self.get_background_color(), self.get_rect())
+        screen.blit(self.get_text_image(), self.get_rect(), special_flags=pygame.BLEND_RGBA_MULT)
+        
     def prep_text(self):
         self.set_text_image(self.get_font().render(self.get_text(), True, self.get_foreground_color(), self.get_background_color()))
         self.get_text_image().get_rect().center = self.get_rect().center
