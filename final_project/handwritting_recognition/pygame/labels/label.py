@@ -7,7 +7,7 @@ class Label():
     
     #Constructor
     def __init__(self, 
-                 text:str, 
+                 text:str = "", 
                  font = None, 
                  font_type = None, 
                  font_size:int = 48, 
