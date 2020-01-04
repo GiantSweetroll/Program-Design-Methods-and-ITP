@@ -28,7 +28,7 @@ class GamemodePanel(Panel):
         self.__random_chaos_button:Button = Button(screen, settings, "Random Chaos", width = (settings.screen_width//2)-padding*2)
         self.__back_button:Button = Button(screen, settings, "Back", button_color=constants.color_red)
         self.__sub_title_font = settings.sub_title_font
-        self.__sub_title_label = Label("Select Game Mode", 
+        self._sub_title_label = Label("Select Game Mode", 
                                        font = self.__sub_title_font, 
                                        bold=True,
                                        width = settings.screen_width)
@@ -66,7 +66,7 @@ class GamemodePanel(Panel):
     def get_sub_title_font(self):
         return self.__sub_title_font
     def get_sub_title_label(self):
-        return self.__sub_title_label
+        return self._sub_title_label
     def get_console(self) -> Console:
         """Method to get the console class object"""
         return self.__console

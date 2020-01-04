@@ -24,7 +24,7 @@ class MainMenuPanel(Panel):
         #Fields initialization
         self.__start_button = Button(screen, settings, "Start")
         self.__instructions_button = Button(screen, settings, "Instructions")
-        self.__exit_button = Button(screen, settings, "Exit", button_color=constants.color_red)
+        self._exit_button = Button(screen, settings, "Exit", button_color=constants.color_red)
         
         #Configure Buttons
         self.get_start_button().set_width(3*self.get_settings().screen_width//5)
@@ -58,7 +58,7 @@ class MainMenuPanel(Panel):
     def get_instructions_button(self) -> Button:
         return self.__instructions_button
     def get_exit_button(self) -> Button:
-        return self.__exit_button
+        return self._exit_button
     
     #Other Methods
     def check_exit_button(self, mouse_pos:()):

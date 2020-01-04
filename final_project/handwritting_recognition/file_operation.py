@@ -3,6 +3,7 @@ import glob
 from final_project.handwritting_recognition import methods, constants
 import cv2
 import tensorflow
+import pygame
 
 def load_image(filename):
     image = cv2.imread(filename)      #Read image file
@@ -73,3 +74,23 @@ def load_test_images(directory:str, file_extension:str = ".png"):
         images.append(image)
     
     return images
+
+def load_hourglass_images() -> []:
+    """Method to load the hourglass animation images"""
+    hourglass:[] = []
+    
+    for i in range(10):
+        hourglass.append(pygame.image.load("images/hourglass/" + str(i) + ".png"))
+    
+    return hourglass
+
+def load_loading_hints() -> [str]:
+    """Method to load the loading hints and store them in a list"""
+    ls:[str] = [str]
+    
+    with open("pygame/files/loading_hints.txt") as file:
+        hints = file.readline()
+        for hint in hints:
+            ls.append(hint)
+    
+    return ls

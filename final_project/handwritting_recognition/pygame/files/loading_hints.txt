@@ -1,0 +1,2 @@
+You can get a feel with neural networks by visiting playground.tensorflow.org
+Keras is a high-level API for creating neural networks. It is easier, but slower than directly using Tensorflow.
