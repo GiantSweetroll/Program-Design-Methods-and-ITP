@@ -1,8 +1,9 @@
 import pygame
 from pygame.event import Event
+from pygame.rect import Rect
 
 from final_project.handwritting_recognition import constants
-from final_project.handwritting_recognition.pygame import game_functions as gf,\
+from final_project.handwritting_recognition.pygame import game_functions as gf, \
     globals
 from final_project.handwritting_recognition.pygame.buttons.ai_button import AIButton
 from final_project.handwritting_recognition.pygame.buttons.button import Button
@@ -31,6 +32,9 @@ class ChooseAIPanel(Panel):
         
         #Configure component placement
         screen_rect:Rect = screen.get_rect()
+        #Sub title
+        self.__sub_title_label.get_rect().top = screen_rect.top + 20
+        self.__sub_title_label.get_rect().centerx = screen_rect.centerx
         #AI Buttons
         cintra:AIButton = self.get_ai_buttons()[0]
         cintra.get_rect().centerx = screen_rect.centerx//3
@@ -118,13 +122,17 @@ class ChooseAIPanel(Panel):
     def draw_components(self):
         super().draw_components()
         
+        self.__sub_title_label.draw(self.get_screen())
+        
         self.__back_button.draw_button()
         self.__choose_button.draw_button()
         
         self.get_ai_details_display_screen().draw(self.get_screen())
         
         if self.__active_ai_image != None:
-            self.get_screen().blit(self.__active_ai_image, self.__active_ai_image.get_rect())
+            rect:Rect = Rect(0, 0, self.__active_ai_image.get_rect().width, self.__active_ai_image.get_rect().height)
+            rect.center = self.get_screen().get_rect().center
+            self.get_screen().blit(self.__active_ai_image, rect)
         
         for ai_button in self.get_ai_buttons():
             ai_button.draw_button()
