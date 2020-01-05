@@ -9,7 +9,7 @@ class Settings():
     def __init__(self):
         self.screen_width = 1024
         self.screen_height = 760
-        self.background_color = (35, 34, 54)
+        self.background_color = (183, 195, 202)
         self.pen_color = (0, 0, 0)
         self.pen_size = 40
         self.button_text_font = pygame.font.SysFont(None, 48)
