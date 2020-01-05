@@ -93,6 +93,9 @@ class Label():
         screen.blit(self.get_text_image(), self.get_rect(), special_flags=pygame.BLEND_RGBA_MULT)
         
     def prep_text(self):
-        self.set_text_image(self.get_font().render(self.get_text(), True, self.get_foreground_color(), self.get_background_color()))
+        try:
+            self.set_text_image(self.get_font().render(self.get_text(), True, self.get_foreground_color(), self.get_background_color()))
+        except:
+            pass
         self.get_text_image().get_rect().center = self.get_rect().center
         

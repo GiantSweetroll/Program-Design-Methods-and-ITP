@@ -1,12 +1,17 @@
+import random
+from threading import Thread
+import time
+
+import pygame
+
+from final_project.handwritting_recognition import file_operation, constants, \
+    methods
+from final_project.handwritting_recognition.neural_network import NeuralNetwork
+from final_project.handwritting_recognition.pygame import globals
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.labels.label import Label
-from final_project.handwritting_recognition.pygame import globals
-from final_project.handwritting_recognition.pygame.misc.hourglass import Hourglass
-from final_project.handwritting_recognition import file_operation, constants,\
-    methods
 from final_project.handwritting_recognition.pygame.misc.console import Console
-from random import random
-from final_project.handwritting_recognition.neural_network import NeuralNetwork
+from final_project.handwritting_recognition.pygame.misc.hourglass import Hourglass
 
 
 class LoadingScreen(Panel):
@@ -21,28 +26,25 @@ class LoadingScreen(Panel):
         self.__ai:AI = None
         self.__ai_image = Console()
         self.__loading_finished:bool = None
-        self.__loading_hint_label:Label = Label()
+        self.__loading_hint_label:Label = Label(font_size=30)
         self.__loading_hints:[str] = file_operation.load_loading_hints()
-        self.__ai_guess_display:Console = Console(constants.path_img_ai_info_empty)
-        self.__ai_guess_label:Label = Label()
+        self.__ai_guess_display:Console = Console(constants.path_img_empty_screen)
+        self.__ai_guess_label:Label = Label(font_size=500)
         
         self.__thread_progress:Thread = None
-        self.__thread_ai_iamge:Thread = None
+        self.__thread_ai_image:Thread = None
         self.__thread_loading_hints:Thread = None
         self.__thread_nn:Thread = None
         
         #Component placements
-        padding:int = 10
+        self.__padding:int = 10
         screen_rect:Rect = self.get_screen().get_rect()
-        #AI Image
-        self.__ai_image.get_rect().centery = screen_rect.centery
-        self.__ai_image.get_rect().right = screen_rect.centerx - padding
         #AI guess display
-        self.__ai_guess_display.get_rect().left = screen_rect.centerx + padding
+        self.__ai_guess_display.get_rect().left = screen_rect.centerx + self.__padding
         self.__ai_guess_display.get_rect().centery = screen_rect.centery
         #AI guess label
         self.__ai_guess_label.get_rect().left = self.__ai_guess_display.get_rect().left
-        self.__ai_guess_label.get_rect().top = self.__ai_guess_display.get_rect().centery
+        self.__ai_guess_label.get_rect().centery = self.__ai_guess_display.get_rect().centery
         #Loading hints
         self.__loading_hint_label.get_rect().centery = screen_rect.bottom - self.__loading_hint_label.get_rect().height
         #Loading progress label and hourglass
@@ -53,10 +55,9 @@ class LoadingScreen(Panel):
     #Methods for multi-threading
     def display_loading_hints(self):
         """Method to display the loading hints"""
-        msg:str = random.choice(self.__loading_hints) if not self.__loading_finished else self.__loading_hint_label.get_text()
-        
+        msg:str = random.choice(self.__loading_hints)
         self.__loading_hint_label.set_text(msg, True)
-        self.__loading_hint_label.draw(self.get_screen())
+        time.sleep(5.0)
     
     def display_loading_progress(self):
         """Method to display the loading progress messages and hourglass animation"""
@@ -70,10 +71,7 @@ class LoadingScreen(Panel):
             self.__hourglass.get_rect().left = self.__loading_progress_label.get_rect().right
         
         self.__hourglass.next()     #Update hourglass animation
-        
-        #Draw
-        self.__loading_progress_label.draw(self.get_screen())
-        self.__hourglass.draw(self.get_screen())
+        time.sleep(0.08)
     
     def display_ai_and_guess(self):
         """Method to display the AI image and guess display screen"""
@@ -84,16 +82,12 @@ class LoadingScreen(Panel):
         #Pick guess by random
         guess:str = random.choice(constants.char_list) if not self.__loading_finished else ":)"
         self.__ai_guess_label.set_text(guess, True)
-        
-        #Display guess
-        self.get_screen().blit(self.__ai_guess_display, self.__ai_guess_display.get_rect())
-        self.__ai_guess_display.draw(self.get_screen())
-        #Display AI Image
-        self.__ai_image.draw(self.get_screen())
+        time.sleep(0.2)
     
-    def load_neural_network_and_predict(self) -> str:
+    def load_neural_network_and_predict(self):
         """Loads the neural network of the specified AI"""
         #Load neural network
+        self.__loading_finished = False
         methods.update_loading_progress("Loading neural network...")
         nn:NeuralNetwork = self.__ai.load_neural_network()
         
@@ -110,8 +104,17 @@ class LoadingScreen(Panel):
                                                 constants.color_channels), False)
         
         methods.update_loading_progress("Prediction complete!")
-        return prediction
-        
+        globals.prediction = prediction
+        self.__loading_finished = True
+    
+    #Other Methods
+    def __check_thread(self, thread:Thread, target):
+        """DO NOT USE"""
+        #This method should not be used, as it created infinite amounts of the same thread....
+        if thread == None or not thread.is_alive():
+            thread = Thread(target = target)   #Initialize the thread
+            thread.start()  #Start the thread
+    
     #Overridden Methods
     def check_events(self, event):
         super().check_events(event)
@@ -120,7 +123,41 @@ class LoadingScreen(Panel):
         super().draw_components()
         
         if globals.loading_active:
-            if self.__loading_finished != True:
-                #TO-DO
-                pass
-        
+            #Check AI:
+            if self.__ai == None:
+                self.__ai = globals.active_ai
+                self.__ai_image.set_image(self.__ai.get_image_processing_path())
+                
+                #Positioning ai image
+                self.__ai_image.get_rect().centery = self.get_screen().get_rect().centery
+                self.__ai_image.get_rect().right = self.get_screen().get_rect().centerx - self.__padding
+            
+            #Check Thread status
+            if self.__thread_loading_hints == None or not self.__thread_loading_hints.is_alive():
+                self.__thread_loading_hints = Thread(target=self.display_loading_hints)
+                self.__thread_loading_hints.start()
+            if self.__thread_ai_image == None or not self.__thread_ai_image.is_alive():
+                self.__thread_ai_image = Thread(target=self.display_ai_and_guess)
+                self.__thread_ai_image.start()
+            if self.__thread_progress == None or not self.__thread_progress.is_alive():
+                self.__thread_progress = Thread(target=self.display_loading_progress)
+                self.__thread_progress.start()
+            #Check neural network thread
+            if self.__thread_nn == None:
+                self.__thread_nn = Thread(target=self.load_neural_network_and_predict())
+                self.__thread_nn.start()
+            
+            #Draw components
+            #Display loading hints
+            self.__loading_hint_label.draw(self.get_screen())
+            #Display loading progress and hourglass
+            self.__loading_progress_label.draw(self.get_screen())
+            self.__hourglass.draw(self.get_screen())
+            #Display guess
+            self.__ai_image.draw(self.get_screen())
+            self.__ai_guess_display.draw(self.get_screen())
+            self.__ai_guess_label.draw(self.get_screen())
+            #Display AI Image
+            self.__ai_image.draw(self.get_screen())
+
+        pygame.display.flip()

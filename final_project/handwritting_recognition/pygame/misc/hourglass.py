@@ -20,13 +20,17 @@ class Hourglass():
         """Returns the rect object that will be used to place the hourglass images"""
         return self.__rect
     
+    def get_index(self):
+        """Method to get the current image index"""
+        return self.__index
+    
     #Other Methods
     def next(self):
         """Increment the image index of the hourglass image by one"""
         if self.__index + 1 >= len(self.__images):
             self.__index = 0
         else:
-            self.__index =+ 1
+            self.__index += 1
             
     def draw(self, screen):
         """Draw the hourglass to the screen"""

@@ -4,6 +4,7 @@ from final_project.handwritting_recognition import methods, constants
 import cv2
 import tensorflow
 import pygame
+import io
 
 def load_image(filename):
     image = cv2.imread(filename)      #Read image file
@@ -94,11 +95,7 @@ def load_hourglass_images() -> []:
 
 def load_loading_hints() -> [str]:
     """Method to load the loading hints and store them in a list"""
-    ls:[str] = [str]
+    with io.open("pygame/files/loading_hints.txt", encoding="utf8") as file:
+        return file.read().splitlines()
     
-    with open("pygame/files/loading_hints.txt") as file:
-        hints = file.readline()
-        for hint in hints:
-            ls.append(hint)
-    
-    return ls
+    return []

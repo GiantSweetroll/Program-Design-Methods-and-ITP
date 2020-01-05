@@ -5,3 +5,4 @@ panel_index:int = 0
 active_ai:AI = None
 loading_active:bool = False
 loading_progress:str = ""
+prediction:str = ""

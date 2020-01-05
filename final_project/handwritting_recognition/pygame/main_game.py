@@ -9,6 +9,7 @@ from final_project.handwritting_recognition.pygame.game_panels.gamemode_panel im
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.game_panels.choose_ai_panel import ChooseAIPanel
 from final_project.handwritting_recognition.pygame.game_panels.draw_panel_game import DrawPanelGame
+from final_project.handwritting_recognition.pygame.game_panels.loading_screen import LoadingScreen
 
 
 class MainGame():
@@ -28,12 +29,14 @@ class MainGame():
         gamemode_panel:GamemodePanel = GamemodePanel(screen, settings)
         ai_selection_panel:ChooseAIPanel = ChooseAIPanel(screen, settings)
         draw_panel_game_panel:DrawPanelGame = DrawPanelGame(screen, settings)
+        loading_screen:LoadingScreen = LoadingScreen(screen, settings)
         
         #Add to panel list
         self.__panels.append(main_menu_panel)
         self.__panels.append(gamemode_panel)
         self.__panels.append(ai_selection_panel)
         self.__panels.append(draw_panel_game_panel)
+        self.__panels.append(loading_screen)
         
         self.run_game(screen, settings)
         

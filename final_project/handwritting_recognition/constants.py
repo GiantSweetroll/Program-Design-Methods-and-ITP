@@ -21,6 +21,7 @@ path_img_gamemode_welc_console:str = "images/art/gamemode_welcome_console.png"
 path_img_gamemode_funhouse_console:str = "images/art/gamemode_funhouse_console.png"
 path_img_gamemode_random_chaos_console:str = "images/art/gamemode_random_chaos_console.png"
 path_img_ai_info_empty:str = "images/art/empty_ai_info.png"
+path_img_empty_screen:str = "images/art/empty_screen.png"
 
 #AI's
 ai_cintra = AI("Cintra-01000010", "ai_files/cintra/")
