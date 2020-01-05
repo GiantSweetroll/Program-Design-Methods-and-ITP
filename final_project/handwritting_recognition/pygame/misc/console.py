@@ -2,15 +2,20 @@ import pygame
 class Console():
     
     #Constructor
-    def __init__(self, path):
+    def __init__(self, path=None):
         self.path = path
-        self.__image_idle = pygame.image.load(path)
-        self.__rect = self.__image_idle.get_rect()
+        self.__image_idle = pygame.image.load(path) if path != None else None
+        self.__rect = self.__image_idle.get_rect() if path != None else None
     
     #Setters and Getters
     def set_image(self, path:str):
         try:
             self.__image_idle = pygame.image.load(path)
+            
+            #Retain some of the original rect positions
+            rect:Rect = self.__rect
+            self.__rect = self.__image_idle.get_rect()
+            self.__rect.center = rect.center
         except:
             pass
     def get_rect(self):

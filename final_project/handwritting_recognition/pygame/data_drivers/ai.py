@@ -1,8 +1,9 @@
 import pygame
 from pygame.rect import Rect
 import pandas
-from final_project.handwritting_recognition import constants
+from final_project.handwritting_recognition import constants, file_operation
 from cv2 import line
+from final_project.handwritting_recognition.neural_network import NeuralNetwork
 
 
 class AI():
@@ -16,8 +17,10 @@ class AI():
         data_folder: Path for the AI files folder
         """
         self.__name:str = name
-        self.__image_idle = pygame.image.load(data_folder + "/idle.png")
-        self.__image_processing = pygame.image.load(data_folder + "/processing.png")
+        self.__image_idle_path:str = data_folder + "/idle.png"
+        self.__image_processing_path:str = data_folder + "/processing.png"
+        self.__image_idle = pygame.image.load(self.__image_idle_path)
+        self.__image_processing = pygame.image.load(self.__image_processing_path)
         self.__image_info_screen_path = data_folder + "/info.png"
         self.__model_struct:str = self.__get_model_structure_as_string(data_folder)
         self.__model_info:[] = self.__get_model_info(data_folder)
@@ -47,6 +50,12 @@ class AI():
     
     def get_folder_path(self):
         return self.__ai_folder
+    
+    def get_image_idle_path(self):
+        return self.__image_idle_path
+    
+    def get_image_processing_path(self):
+        return self.__image_processing_path
     
     #Other methods
     def draw_image_idle(self, screen):
@@ -101,3 +110,7 @@ class AI():
             for line in lines:
                 temp.append(line)
         return temp
+    
+    def load_neural_network(self) -> NeuralNetwork:
+        """Loads and returns the neural network model associated with the AI"""
+        return NeuralNetwork(file_operation.load_model(self.__ai_folder + "/model.h5"))

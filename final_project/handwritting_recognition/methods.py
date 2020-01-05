@@ -10,6 +10,7 @@ import final_project.handwritting_recognition.neural_network as nn
 import matplotlib.pyplot as plt
 import numpy as py
 from tensorflow.keras.layers import Dense, Dropout, Conv2D, MaxPooling2D, Flatten
+from final_project.handwritting_recognition.pygame import globals
 
 
 #------------------------------------------------------------------------------------------------------------
@@ -138,6 +139,9 @@ def prepare_images_for_mlp_input(images,
     images = shape_image_for_2d_mlp_input(images, width, height, color_channels)    #Convert image_array according to keras specification (color channels first or last), and normalize the images to be between 0 and 1
     return images
 
+def update_loading_progress(txt:str):
+    globals.loading_progress = txt
+
 #------------------------------------------------------------------------------------------------------------
 #Neural Network functions
 def create_model(input_shape:int, label_count:int):
@@ -187,7 +191,7 @@ def train_neural_network(neural_network,
     for i in range(loaded_model+1, loaded_model + 1 + iterations):
         neural_network.train(train_images, train_labels, batch_size=64, epochs=3, verbose=1, validation_data=(test_images, test_labels))
         neural_network.save("model_" + str(i))
-        neural_network = nn.NeuralNetwork(file_operation.load_model("model_" + str(i)))
+        neural_network = nn.NeuralNetwork(file_operation.load__training_model("model_" + str(i)))
         
 def make_prediction_from_test_images(neural_network,
                                      width:int = constants.image_width,

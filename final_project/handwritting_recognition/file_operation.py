@@ -63,9 +63,17 @@ def load_nist_database(dataset_num = 1, data_size:float = 1.):
     
     return images
 
-def load_model(filename:str):
-    """A method to load the desired CNN model """
+def load__training_model(filename:str):
+    """A method to load the training CNN model"""
     return tensorflow.keras.models.load_model("models/" + filename + ".h5")
+
+def load_model(path:str):
+    """
+    Method to laod the desired neural network model
+    path: the path of the model file, complete with .h5 extension
+    """
+    return tensorflow.keras.models.load_model(path)
+
 def load_test_images(directory:str, file_extension:str = ".png"):
     """A method to load the images used to test the neural network or for it to be predicted"""
     images:[] = []
