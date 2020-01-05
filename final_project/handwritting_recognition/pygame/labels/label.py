@@ -97,5 +97,7 @@ class Label():
             self.set_text_image(self.get_font().render(self.get_text(), True, self.get_foreground_color(), self.get_background_color()))
         except:
             pass
+        txt_width, txt_height = self.__font.size(self.__text)
+        self.__rect = Rect(self.__rect.left, self.__rect.top, txt_width, txt_height)
         self.get_text_image().get_rect().center = self.get_rect().center
         

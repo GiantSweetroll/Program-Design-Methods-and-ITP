@@ -55,20 +55,21 @@ class LoadingScreen(Panel):
     #Methods for multi-threading
     def display_loading_hints(self):
         """Method to display the loading hints"""
-        msg:str = random.choice(self.__loading_hints)
+        msg:str = random.choice(self.__loading_hints)   #Pick a text by random
         self.__loading_hint_label.set_text(msg, True)
+        self.__loading_hint_label.get_rect().centerx = self.get_screen().get_rect().centerx #Update label position
         time.sleep(5.0)
     
     def display_loading_progress(self):
         """Method to display the loading progress messages and hourglass animation"""
         progress:str = globals.loading_progress
-        if progress != self.__loading_progress_label.get_text():
-            #Only update when needed
+        if progress != self.__loading_progress_label.get_text():    #Only update when needed
             self.__loading_progress_label.set_text(progress, True)
             
             #Update positions
             self.__loading_progress_label.get_rect().centerx = self.get_screen().get_rect().centerx - self.__hourglass.get_rect().width
             self.__hourglass.get_rect().left = self.__loading_progress_label.get_rect().right
+            self.__hourglass.get_rect().centery = self.__loading_progress_label.get_rect().centery
         
         self.__hourglass.next()     #Update hourglass animation
         time.sleep(0.08)
@@ -82,6 +83,7 @@ class LoadingScreen(Panel):
         #Pick guess by random
         guess:str = random.choice(constants.char_list) if not self.__loading_finished else ":)"
         self.__ai_guess_label.set_text(guess, True)
+        self.__ai_guess_label.get_rect().centerx = self.__ai_guess_display.get_rect().centerx
         time.sleep(0.2)
     
     def load_neural_network_and_predict(self):
@@ -144,7 +146,7 @@ class LoadingScreen(Panel):
                 self.__thread_progress.start()
             #Check neural network thread
             if self.__thread_nn == None:
-                self.__thread_nn = Thread(target=self.load_neural_network_and_predict())
+                self.__thread_nn = Thread(target=self.load_neural_network_and_predict)
                 self.__thread_nn.start()
             
             #Draw components
