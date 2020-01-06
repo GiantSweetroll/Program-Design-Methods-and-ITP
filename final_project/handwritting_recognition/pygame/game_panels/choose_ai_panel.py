@@ -58,7 +58,7 @@ class ChooseAIPanel(Panel):
         """Method to initialize the AIButton objects and configure their placements"""
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
-                                          AI("Cintra-01000010", "ai_files/cintra/"),
+                                          AI("Cintra - 01000010", "ai_files/cintra/"),
                                           padding = 10))
         
         #Configure placements
