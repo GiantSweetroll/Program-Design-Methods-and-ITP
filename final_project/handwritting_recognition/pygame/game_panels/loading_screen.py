@@ -37,13 +37,12 @@ class LoadingScreen(Panel):
         self.__thread_nn:Thread = None
         
         #Component placements
-        self.__padding:int = 10
+        self.__padding:int = 20
         screen_rect:Rect = self.get_screen().get_rect()
         #AI guess display
         self.__ai_guess_display.get_rect().left = screen_rect.centerx + self.__padding
         self.__ai_guess_display.get_rect().centery = screen_rect.centery
         #AI guess label
-        self.__ai_guess_label.get_rect().left = self.__ai_guess_display.get_rect().left
         self.__ai_guess_label.get_rect().centery = self.__ai_guess_display.get_rect().centery
         #Loading hints
         self.__loading_hint_label.get_rect().centery = screen_rect.bottom - self.__loading_hint_label.get_rect().height
@@ -76,10 +75,6 @@ class LoadingScreen(Panel):
     
     def display_ai_and_guess(self):
         """Method to display the AI image and guess display screen"""
-        
-        #Set AI Image
-        self.__ai_image.set_image(self.__ai.get_image_processing_path())
-        
         #Pick guess by random
         guess:str = random.choice(constants.char_list) if not self.__loading_finished else ":)"
         self.__ai_guess_label.set_text(guess, True)
@@ -108,6 +103,9 @@ class LoadingScreen(Panel):
         methods.update_loading_progress("Prediction complete!")
         globals.prediction = prediction
         self.__loading_finished = True
+        time.sleep(2.0)
+        globals.panel_index += 1
+        globals.show_results = True
     
     #Other Methods
     def __check_thread(self, thread:Thread, target):

@@ -84,6 +84,7 @@ class DrawPanel(Panel):
         elif event.type == pygame.MOUSEBUTTONUP:
             if event.button == 1:       #1 = Left click
                 globals.mouse_left_pressed = False
+                
     def draw_components(self):
         super().draw_components()
         

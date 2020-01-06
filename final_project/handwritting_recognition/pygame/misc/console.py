@@ -1,21 +1,32 @@
 import pygame
 class Console():
+    """Class to store an image as an object"""
     
     #Constructor
-    def __init__(self, path=None):
-        self.path = path
-        self.__image_idle = pygame.image.load(path) if path != None else None
-        self.__rect = self.__image_idle.get_rect() if path != None else None
+    def __init__(self, path=None, image = None):
+        """
+        Fill one of the following parameters:
+        path: path of the image
+        image: the image itself in pygame.image.load() format
+        """
+        self.__image_idle = pygame.image.load(path) if path != None else image if image != None else None
+        self.__rect = self.__image_idle.get_rect() if self.__image_idle != None else None
     
     #Setters and Getters
-    def set_image(self, path:str):
+    def set_image(self, path:str = None, image = None):
+        """
+        Fill one of the following parameters:
+        path: path of the image
+        image: the image itself in pygame.image.load() format
+        """
         try:
-            self.__image_idle = pygame.image.load(path)
+            self.__image_idle = pygame.image.load(path) if path != None else image
             
             #Retain some of the original rect positions
             rect:Rect = self.__rect
             self.__rect = self.__image_idle.get_rect()
-            self.__rect.center = rect.center
+            if rect != None:
+                self.__rect.center = rect.center
         except:
             pass
     def get_rect(self):

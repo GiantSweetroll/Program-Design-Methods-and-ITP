@@ -1,5 +1,3 @@
-import pygame
-
 from final_project.handwritting_recognition.pygame.data_drivers.ai import AI
 
 

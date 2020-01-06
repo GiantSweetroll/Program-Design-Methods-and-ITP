@@ -1,2 +1,9 @@
 You can get a feel with neural networks by visiting playground.tensorflow.org
-Keras is a high-level API for creating neural networks. It is easier, but slower than directly using Tensorflow.
+Tensorflow is a great library for creating neural networks!
+Keras makes writing neural network code much easier!
+Convolutional Neural Networks (CNN) are usually used for image identification
+Recurrent Neural Networks (RNN) can be used to read sentences
+More layers does not always mean a better neural network!
+Tensorflow can utilize your GPU for faster processing, but it only works on NVidia cards...
+Neural Networks "immitates" your brain's biological neural pathways!
+The three basic layers of a neural network are the input, hidden, and output layers
