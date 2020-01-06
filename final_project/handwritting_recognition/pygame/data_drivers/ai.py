@@ -17,13 +17,13 @@ class AI():
         data_folder: Path for the AI files folder
         """
         self.__name:str = name
-        self.__image_idle_path:str = data_folder + "/idle.png"
-        self.__image_processing_path:str = data_folder + "/processing.png"
-        self.__image_idle = pygame.image.load(self.__image_idle_path)
-        self.__image_processing = pygame.image.load(self.__image_processing_path)
-        self.__image_info_screen_path = data_folder + "/info.png"
-        self.__model_struct:str = self.__get_model_structure_as_string(data_folder)
-        self.__model_info:[] = self.__get_model_info(data_folder)
+        self._image_idle_path:str = data_folder + "/idle.png"
+        self._image_processing_path:str = data_folder + "/processing.png"
+        self._image_idle = pygame.image.load(self._image_idle_path)
+        self._image_processing = pygame.image.load(self._image_processing_path)
+        self._image_info_screen_path = data_folder + "/info.png"
+#         self.__model_struct:str = self.__get_model_structure_as_string(data_folder)
+#         self.__model_info:[] = self.__get_model_info(data_folder)
         self.__ai_folder:str = data_folder
     
     #Setters and getters
@@ -31,13 +31,13 @@ class AI():
         return self.__name
     
     def get_image_idle(self):
-        return self.__image_idle
+        return self._image_idle
     
     def get_image_info_screen_path(self):
-        return self.__image_info_screen_path
+        return self._image_info_screen_path
     
     def get_image_processing(self):
-        return self.__image_processing
+        return self._image_processing
     
     def get_image_idle_rect(self) -> Rect:
         return self.get_image_idle().get_rect()
@@ -45,17 +45,17 @@ class AI():
     def get_image_processing_rect(self) -> Rect:
         return self.get_image_processing().get_rect()
     
-    def get_model_structure(self):
-        return self.__model_struct
+#     def get_model_structure(self):
+#         return self.__model_struct
     
     def get_folder_path(self):
         return self.__ai_folder
     
     def get_image_idle_path(self):
-        return self.__image_idle_path
+        return self._image_idle_path
     
     def get_image_processing_path(self):
-        return self.__image_processing_path
+        return self._image_processing_path
     
     #Other methods
     def draw_image_idle(self, screen):

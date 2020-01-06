@@ -75,10 +75,11 @@ class GamemodePanel(Panel):
     def check_funhouse_button(self, mouse_pos:()):
         if gf.mouse_on_button(self.get_funhouse_button(), mouse_pos):
             globals.panel_index+=1
+            
     def check_random_chaos_button(self, mouse_pos:()):
         if gf.mouse_on_button(self.get_random_chaos_button(), mouse_pos):
-            #TO-DO
-            pass
+            globals.panel_index = 6
+            
     def check_back_button(self, mouse_pos:()):
         """Back button action"""
         if gf.mouse_on_button(self.get_back_button(), mouse_pos):

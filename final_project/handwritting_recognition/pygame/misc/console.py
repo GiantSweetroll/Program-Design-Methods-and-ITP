@@ -9,8 +9,8 @@ class Console():
         path: path of the image
         image: the image itself in pygame.image.load() format
         """
-        self.__image_idle = pygame.image.load(path) if path != None else image if image != None else None
-        self.__rect = self.__image_idle.get_rect() if self.__image_idle != None else None
+        self._image_idle = pygame.image.load(path) if path != None else image if image != None else None
+        self.__rect = self._image_idle.get_rect() if self._image_idle != None else None
     
     #Setters and Getters
     def set_image(self, path:str = None, image = None):
@@ -20,11 +20,11 @@ class Console():
         image: the image itself in pygame.image.load() format
         """
         try:
-            self.__image_idle = pygame.image.load(path) if path != None else image
+            self._image_idle = pygame.image.load(path) if path != None else image
             
             #Retain some of the original rect positions
             rect:Rect = self.__rect
-            self.__rect = self.__image_idle.get_rect()
+            self.__rect = self._image_idle.get_rect()
             if rect != None:
                 self.__rect.center = rect.center
         except:
@@ -32,7 +32,7 @@ class Console():
     def get_rect(self):
         return self.__rect
     def get_image_idle(self):
-        return self.__image_idle
+        return self._image_idle
     
     #Other methods
     def draw(self, screen):
@@ -41,4 +41,4 @@ class Console():
         
         screen: the pygame screen
         """
-        screen.blit(self.__image_idle, self.get_rect())
+        screen.blit(self._image_idle, self.get_rect())

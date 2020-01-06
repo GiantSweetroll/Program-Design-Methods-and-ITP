@@ -7,6 +7,7 @@ from final_project.handwritting_recognition.pygame import game_functions as gf, 
     globals
 from final_project.handwritting_recognition.pygame.buttons.ai_button import AIButton
 from final_project.handwritting_recognition.pygame.buttons.button import Button
+from final_project.handwritting_recognition.pygame.data_drivers.ai import AI
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.labels.label import Label
 from final_project.handwritting_recognition.pygame.misc.ai_details_display_screen import AIDetailsDisplayScreen
@@ -22,9 +23,9 @@ class ChooseAIPanel(Panel):
         
         #Initialize components
         self._sub_title_label = Label("Choose your AI")
-        self.__ai_buttons:[] = [AIButton(screen, settings, constants.ai_cintra)]
         self.__ai_model_label:Label = Label("")
         self.__choose_button = Button(screen, settings, "Choose")
+        self.__ai_buttons:[] = []
         self.__back_button:Button = Button(self.get_screen(), self.get_settings(), "Back", button_color = constants.color_red)
         self.__selected_button:AIButton = None
         self.__ai_details_screen:AIInfoDisplay = AIInfoDisplay()
@@ -38,10 +39,6 @@ class ChooseAIPanel(Panel):
         #Sub title
         self._sub_title_label.get_rect().top = screen_rect.top + 20
         self._sub_title_label.get_rect().centerx = screen_rect.centerx
-        #AI Buttons
-        cintra:AIButton = self.get_ai_buttons()[0]
-        cintra.get_rect().centerx = screen_rect.centerx//3
-        cintra.prep_msg(cintra.get_text())
         #AI Details Display Screen
         details_screen_rect:Rect = self.__ai_details_screen.get_rect()
         details_screen_rect.left = screen_rect.centerx + screen_rect.centerx//3
@@ -54,13 +51,39 @@ class ChooseAIPanel(Panel):
         self.__back_button.get_rect().centery = self.get_screen().get_rect().bottom - self.__back_button.get_height()
         self.__back_button.prep_msg(self.__back_button.get_text())
         
+        self.init_ai_buttons()
+    
+    #Other init methods
+    def init_ai_buttons(self):
+        """Method to initialize the AIButton objects and configure their placements"""
+        self.__ai_buttons.append(AIButton(self.get_screen(), 
+                                          self.get_settings(), 
+                                          AI("Cintra-01000010", "ai_files/cintra/"),
+                                          padding = 10))
+        
+        #Configure placements
+        cintra:AIButton = self.get_ai_buttons()[0]
+        cintra.get_rect().centerx = self.get_screen().get_rect().centerx//3
+        cintra.prep_msg(cintra.get_text())
+        
     #Setters and Getters
     def get_ai_buttons(self) -> [AIButton]:
         return self.__ai_buttons
+    
     def get_ai_details_display_screen(self) -> AIInfoDisplay:
         return self.__ai_details_screen
+    
     def get_active_ai_image(self):
         return self.__active_ai_image
+    
+    def get_back_button(self):
+        return self.__back_button
+    
+    def get_choose_button(self):
+        return self.__choose_button
+    
+    def get_selected_button(self) -> AIButton:
+        return self.__selected_button
     
     #Other Methods
     def check_ai_button_selection(self, button:AIButton):
@@ -147,5 +170,6 @@ class ChooseAIPanel(Panel):
     def reset_defaults(self):
         super().reset_defaults()
         
-        self.__selected_button.set_selected(False)
-        self.__selected_button = None
+        if (self.__selected_button != None):
+            self.__selected_button.set_selected(False)
+            self.__selected_button = None
