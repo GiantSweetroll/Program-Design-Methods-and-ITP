@@ -60,11 +60,16 @@ class ResultPanel(Panel):
         if game_functions.mouse_on_button(self.__finish_button, mouse_pos):
             #Move to main menu screen
             globals.panel_index = 0
-            #TO-DO reset all panels to their defaults
+            globals.reset_defaults = True
     
     #Overridden Methods
     def check_events(self, event:Event):
         super().check_events(event)
+        
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == 1:   #1 is left mouse click
+                x, y = game_functions.get_mouse_position()
+                self.check_finish_button((x, y))
     
     def draw_components(self):
         super().draw_components()
@@ -81,3 +86,8 @@ class ResultPanel(Panel):
             self.__finish_button.draw_button()
         
         pygame.display.flip()
+    
+    def reset_defaults(self):
+        super().reset_defaults()
+        
+        self.__init__(self.get_screen(), self.get_settings())

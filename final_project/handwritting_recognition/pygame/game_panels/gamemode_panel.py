@@ -104,6 +104,7 @@ class GamemodePanel(Panel):
                 self.check_funhouse_button((x, y))
                 self.check_random_chaos_button((x, y))
                 self.check_back_button((x, y))
+    
     def draw_components(self):
         super().draw_components()
         
@@ -114,3 +115,6 @@ class GamemodePanel(Panel):
         self.get_console().draw(self.get_screen())
         
         pygame.display.flip()
+        
+    def reset_defaults(self):
+        super().reset_defaults()

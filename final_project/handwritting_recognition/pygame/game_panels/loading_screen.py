@@ -161,3 +161,7 @@ class LoadingScreen(Panel):
             self.__ai_image.draw(self.get_screen())
 
         pygame.display.flip()
+    
+    def reset_defaults(self):
+        super().reset_defaults()
+        self.__init__(self.get_screen(), self.get_settings())

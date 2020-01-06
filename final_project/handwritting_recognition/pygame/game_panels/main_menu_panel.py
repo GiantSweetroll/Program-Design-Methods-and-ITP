@@ -97,3 +97,6 @@ class MainMenuPanel(Panel):
         self.get_exit_button().draw_button()
         
         pygame.display.flip()
+    
+    def reset_defaults(self):
+        super().reset_defaults()

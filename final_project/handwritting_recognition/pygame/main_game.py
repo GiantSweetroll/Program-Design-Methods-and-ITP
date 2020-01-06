@@ -44,8 +44,28 @@ class MainGame():
         self.run_game(screen, settings)
         
     #Methods
+    def reset_defaults(self):
+        """Method to reset defaults"""
+        #Reset panels
+        for panel in self.__panels:
+            panel.reset_defaults()
+        
+        #Reset global variables
+        globals.mouse_left_pressed = False
+        globals.active_ai = None
+        globals.loading_active = False
+        globals.show_results = False
+        globals.loading_progress = ""
+        
+        globals.reset_defaults = False
+        
     def run_game(self, screen, settings:Settings):
+        """Method to run the game"""
         #While game runs
         while True:
             gf.check_events(self.__panels[globals.panel_index])
             gf.update_screen(screen, settings, self.__panels[globals.panel_index])
+            
+            #Check for reset ping
+            if globals.reset_defaults:
+                self.reset_defaults()

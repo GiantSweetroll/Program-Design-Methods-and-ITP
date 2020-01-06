@@ -143,3 +143,9 @@ class ChooseAIPanel(Panel):
             ai_button.draw_button()
             
         pygame.display.flip()
+        
+    def reset_defaults(self):
+        super().reset_defaults()
+        
+        self.__selected_button.set_selected(False)
+        self.__selected_button = None

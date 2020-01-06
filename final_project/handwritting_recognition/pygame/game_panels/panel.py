@@ -27,7 +27,13 @@ class Panel():
     def check_events(self, event:Event):
         """Abstract method to check for events"""
         pass
+    
     @abstractclassmethod
     def draw_components(self):
         """Abstract method to draw the components of the screen"""
+        pass
+    
+    @abstractclassmethod
+    def reset_defaults(self):
+        """Reset the components to their default states"""
         pass

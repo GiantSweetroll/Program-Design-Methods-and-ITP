@@ -86,7 +86,6 @@ class DrawPanel(Panel):
                 globals.mouse_left_pressed = False
                 
     def draw_components(self):
-        super().draw_components()
         
         #Draw sub title
         if self._draw_sub_title_label:
@@ -118,6 +117,10 @@ class DrawPanel(Panel):
             pygame.display.flip()
         else:
             self._guess_button_pressed = False
+    
+    def reset_defaults(self):
+        super().reset_defaults()
+        self.__colored_pixels.clear()
     
     #Abstract Methods
     @abstractclassmethod

@@ -7,3 +7,4 @@ loading_active:bool = False
 show_results:bool = False
 loading_progress:str = ""
 prediction:str = ""
+reset_defaults:bool = False
