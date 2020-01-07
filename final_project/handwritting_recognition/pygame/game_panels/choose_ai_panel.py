@@ -56,15 +56,43 @@ class ChooseAIPanel(Panel):
     #Other init methods
     def init_ai_buttons(self):
         """Method to initialize the AIButton objects and configure their placements"""
+        #Append AIs
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
                                           AI("Cintra - 01000010", "ai_files/cintra/"),
                                           padding = 10))
+        self.__ai_buttons.append(AIButton(self.get_screen(), 
+                                          self.get_settings(), 
+                                          AI("Echo - 1100111", "ai_files/echo/"),
+                                          padding = 10))
         
-        #Configure placements
-        cintra:AIButton = self.get_ai_buttons()[0]
-        cintra.get_rect().centerx = self.get_screen().get_rect().centerx//3
-        cintra.prep_msg(cintra.get_text())
+        #Calculate total height and max width
+        tot_height:int = 0
+        width_max:int = 0
+        for button in self.__ai_buttons:
+            tot_height += button.get_rect().height       #Add total height of the buttons
+            width = button.get_rect().width
+            if width > width_max:
+                width_max = width
+        
+        #Update width of all buttons to be the same
+        for button in self.__ai_buttons:
+            button.get_rect().width = width_max
+        
+        #Placement configuration
+        rect:Rect = Rect(0, 0, self.__ai_buttons[0].get_rect().width, tot_height)
+        rect.centery = self.get_screen().get_rect().centery
+        rect.centerx = self.get_screen().get_rect().centerx//3
+        #Configure first button
+        padding:int = 5
+        self.__ai_buttons[0].get_rect().top = rect.top - padding
+        self.__ai_buttons[0].get_rect().left = rect.left
+        self.__ai_buttons[0].prep_msg(self.__ai_buttons[0].get_text())
+        #Configure remaining buttons
+        for i in range(1, len(self.__ai_buttons)):
+            self.__ai_buttons[i].get_rect().top = self.__ai_buttons[i-1].get_rect().bottom + padding
+            self.__ai_buttons[i].get_rect().left = rect.left
+            self.__ai_buttons[i].prep_msg(self.__ai_buttons[i].get_text())
         
     #Setters and Getters
     def get_ai_buttons(self) -> [AIButton]:
