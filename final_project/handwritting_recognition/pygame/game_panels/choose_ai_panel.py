@@ -4,7 +4,7 @@ from pygame.rect import Rect
 
 from final_project.handwritting_recognition import constants
 from final_project.handwritting_recognition.pygame import game_functions as gf, \
-    globals
+    globals, game_functions
 from final_project.handwritting_recognition.pygame.buttons.ai_button import AIButton
 from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.data_drivers.ai import AI
@@ -86,14 +86,22 @@ class ChooseAIPanel(Panel):
         return self.__selected_button
     
     #Other Methods
-    def check_ai_button_selection(self, button:AIButton):
+    def check_ai_button_selection(self, button:AIButton, mouse_pos:()):
         """Method to check for AI selection, when one of the AI buttons are pressed"""
-        if button != None:
+        if button != None and game_functions.mouse_on_button(button, mouse_pos):                
             self.__selected_button = button
+            
             updated_selection:bool = not self.__selected_button.is_selected()
+            
+            if updated_selection:       #If button is selected, disable every other button
+                for button in self.__ai_buttons:
+                    if button != self.__selected_button:
+                        button.set_selected(False)
+            
             self.__selected_button.set_selected(updated_selection)
             self.get_ai_details_display_screen().set_image(self.__selected_button.get_ai().get_image_info_screen_path())
             self.prep_ai_idle_image(self.__selected_button.get_ai().get_image_idle())
+            
             self.__choose_button.set_enabled(updated_selection)
             if updated_selection == False:
                 self.__selected_button = None
@@ -143,7 +151,7 @@ class ChooseAIPanel(Panel):
         #Check for mouse button presses
         if event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == 1:   #1 is left mouse button
-                self.check_ai_button_selection(selected_button)
+                self.check_ai_button_selection(selected_button, (x, y))
                 self.check_back_button((x, y))
                 self.check_choose_button((x, y))
     
