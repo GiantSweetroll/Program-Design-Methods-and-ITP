@@ -1,5 +1,4 @@
 from final_project.handwritting_recognition import constants, methods
-import tensorflow
 
 class NeuralNetwork():
     
