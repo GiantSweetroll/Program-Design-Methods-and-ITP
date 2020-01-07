@@ -39,7 +39,7 @@ class ResultPanel(Panel):
     #Other Methods
     def __prepare(self):
         """Method to prepare the components for display"""
-        self.__sub_title_label.set_text(globals.active_ai.get_name() if isinstance(globals.active_ai, AI) else globals.active_ai.get_nicer_name() + " guessed...", True)
+        self.__sub_title_label.set_text(globals.active_ai.get_name() + " guessed..." if isinstance(globals.active_ai, AI) else globals.active_ai.get_nicer_name() + " guessed...", True)
         self.__ori_image.set_image(image = pygame.transform.scale(pygame.image.load(constants.pygame_image_path + constants.pygame_test_image_name), (313, 313)))
         self.__guess_label.set_text(globals.prediction, True)
         
