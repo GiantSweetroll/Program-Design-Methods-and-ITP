@@ -1,0 +1,27 @@
+def create_model(input_shape:int, label_count:int):
+    """Creates the neural network model"""
+    model = Sequential()
+    model.add(Conv2D(16, kernel_size=(4, 4), activation='relu', input_shape=input_shape))
+    model.add(Conv2D(32, kernel_size=(3, 3),
+                     activation='relu'))
+    # 64 3x3 kernels
+    model.add(Conv2D(64, (3, 3), activation='relu'))
+    # Reduce by taking the max of each 2x2 block
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    # Dropout to avoid overfitting
+    model.add(Dropout(0.25))
+    # Flatten the results to one dimension for passing into our final layer
+    model.add(Flatten())
+    # A hidden layer to learn with
+    model.add(Dense(1024, activation='relu'))
+    model.add(Dense(512, activation='relu'))
+    model.add(Dense(128, activation='relu'))
+    model.add(Dense(64, activation='relu'))
+    # Another dropout
+    model.add(Dropout(0.5))
+    # Final categorization 0-9, A-z with softmax
+    model.add(Dense(label_count, activation='softmax'))
+    
+    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    
+    return model
