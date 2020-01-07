@@ -191,7 +191,7 @@ def train_neural_network(neural_network,
     for i in range(loaded_model+1, loaded_model + 1 + iterations):
         neural_network.train(train_images, train_labels, batch_size=64, epochs=3, verbose=1, validation_data=(test_images, test_labels))
         neural_network.save("model_" + str(i))
-        neural_network = nn.NeuralNetwork(file_operation.load__training_model("model_" + str(i)))
+        neural_network = nn.NeuralNetwork(file_operation.load_training_model("model_" + str(i)))
         
 def make_prediction_from_test_images(neural_network,
                                      width:int = constants.image_width,

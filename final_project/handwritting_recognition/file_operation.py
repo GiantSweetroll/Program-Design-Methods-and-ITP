@@ -64,7 +64,7 @@ def load_nist_database(dataset_num = 1, data_size:float = 1.):
     
     return images
 
-def load__training_model(filename:str):
+def load_training_model(filename:str):
     """A method to load the training CNN model"""
     return tensorflow.keras.models.load_model("models/" + filename + ".h5")
 
