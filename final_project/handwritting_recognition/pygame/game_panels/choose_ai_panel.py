@@ -65,6 +65,10 @@ class ChooseAIPanel(Panel):
                                           self.get_settings(), 
                                           AI("Echo - 1100111", "ai_files/echo/"),
                                           padding = 10))
+        self.__ai_buttons.append(AIButton(self.get_screen(), 
+                                          self.get_settings(), 
+                                          AI("Glados - 1110101", "ai_files/glados/"),
+                                          padding = 10))
         
         #Calculate total height and max width
         tot_height:int = 0
