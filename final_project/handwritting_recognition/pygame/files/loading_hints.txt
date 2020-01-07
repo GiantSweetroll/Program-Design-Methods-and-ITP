@@ -3,7 +3,13 @@ Tensorflow is a great library for creating neural networks!
 Keras makes writing neural network code much easier!
 Convolutional Neural Networks (CNN) are usually used for image identification
 Recurrent Neural Networks (RNN) can be used to read sentences
-More layers does not always mean a better neural network!
+More layers or neurons does not always mean a better neural network!
 Tensorflow can utilize your GPU for faster processing, but it only works on NVidia cards...
 Neural Networks "immitates" your brain's biological neural pathways!
 The three basic layers of a neural network are the input, hidden, and output layers
+A larger training dataset usually makes your neural network more accurate and precise
+Dropout layers forces neurons to distribute the workload by ignoring the result of several neurons!
+Neural networks learn by using a technique called Backpropagation
+Each layer has a number of neurons that hold constantly changing weights during training...
+Deep Convolutional Neural Network is the pinnacle model for image classification
+More layers usually makes the training process faster
