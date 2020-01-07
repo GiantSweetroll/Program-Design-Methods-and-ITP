@@ -51,4 +51,4 @@ class RandomChooseAIPanel(ChooseAIPanel):
         """Method to check when the choose button is pressed"""
         if game_functions.mouse_on_button(self.get_choose_button(), mouse_pos) and self.get_choose_button().is_enabled():
             globals.active_ai = self.get_selected_button().get_ai()
-            globals.panel_index = 3     #Go to draw panel
+            globals.panel_index += 1     #Go to draw panel
