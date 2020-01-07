@@ -26,14 +26,14 @@ class DrawPanelGame(DrawPanel):
     def check_guess_button(self, mouse_pos:()):
         """Check for guess button presses"""
         if game_functions.mouse_on_button(self.get_guess_button(), mouse_pos):
-            self._guess_button_pressed = True
+            self.set_guess_button_pressed(True)
             #Remove the sub title label, exit, guess, and clear buttons to capture only the drawn image and then restore it
-            self._buttons_to_draw.clear()
-            self._draw_sub_title_label = False
+            self.get_buttons_to_draw().clear()
+            self.set_draw_sub_title_label(False)
             self.draw_components()
             pygame.image.save(self.get_screen(), constants.pygame_image_path + constants.pygame_test_image_name)     #Take a screenshot of the game screen window and save it to disk
-            self._buttons_to_draw = [self._exit_button, self._guess_button, self._clear_button] #Add the buttons back
-            self._draw_sub_title_label = True   #Draw the sub title label again
+            self._buttons_to_draw = [self.get_exit_button(), self.get_guess_button(), self.get_clear_button()] #Add the buttons back
+            self.set_draw_sub_title_label(True)   #Draw the sub title label again
             
             #Connect to loading screen
             globals.loading_active = True
