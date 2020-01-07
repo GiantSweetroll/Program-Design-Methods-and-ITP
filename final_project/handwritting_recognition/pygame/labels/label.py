@@ -49,18 +49,25 @@ class Label():
     #Setters and Getters
     def get_font(self):
         return self.__font
+    
     def get_text(self):
         return self.__text
+    
     def get_text_image(self):
         return self.__text_image
+    
     def get_background_color(self) -> ():
         return self.__bgcolor
+    
     def get_rect(self):
         return self.__rect
+    
     def get_foreground_color(self) -> ():
         return self.__fgcolor
+    
     def set_font(self, font):
         self.__font = font
+        
     def set_text(self, text:str, render_text:bool = False):
         """
         text: the text

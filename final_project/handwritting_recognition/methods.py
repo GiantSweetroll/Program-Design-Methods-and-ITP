@@ -177,7 +177,7 @@ def save(model, filename):
     model.save("models/" + filename + ".h5")
     
 def train_neural_network(neural_network, 
-                         loaded_model:int, 
+                         loaded_model:int,  
                          iterations:int, 
                          width:int = constants.image_width, 
                          height:int = constants.image_height, 

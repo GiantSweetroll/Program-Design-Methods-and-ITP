@@ -1,5 +1,6 @@
 import pygame
 from pygame.event import Event
+from pygame.rect import Rect
 
 from final_project.handwritting_recognition import constants
 from final_project.handwritting_recognition.pygame import globals, \
@@ -26,16 +27,21 @@ class ResultPanel(Panel):
         self.__guess_label:Label = Label(font_size=250)
         self.__finish_button:Button = Button(screen, settings, "Finish")
         self.__prepared:bool = False
-            
+        self.__punishment_labels:[Label] = []
+        
+        #Initialize the punishment labels
+        self.__punishment_labels.append(Label("Did the AI get it correct?"))
+        self.__punishment_labels.append(Label("If it didn't, the player gets a punishment. Otherwise,"))
+        self.__punishment_labels.append(Label("everyone else gets the punishment. Punishment can be a"))
+        self.__punishment_labels.append(Label("round of truth or dare, push-ups, sing, etc."))
+         
         #Configure component positioning
         screen_rect:Rect = screen.get_rect()
-        #Is Label
-        self.__is_label.get_rect().center = screen_rect.center
         #Finish button
         self.__finish_button.get_rect().right = screen_rect.right - 20
         self.__finish_button.get_rect().centery = screen_rect.bottom - self.__finish_button.get_height()
         self.__finish_button.prep_msg(self.__finish_button.get_text())
-    
+            
     #Other Methods
     def __prepare(self):
         """Method to prepare the components for display"""
@@ -50,10 +56,29 @@ class ResultPanel(Panel):
         #Ori image
 #         self.__ori_image.get_rect().right = self.__is_label.get_rect().left - 50
         self.__ori_image.get_rect().centerx = self.get_screen().get_rect().centerx//2
-        self.__ori_image.get_rect().centery = self.__is_label.get_rect().centery
+        self.__ori_image.get_rect().centery = 2*self.get_screen().get_rect().centery//3
+        #Is Label
+        self.__is_label.get_rect().centery = self.__ori_image.get_rect().centery
+        self.__is_label.get_rect().centerx = self.get_screen().get_rect().centerx
         #AI Guess label
         self.__guess_label.get_rect().centerx = self.get_screen().get_rect().centerx + self.get_screen().get_rect().centerx//2
         self.__guess_label.get_rect().centery = self.__is_label.get_rect().centery
+        #Punishment labels
+        max_width:int = 0
+        for label in self.__punishment_labels:
+            width = label.get_rect().width
+            if width > max_width:
+                max_width = width
+        rect:Rect = Rect(0, 0, max_width, 1)
+        rect.top = self.__ori_image.get_rect().bottom + 20
+        rect.left = self.get_screen().get_rect().left + 50
+        self.__punishment_labels[0].get_rect().left = rect.left
+        self.__punishment_labels[0].get_rect().top = rect.top
+        self.__punishment_labels[0].prep_text()
+        for a in range(1, len(self.__punishment_labels)):
+            self.__punishment_labels[a].get_rect().top = self.__punishment_labels[a-1].get_rect().bottom
+            self.__punishment_labels[a].get_rect().left = self.__punishment_labels[a-1].get_rect().left
+            self.__punishment_labels[a].prep_text()
         
         self.__prepared = True
     
@@ -86,6 +111,8 @@ class ResultPanel(Panel):
             self.__is_label.draw(self.get_screen())
             self.__guess_label.draw(self.get_screen())
             self.__finish_button.draw_button()
+            for label in self.__punishment_labels:
+                label.draw(self.get_screen())
         
         pygame.display.flip()
     

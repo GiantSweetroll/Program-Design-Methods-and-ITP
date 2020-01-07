@@ -15,6 +15,7 @@ class DrawPanelGameRandom(DrawPanelGame):
         """Go to loading screen"""
         globals.panel_index = 3
         super().check_guess_button(mouse_pos)
+        globals.active_ai.set_name("AI")
     
     def check_exit_button(self, mouse_pos:()):
         """Go to previous panel"""

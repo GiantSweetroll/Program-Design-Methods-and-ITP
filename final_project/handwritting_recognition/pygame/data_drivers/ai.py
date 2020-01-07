@@ -27,6 +27,9 @@ class AI():
         self.__ai_folder:str = data_folder
     
     #Setters and getters
+    def set_name(self, name:str):
+        self.__name = name
+    
     def get_name(self):
         return self.__name
     

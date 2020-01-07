@@ -1,0 +1,7 @@
+How to play AI Roulette:
+1. Play with 2 or more players
+2. Pick an AI to play with. Choose wisely, as some AIs are better than others. Some information regarding the AI is available to help you decide
+3. Make a drawing of any alphabet character, or any number from 0 to 9. The AI will try to guess what it is.
+4. If the AI guessed it incorrectly, the player who chose the AI and drew gets a punishment. Otherwise, every other player gets the punishment. Punishment can be in any form, such as a round of truth or dare, push-ups, sing, etc.
+5. Then take turns with another player to try their luck with the AI.
+6. Have fun :)
