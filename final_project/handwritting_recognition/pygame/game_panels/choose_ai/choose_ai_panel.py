@@ -10,7 +10,6 @@ from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.data_drivers.ai import AI
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.labels.label import Label
-from final_project.handwritting_recognition.pygame.misc.ai_details_display_screen import AIDetailsDisplayScreen
 from final_project.handwritting_recognition.pygame.misc.ai_info_display import AIInfoDisplay
 from final_project.handwritting_recognition.pygame.settings import Settings
 
@@ -19,14 +18,14 @@ class ChooseAIPanel(Panel):
     
     #Constructor
     def __init__(self, screen, settings:Settings):
-        super().__init__(screen, settings)
+        super().__init__(screen, settings, background_img_path="choose_ai.png")
         
         #Initialize components
         self._sub_title_label = Label("Choose your AI")
         self.__ai_model_label:Label = Label("")
         self.__choose_button = Button(screen, settings, "Choose")
         self.__ai_buttons:[] = []
-        self.__back_button:Button = Button(self.get_screen(), self.get_settings(), "Back", button_color = constants.color_red)
+        self.__back_button:Button = Button(self.get_screen(), self.get_settings(), "Back", button_color = settings.button_color_red)
         self.__selected_button:AIButton = None
         self.__ai_details_screen:AIInfoDisplay = AIInfoDisplay()
         self.__active_ai_image = None
@@ -106,6 +105,7 @@ class ChooseAIPanel(Panel):
             self.__ai_buttons[i].get_rect().top = self.__ai_buttons[i-1].get_rect().bottom + padding
             self.__ai_buttons[i].get_rect().left = rect.left
             self.__ai_buttons[i].prep_msg(self.__ai_buttons[i].get_text())
+            self.__ai_buttons[i].prep_screen()
         
     #Setters and Getters
     def get_ai_buttons(self) -> [AIButton]:
@@ -201,8 +201,8 @@ class ChooseAIPanel(Panel):
         
         self._sub_title_label.draw(self.get_screen())
         
-        self.__back_button.draw_button()
-        self.__choose_button.draw_button()
+        self.__back_button.draw()
+        self.__choose_button.draw()
         
         self.get_ai_details_display_screen().draw(self.get_screen())
         
@@ -212,7 +212,7 @@ class ChooseAIPanel(Panel):
             self.get_screen().blit(self.__active_ai_image, rect)
         
         for ai_button in self.get_ai_buttons():
-            ai_button.draw_button()
+            ai_button.draw()
             
         pygame.display.flip()
         

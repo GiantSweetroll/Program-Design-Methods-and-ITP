@@ -12,11 +12,11 @@ class AIButton(Button):
                  ai:AI, 
                  width:int = 200, 
                  height:int = 50, 
-                 button_color:() = (0, 0, 255), 
+                 button_color:() = (23, 74, 211, 220), 
                  text_color:() = (255, 255, 255),
                  padding:int = 3):
         
-        super().__init__(screen, settings, ai.get_name(), width, height, button_color, text_color, padding)
+        super().__init__(screen, settings, ai.get_name(), width=width, height=height, button_color=button_color, text_color=text_color, padding=padding)
         
         #initialize fields
         self.__ai = ai
@@ -25,15 +25,14 @@ class AIButton(Button):
     #Setters and Getters
     def get_ai(self):
         return self.__ai
+    
     def is_selected(self):
         return self.__selected
+    
     def set_selected(self, selected:bool):
         if selected:
-            self.set_button_color((82, 240, 108))
+            self.set_button_color(self.settings.button_color_selected)
         else:
-            self.set_button_color((0, 0, 255))
+            self.set_button_color(self.settings.button_color_general)
         self.__selected = selected
-        self.prep_msg(self.get_text())
-    
-    #Other Methods
-    
+        self.prep_screen()

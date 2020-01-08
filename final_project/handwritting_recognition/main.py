@@ -5,7 +5,7 @@ from final_project.handwritting_recognition.pygame.main_game import MainGame
 import numpy
 
 
-# nn = NeuralNetwork(file_operation.load_training_model("model_1"))
+# nn = NeuralNetwork(file_operation.load_training_model("model"))
 # print(nn.get_model_summary())
 # nn = NeuralNetwork()
 # methods.train_neural_network(nn, 0, 10)
@@ -25,7 +25,7 @@ game = MainGame()
 #         methods.show_prediction_graph_with_label(image, prediction, label)
 
 # Model evaluation
-# for i in range(1, 5):
+# for i in range(1, 3):
 #     nn = NeuralNetwork(file_operation.load_training_model("model_" + str(i)))
 #     print("Model", i)
 #     nn.evaluate(eval_images, eval_labels, verbose = 2)

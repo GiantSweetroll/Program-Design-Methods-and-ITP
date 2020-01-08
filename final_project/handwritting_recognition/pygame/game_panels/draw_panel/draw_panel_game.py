@@ -3,7 +3,7 @@ import pygame
 from final_project.handwritting_recognition import constants
 from final_project.handwritting_recognition.pygame import game_functions, \
     globals
-from final_project.handwritting_recognition.pygame.game_panels.draw_panel import DrawPanel
+from final_project.handwritting_recognition.pygame.game_panels.draw_panel.draw_panel import DrawPanel
 
 
 class DrawPanelGame(DrawPanel):

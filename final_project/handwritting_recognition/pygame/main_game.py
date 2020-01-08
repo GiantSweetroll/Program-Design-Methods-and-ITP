@@ -5,16 +5,17 @@ from final_project.handwritting_recognition.neural_network import NeuralNetwork
 from final_project.handwritting_recognition.pygame import game_functions, \
     globals
 import final_project.handwritting_recognition.pygame.game_functions as gf
-from final_project.handwritting_recognition.pygame.game_panels.choose_ai_panel import ChooseAIPanel
-from final_project.handwritting_recognition.pygame.game_panels.draw_panel_game import DrawPanelGame
-from final_project.handwritting_recognition.pygame.game_panels.draw_panel_game_random import DrawPanelGameRandom
+from final_project.handwritting_recognition.pygame.game_panels.choose_ai.choose_ai_panel import ChooseAIPanel
+from final_project.handwritting_recognition.pygame.game_panels.choose_ai.random_choose_ai_panel import RandomChooseAIPanel
+from final_project.handwritting_recognition.pygame.game_panels.draw_panel.draw_panel_game import DrawPanelGame
+from final_project.handwritting_recognition.pygame.game_panels.draw_panel.draw_panel_game_random import DrawPanelGameRandom
 from final_project.handwritting_recognition.pygame.game_panels.gamemode_panel import GamemodePanel
 from final_project.handwritting_recognition.pygame.game_panels.loading_screen import LoadingScreen
 from final_project.handwritting_recognition.pygame.game_panels.main_menu_panel import MainMenuPanel
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
-from final_project.handwritting_recognition.pygame.game_panels.random_choose_ai_panel import RandomChooseAIPanel
 from final_project.handwritting_recognition.pygame.game_panels.result_panel import ResultPanel
 from final_project.handwritting_recognition.pygame.settings import Settings
+from final_project.handwritting_recognition.pygame.game_panels.instructions_panel import InstructionsPanel
 
 
 class MainGame():
@@ -37,6 +38,7 @@ class MainGame():
         result_panel:ResultPanel = ResultPanel(screen, settings)
         random_ai_selection_panel:RandomChooseAIPanel = RandomChooseAIPanel(screen, settings)
         draw_panel_game_random_panel:DrawPanelGameRandom = DrawPanelGameRandom(screen, settings)
+        instructions_panel:InstructionsPanel = InstructionsPanel(screen, settings)
         
 #         draw_panel:Panel = DrawPanel(screen, settings)
 #         draw_panel.set_neural_network(neural_network)
@@ -50,6 +52,7 @@ class MainGame():
         self.__panels.append(result_panel)
         self.__panels.append(random_ai_selection_panel)
         self.__panels.append(draw_panel_game_random_panel)
+        self.__panels.append(instructions_panel)
 #         self.__panels.append(draw_panel)
         
         self.run_game(screen, settings)

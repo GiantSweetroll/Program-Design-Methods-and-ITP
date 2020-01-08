@@ -126,7 +126,7 @@ class DrawPanel(Panel):
         
         #Draw buttons
         for button in self.__buttons_to_draw:
-            button.draw_button()
+            button.draw()
         
         if not self.__guess_button_pressed:
             pygame.display.flip()

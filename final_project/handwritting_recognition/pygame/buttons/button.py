@@ -1,4 +1,5 @@
 import pygame
+from pygame.surface import Surface
 
 from final_project.handwritting_recognition.pygame.settings import Settings
 
@@ -11,8 +12,9 @@ class Button():
                  settings:Settings, 
                  msg, 
                  width:int = 200, 
-                 height:int = 50, 
-                 button_color:() = (0, 0, 150), 
+                 height:int = 50,
+                 font = None,
+                 button_color:() = (23, 74, 211, 220), 
                  text_color:() = (255, 255, 255),
                  padding:int = 3):
         self.screen = screen
@@ -20,12 +22,12 @@ class Button():
         self.screenRect = screen.get_rect()
         
         #Set the dimensions and properties of the button
-        self._disabled_color:() = (125, 125, 125)
+        self._disabled_color:() = settings.button_color_disabled
         self._enabled_color:() = button_color
         self._width, self._height = width + padding*2, height + padding*2
-        self.__button_color = button_color
+        self.__button_color = button_color if button_color != None else (255, 255, 255, 0)
         self.__text_color = text_color
-        self.__font = settings.button_text_font
+        self.__font = font if font != None else settings.button_text_font
         self.__text = msg
         txt_width, _ = self.__font.size(self.__text)
         self._width = txt_width + padding*2 if self._width < txt_width else self._width
@@ -52,34 +54,43 @@ class Button():
         """Set width of the button, button is recreated after this method call"""
         self._width = width
         self._prepare_button_and_text()
+        
     def set_height(self, height:int):
         """Set height of the button, button is recreated after this method call"""
         self._height = height
         self._prepare_button_and_text()
+        
     def set_width_and_height(self, width:int, height:int):
         """Set the width and height of the button, button is recreated after this method call"""
         self._width = width
         self._height = height
         self._prepare_button_and_text()
+        
     def set_button_color(self, color:()):
         """Set color of button"""
         self.__button_color = color
+        
     def set_text_color(self, color:()):
         """Set color of text"""
         self.__text_color = color
+        
     def set_text(self, msg):
         """Set the text message"""
         self.__text = msg
         self.prep_msg(msg)
+        
     def set_font(self, font):
         """Set the font of the button text"""
         self.__font = font
+        
     def set_rect(self, rect):
         """Set the rect of the button"""
         self.__rect = rect
+        
     def set_action_command(self, string:str):
         """Sets the action command of the button"""
         self.__action_command = string
+        
     def set_enabled(self, b:bool):
         """Enable or disable the button"""
         self.__enabled = b
@@ -92,13 +103,14 @@ class Button():
     
     #Other Methods
     def prep_msg(self, msg):
-        self.__msgImg = self.__font.render(msg, True, self.__text_color, self.__button_color)
+        self.__msgImg = self.__font.render(msg, True, self.__text_color, None)
         self.__msgImgRect = self.__msgImg.get_rect()
         self.__msgImgRect.center = self.__rect.center
         
-    def draw_button(self):
+    def draw(self):
         #Draw blank button and then draw message
-        self.screen.fill(self.__button_color, self.__rect)
+#         self.screen.fill(self.__button_color, self.__rect)
+        self.screen.blit(self.__surface, self.__rect)
         self.screen.blit(self.__msgImg, self.__msgImgRect)
         
     def _prepare_button_and_text(self):
@@ -106,5 +118,11 @@ class Button():
         self.__rect = pygame.Rect(0, 0, self._width, self._height)
         self.__rect.center = self.screenRect.center
         
+        self.prep_screen()
+        
         #The button message needs to be prepped only once
         self.prep_msg(self.get_text())
+    
+    def prep_screen(self):
+        self.__surface = Surface(self.__rect.size, pygame.SRCALPHA)
+        self.__surface.fill(self.__button_color)

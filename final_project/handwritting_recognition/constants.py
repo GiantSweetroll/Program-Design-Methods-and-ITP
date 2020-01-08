@@ -12,6 +12,7 @@ pygame_test_image_name:str = "pygame_test_xyz.png"
 nist_database_location:str = "J:/For Machine Learning/NIST Database/by_field/"
 
 #image locations
+path_img_background_folder:str = "images/background/"
 path_img_gamemode_welc_console:str = "images/art/gamemode_welcome_console.png"
 path_img_gamemode_funhouse_console:str = "images/art/gamemode_funhouse_console.png"
 path_img_gamemode_random_chaos_console:str = "images/art/gamemode_random_chaos_console.png"
@@ -20,4 +21,4 @@ path_img_empty_screen:str = "images/art/empty_screen.png"
 path_img_mystery_ai:str = "images/art/mystery.png"
 
 #Colors
-color_red:() = (239, 43, 44)
+color_red:() = (239, 43, 44, 220)

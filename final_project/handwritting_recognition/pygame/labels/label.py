@@ -14,7 +14,7 @@ class Label():
                  bold:bool = False, 
                  italic:bool = False, 
                  underline:bool = False, 
-                 foreground_color:() = (0, 0, 0), 
+                 foreground_color:() = None, 
                  background_color:() = None,
                  width:int = 200,
                  height:int = 50):
@@ -37,9 +37,9 @@ class Label():
         if underline:
             self.get_font().set_underline(True)
         self.__text:str = text
-        self.__text_image = self.get_font().render(self.get_text(), True, foreground_color, background_color)
         self.__bgcolor:() = background_color if background_color != None else (255, 255, 255)
         self.__fgcolor:() = foreground_color if foreground_color != None else (0, 0, 0)
+        self.__text_image = self.get_font().render(self.get_text(), True, self.get_foreground_color(), self.get_background_color())
         
         txt_width, txt_height = self.__font.size(self.__text)
         self.__rect = Rect(0, 0, txt_width, txt_height)

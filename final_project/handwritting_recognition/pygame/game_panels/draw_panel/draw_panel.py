@@ -5,14 +5,12 @@ import pygame
 from pygame.event import Event
 from pygame.rect import Rect
 
-from final_project.handwritting_recognition import constants
 from final_project.handwritting_recognition.pygame import game_functions as gf
 from final_project.handwritting_recognition.pygame import globals
 from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.labels.label import Label
 from final_project.handwritting_recognition.pygame.settings import Settings
-
 
 class DrawPanel(Panel):
     
@@ -21,7 +19,7 @@ class DrawPanel(Panel):
         super().__init__(screen, settings)
         
         #Fields initialization
-        self._exit_button:Button = Button(self.get_screen(), self.get_settings(), "Exit", button_color = constants.color_red)
+        self._exit_button:Button = Button(self.get_screen(), self.get_settings(), "Exit", button_color = settings.button_color_red)
         self._guess_button:Button = Button(self.get_screen(), self.get_settings(), "Guess")
         self._clear_button:Button = Button(self.get_screen(), self.get_settings(), "Clear")
         self._buttons_to_draw:[Button] =   [self._exit_button, self._guess_button, self._clear_button]
@@ -131,7 +129,7 @@ class DrawPanel(Panel):
         
         #Draw buttons
         for button in self._buttons_to_draw:
-            button.draw_button()
+            button.draw()
         
         if not self._guess_button_pressed:
             pygame.display.flip()

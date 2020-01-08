@@ -1,10 +1,10 @@
 from pygame.rect import Rect
 
-from final_project.handwritting_recognition.pygame import game_functions,\
+from final_project.handwritting_recognition.pygame import game_functions, \
     globals
 from final_project.handwritting_recognition.pygame.buttons.ai_button import AIButton
 from final_project.handwritting_recognition.pygame.data_drivers.ai_random import RandomAI
-from final_project.handwritting_recognition.pygame.game_panels.choose_ai_panel import ChooseAIPanel
+from final_project.handwritting_recognition.pygame.game_panels.choose_ai.choose_ai_panel import ChooseAIPanel
 from final_project.handwritting_recognition.pygame.settings import Settings
 
 

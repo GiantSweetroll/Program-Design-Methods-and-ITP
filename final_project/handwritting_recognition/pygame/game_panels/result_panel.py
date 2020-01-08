@@ -18,23 +18,22 @@ class ResultPanel(Panel):
     
     #Constructor
     def __init__(self, screen, settings:Settings):
-        super().__init__(screen, settings)
+        super().__init__(screen, settings, background_img_path="monitor.png")
         
         #Initialize components
-        self.__sub_title_label:Label = Label()
+        self.__sub_title_label:Button = Button(screen, settings, "", button_color = None)
         self.__ori_image:Console = Console()
-        self.__is_label:Label = Label("is", bold=False)
-        self.__guess_label:Label = Label(font_size=250)
+        self.__is_label:Button = Button(screen, settings, "is", button_color = None)
+        self.__guess_label:Button = Button(screen, settings, "is", button_color = None, font=settings.large_font)
         self.__finish_button:Button = Button(screen, settings, "Finish")
         self.__prepared:bool = False
-        self.__punishment_labels:[Label] = []
+        self.__punishment_labels:[] = []
         
         #Initialize the punishment labels
-        self.__punishment_labels.append(Label("Was the guess correct?"))
-        self.__punishment_labels.append(Label())
-        self.__punishment_labels.append(Label("If not, give punishment to the player. Otherwise, give"))
-        self.__punishment_labels.append(Label("punishment to everyone else. Punishment can be truth or"))
-        self.__punishment_labels.append(Label("dare, push-ups, sing, etc."))
+        self.__punishment_labels.append(Button(screen, settings, "Was the guess correct?", button_color = None))
+        self.__punishment_labels.append(Button(screen, settings, "If not, give punishment to the player. Otherwise, give", button_color = None, padding=1))
+        self.__punishment_labels.append(Button(screen, settings, "punishment to everyone else. Punishment can be truth or", button_color = None, padding=1))
+        self.__punishment_labels.append(Button(screen, settings, "dare, push-ups, sing, etc.", button_color = None, padding=1))
          
         #Configure component positioning
         screen_rect:Rect = screen.get_rect()
@@ -46,14 +45,14 @@ class ResultPanel(Panel):
     #Other Methods
     def __prepare(self):
         """Method to prepare the components for display"""
-        self.__sub_title_label.set_text(globals.active_ai.get_name() + " guessed..." if isinstance(globals.active_ai, AI) else globals.active_ai.get_nicer_name() + " guessed...", True)
         self.__ori_image.set_image(image = pygame.transform.scale(pygame.image.load(constants.pygame_image_path + constants.pygame_test_image_name), (313, 313)))
-        self.__guess_label.set_text(globals.prediction, True)
+        self.__guess_label.set_text(globals.prediction)
         
         #Configure placements
         #Sub title
-        self.__sub_title_label.get_rect().top = self.get_screen().get_rect().top + 20
+        self.__sub_title_label.get_rect().top = self.get_screen().get_rect().top + 30
         self.__sub_title_label.get_rect().centerx = self.get_screen().get_rect().centerx
+        self.__sub_title_label.set_text(globals.active_ai.get_name() + " guessed..." if isinstance(globals.active_ai, AI) else globals.active_ai.get_nicer_name() + " guessed...")
         #Ori image
 #         self.__ori_image.get_rect().right = self.__is_label.get_rect().left - 50
         self.__ori_image.get_rect().centerx = self.get_screen().get_rect().centerx//2
@@ -61,9 +60,11 @@ class ResultPanel(Panel):
         #Is Label
         self.__is_label.get_rect().centery = self.__ori_image.get_rect().centery
         self.__is_label.get_rect().centerx = self.get_screen().get_rect().centerx
+        self.__is_label.prep_msg(self.__is_label.get_text())
         #AI Guess label
         self.__guess_label.get_rect().centerx = self.get_screen().get_rect().centerx + self.get_screen().get_rect().centerx//2
         self.__guess_label.get_rect().centery = self.__is_label.get_rect().centery
+        self.__guess_label.prep_msg(self.__guess_label.get_text())
         #Punishment labels
         max_width:int = 0
         for label in self.__punishment_labels:
@@ -75,11 +76,11 @@ class ResultPanel(Panel):
         rect.left = self.get_screen().get_rect().left + 50
         self.__punishment_labels[0].get_rect().left = rect.left
         self.__punishment_labels[0].get_rect().top = rect.top
-        self.__punishment_labels[0].prep_text()
+        self.__punishment_labels[0].prep_msg(self.__punishment_labels[0].get_text())
         for a in range(1, len(self.__punishment_labels)):
             self.__punishment_labels[a].get_rect().top = self.__punishment_labels[a-1].get_rect().bottom
             self.__punishment_labels[a].get_rect().left = self.__punishment_labels[a-1].get_rect().left
-            self.__punishment_labels[a].prep_text()
+            self.__punishment_labels[a].prep_msg(self.__punishment_labels[a].get_text())
         
         self.__prepared = True
     
@@ -107,13 +108,13 @@ class ResultPanel(Panel):
                 self.__prepare()
             
             #Draw components
-            self.__sub_title_label.draw(self.get_screen())
+            self.__sub_title_label.draw()
             self.__ori_image.draw(self.get_screen())
-            self.__is_label.draw(self.get_screen())
-            self.__guess_label.draw(self.get_screen())
-            self.__finish_button.draw_button()
+            self.__is_label.draw()
+            self.__guess_label.draw()
+            self.__finish_button.draw()
             for label in self.__punishment_labels:
-                label.draw(self.get_screen())
+                label.draw()
         
         pygame.display.flip()
     

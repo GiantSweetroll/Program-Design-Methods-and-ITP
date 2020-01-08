@@ -18,7 +18,7 @@ class LoadingScreen(Panel):
     
     #Constructor
     def __init__(self, screen, settings):
-        super().__init__(screen, settings)
+        super().__init__(screen, settings, background_img_path="loading.png")
         
         #Initialize components
         self.__loading_progress_label:Label = Label(globals.loading_progress)

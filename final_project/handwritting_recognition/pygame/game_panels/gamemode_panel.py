@@ -19,14 +19,14 @@ class GamemodePanel(Panel):
         screen: the pygame screen
         settings: the Settings object
         """
-        super().__init__(screen, settings)
+        super().__init__(screen, settings, background_img_path="gamemode.png")
         
         #Initialize fields
         padding:int = 20
         self.__console:Console = Console(constants.path_img_gamemode_welc_console)
         self.__funhouse_button:Button = Button(screen, settings, "Fun House", width = (settings.screen_width//2)-padding*2)
         self.__random_chaos_button:Button = Button(screen, settings, "Random Chaos", width = (settings.screen_width//2)-padding*2)
-        self.__back_button:Button = Button(screen, settings, "Back", button_color=constants.color_red)
+        self.__back_button:Button = Button(screen, settings, "Back", button_color=settings.button_color_red)
         self.__sub_title_font = settings.sub_title_font
         self._sub_title_label = Label("Select Game Mode", 
                                        font = self.__sub_title_font, 
@@ -110,9 +110,9 @@ class GamemodePanel(Panel):
         super().draw_components()
         
         self.get_sub_title_label().draw(self.get_screen())
-        self.get_funhouse_button().draw_button()
-        self.get_random_chaos_button().draw_button()
-        self.get_back_button().draw_button()
+        self.get_funhouse_button().draw()
+        self.get_random_chaos_button().draw()
+        self.get_back_button().draw()
         self.get_console().draw(self.get_screen())
         
         pygame.display.flip()

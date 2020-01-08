@@ -1,6 +1,6 @@
-from final_project.handwritting_recognition.pygame import game_functions,\
+from final_project.handwritting_recognition.pygame import game_functions, \
     globals
-from final_project.handwritting_recognition.pygame.game_panels.draw_panel_game import DrawPanelGame
+from final_project.handwritting_recognition.pygame.game_panels.draw_panel.draw_panel_game import DrawPanelGame
 from final_project.handwritting_recognition.pygame.settings import Settings
 
 
