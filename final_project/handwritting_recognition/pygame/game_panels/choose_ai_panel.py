@@ -57,18 +57,27 @@ class ChooseAIPanel(Panel):
     def init_ai_buttons(self):
         """Method to initialize the AIButton objects and configure their placements"""
         #Append AIs
+        padding = 10
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
                                           AI("Cintra - 01000010", "ai_files/cintra/"),
-                                          padding = 10))
+                                          padding = padding))
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
                                           AI("Echo - 1100111", "ai_files/echo/"),
-                                          padding = 10))
+                                          padding = padding))
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
                                           AI("Glados - 1110101", "ai_files/glados/"),
-                                          padding = 10))
+                                          padding = padding))
+        self.__ai_buttons.append(AIButton(self.get_screen(), 
+                                          self.get_settings(), 
+                                          AI("House - 1100001", "ai_files/house/"),
+                                          padding = padding))
+        self.__ai_buttons.append(AIButton(self.get_screen(), 
+                                          self.get_settings(), 
+                                          AI("Talos - 1110011", "ai_files/talos/"),
+                                          padding = padding))
         
         #Calculate total height and max width
         tot_height:int = 0

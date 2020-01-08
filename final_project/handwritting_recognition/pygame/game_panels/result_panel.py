@@ -30,10 +30,11 @@ class ResultPanel(Panel):
         self.__punishment_labels:[Label] = []
         
         #Initialize the punishment labels
-        self.__punishment_labels.append(Label("Did the AI get it correct?"))
-        self.__punishment_labels.append(Label("If it didn't, the player gets a punishment. Otherwise,"))
-        self.__punishment_labels.append(Label("everyone else gets the punishment. Punishment can be a"))
-        self.__punishment_labels.append(Label("round of truth or dare, push-ups, sing, etc."))
+        self.__punishment_labels.append(Label("Was the guess correct?"))
+        self.__punishment_labels.append(Label())
+        self.__punishment_labels.append(Label("If not, give punishment to the player. Otherwise, give"))
+        self.__punishment_labels.append(Label("punishment to everyone else. Punishment can be truth or"))
+        self.__punishment_labels.append(Label("dare, push-ups, sing, etc."))
          
         #Configure component positioning
         screen_rect:Rect = screen.get_rect()

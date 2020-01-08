@@ -7,7 +7,8 @@ from pygame.rect import Rect
 from final_project.handwritting_recognition import constants, file_operation, \
     methods
 from final_project.handwritting_recognition.neural_network import NeuralNetwork
-from final_project.handwritting_recognition.pygame import game_functions as gf
+from final_project.handwritting_recognition.pygame import game_functions as gf,\
+    globals
 from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.settings import Settings
