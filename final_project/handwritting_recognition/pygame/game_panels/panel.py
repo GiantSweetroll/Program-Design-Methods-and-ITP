@@ -3,14 +3,22 @@ from abc import abstractclassmethod
 from pygame.event import Event
 
 from final_project.handwritting_recognition.pygame.settings import Settings
+from final_project.handwritting_recognition import constants
+from final_project.handwritting_recognition.pygame.misc.console import Console
 
 
 class Panel():
     
     #Constructors
-    def __init__(self, screen, settings:Settings):
+    def __init__(self, screen, settings:Settings, background_img_path:str = None):
+        """
+        screen: the pygame screen
+        settings: the Settings object
+        background_img_path: path to the background image (just file name with extension)
+        """
         self._screen = screen
         self._settings:Settings = settings
+        self._background_img:Console = Console(path=constants.path_img_background_folder + background_img_path) if background_img_path != None else None
         
     #Setters and Getters
     def get_screen(self):
@@ -21,16 +29,17 @@ class Panel():
         return self._settings
     def set_settings(self, settings:Settings):
         self._settings = settings
+        
+    #Other Methods
+    def draw_components(self):
+        """Method to draw the components of the screen"""
+        if (self._background_img != None):
+            self._background_img.draw(self._screen)
     
     #Abstract Methods
     @abstractclassmethod
     def check_events(self, event:Event):
         """Abstract method to check for events"""
-        pass
-    
-    @abstractclassmethod
-    def draw_components(self):
-        """Abstract method to draw the components of the screen"""
         pass
     
     @abstractclassmethod

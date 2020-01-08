@@ -8,7 +8,6 @@ from final_project.handwritting_recognition.pygame import game_functions as gf,\
 from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.settings import Settings
-from final_project.handwritting_recognition import constants
 
 
 class MainMenuPanel(Panel):
@@ -19,12 +18,12 @@ class MainMenuPanel(Panel):
         screen: the pygame screen
         settings: the Settings object
         """
-        super().__init__(screen, settings)
+        super().__init__(screen, settings, background_img_path="mainmenu.png")
         
         #Fields initialization
         self.__start_button = Button(screen, settings, "Start")
         self.__instructions_button = Button(screen, settings, "Instructions")
-        self._exit_button = Button(screen, settings, "Exit", button_color=constants.color_red)
+        self._exit_button = Button(screen, settings, "Exit", button_color=settings.button_color_red)
         
         #Configure Buttons
         self.get_start_button().set_width(3*self.get_settings().screen_width//5)
@@ -68,14 +67,12 @@ class MainMenuPanel(Panel):
     def check_start_button(self, mouse_pos:()):
         """Method to check if the start button was pressed"""
         if gf.mouse_on_button(self.get_start_button(), mouse_pos):
-            #TO-DO start the game
             globals.panel_index+=1
-            pass
+
     def check_instructions_button(self, mouse_pos:()):
         """Method to check if the instructions button was pressed"""
         if gf.mouse_on_button(self.get_instructions_button(), mouse_pos):
-            #TO-DO open instructions
-            pass
+            globals.panel_index = 8
     
     #Overridden Methods
     def check_events(self, event:Event):
@@ -88,13 +85,14 @@ class MainMenuPanel(Panel):
                 self.check_exit_button((x, y))
                 self.check_instructions_button((x, y))
                 self.check_start_button((x, y))
+    
     def draw_components(self):
         super().draw_components()
         
         #Draw buttons
-        self.get_start_button().draw_button()
-        self.get_instructions_button().draw_button()
-        self.get_exit_button().draw_button()
+        self.get_start_button().draw()
+        self.get_instructions_button().draw()
+        self.get_exit_button().draw()
         
         pygame.display.flip()
     
