@@ -20,6 +20,7 @@ class Settings():
         self.sub_title_font = pygame.font.SysFont(None, 56)
         self.super_large_font = pygame.font.SysFont(None, 500)
         self.large_font = pygame.font.SysFont(None, 250)
+        self.title_font = pygame.font.SysFont("kristenitc", 72, 0)
         
         #Initialize AI actors
         self.ai_list:[AI] = [AI]

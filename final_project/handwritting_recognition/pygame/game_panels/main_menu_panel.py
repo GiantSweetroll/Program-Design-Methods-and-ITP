@@ -24,14 +24,22 @@ class MainMenuPanel(Panel):
         self.__start_button = Button(screen, settings, "Start")
         self.__instructions_button = Button(screen, settings, "Instructions")
         self._exit_button = Button(screen, settings, "Exit", button_color=settings.button_color_red)
+        self.__title_label:Button = Button(screen, settings, "AI Roulette", font=settings.title_font)   #It's a label but will be using Button class for the background color
         
+        #Configure components
+        self.__title_label.set_button_color((177, 226, 236, 204))
+        self.__title_label.set_text_color((0, 0, 0))
         #Configure Buttons
         self.get_start_button().set_width(3*self.get_settings().screen_width//5)
         self.get_instructions_button().set_width(3*self.get_settings().screen_width//5)
         
-        #Configure button placements
+        #Configure component placements
         padding:int = 10
         screen_rect:Rect = self.get_screen().get_rect()
+        #Title label
+        self.__title_label.get_rect().centerx = screen_rect.centerx
+        self.__title_label.get_rect().centery = screen_rect.top + 100
+        self.__title_label.prep_msg(self.__title_label.get_text())
         #Start button
         self.get_start_button().get_rect().left = screen_rect.left + settings.screen_width//5
         self.get_start_button().get_rect().right = screen_rect.right - settings.screen_width//5
@@ -88,6 +96,8 @@ class MainMenuPanel(Panel):
     
     def draw_components(self):
         super().draw_components()
+        
+        self.__title_label.draw()
         
         #Draw buttons
         self.get_start_button().draw()

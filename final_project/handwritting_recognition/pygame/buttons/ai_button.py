@@ -35,4 +35,4 @@ class AIButton(Button):
         else:
             self.set_button_color(self.settings.button_color_general)
         self.__selected = selected
-        self.prep_screen()
+        self.prep_surface()

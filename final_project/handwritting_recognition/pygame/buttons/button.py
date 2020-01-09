@@ -29,8 +29,9 @@ class Button():
         self.__text_color = text_color
         self.__font = font if font != None else settings.button_text_font
         self.__text = msg
-        txt_width, _ = self.__font.size(self.__text)
+        txt_width, txt_height = self.__font.size(self.__text)
         self._width = txt_width + padding*2 if self._width < txt_width else self._width
+        self._height = txt_height + padding*2 if self._height < txt_height else self._height
         self.__action_command:str = self.get_text() #used for button action identifiers, similar to Java's ActionCommand
         self.__enabled:bool = True
         
@@ -69,6 +70,7 @@ class Button():
     def set_button_color(self, color:()):
         """Set color of button"""
         self.__button_color = color
+        self.prep_surface()
         
     def set_text_color(self, color:()):
         """Set color of text"""
@@ -118,11 +120,11 @@ class Button():
         self.__rect = pygame.Rect(0, 0, self._width, self._height)
         self.__rect.center = self.screenRect.center
         
-        self.prep_screen()
+        self.prep_surface()
         
         #The button message needs to be prepped only once
         self.prep_msg(self.get_text())
     
-    def prep_screen(self):
+    def prep_surface(self):
         self.__surface = Surface(self.__rect.size, pygame.SRCALPHA)
         self.__surface.fill(self.__button_color)

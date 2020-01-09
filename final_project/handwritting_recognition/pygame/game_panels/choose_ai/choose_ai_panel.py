@@ -105,7 +105,7 @@ class ChooseAIPanel(Panel):
             self.__ai_buttons[i].get_rect().top = self.__ai_buttons[i-1].get_rect().bottom + padding
             self.__ai_buttons[i].get_rect().left = rect.left
             self.__ai_buttons[i].prep_msg(self.__ai_buttons[i].get_text())
-            self.__ai_buttons[i].prep_screen()
+            self.__ai_buttons[i].prep_surface()
         
     #Setters and Getters
     def get_ai_buttons(self) -> [AIButton]:

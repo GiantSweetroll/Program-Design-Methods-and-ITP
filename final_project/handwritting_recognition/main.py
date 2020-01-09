@@ -3,6 +3,7 @@ from final_project.handwritting_recognition import file_operation, methods, \
 from final_project.handwritting_recognition.neural_network import NeuralNetwork
 from final_project.handwritting_recognition.pygame.main_game import MainGame
 import numpy
+import pygame
 
 
 # nn = NeuralNetwork(file_operation.load_training_model("model"))
