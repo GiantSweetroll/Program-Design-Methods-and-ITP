@@ -100,7 +100,8 @@ class Button():
         if (b):
             self.__button_color = self._enabled_color
         else:
-            self.__button_color = self._disabled_color
+            self.__button_color = self.get_disabled_color()
+        self.prep_surface()
         self.prep_msg(self.get_text())
     
     #Other Methods
