@@ -23,7 +23,7 @@ class MainMenuPanel(Panel):
         #Fields initialization
         self.__start_button = Button(screen, settings, "Start")
         self.__instructions_button = Button(screen, settings, "Instructions")
-        self._exit_button = Button(screen, settings, "Exit", button_color=settings.button_color_red)
+        self.__exit_button = Button(screen, settings, "Exit", button_color=settings.button_color_red)
         self.__title_label:Button = Button(screen, settings, "AI Roulette", font=settings.title_font)   #It's a label but will be using Button class for the background color
         
         #Configure components
@@ -65,13 +65,14 @@ class MainMenuPanel(Panel):
     def get_instructions_button(self) -> Button:
         return self.__instructions_button
     def get_exit_button(self) -> Button:
-        return self._exit_button
+        return self.__exit_button
     
     #Other Methods
     def check_exit_button(self, mouse_pos:()):
         """If exit button is pressed, exit the game"""
         if gf.mouse_on_button(self.get_exit_button(), mouse_pos):
             sys.exit()
+            
     def check_start_button(self, mouse_pos:()):
         """Method to check if the start button was pressed"""
         if gf.mouse_on_button(self.get_start_button(), mouse_pos):

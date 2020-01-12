@@ -15,7 +15,7 @@ class RandomChooseAIPanel(ChooseAIPanel):
         super().__init__(screen, settings)
     
     #Overridden Methods
-    def init_ai_buttons(self):
+    def __init_ai_buttons(self):
         #Init
         ai_buttons:[AIButton] = self.get_ai_buttons()
         

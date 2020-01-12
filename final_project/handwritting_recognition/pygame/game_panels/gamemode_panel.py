@@ -2,12 +2,12 @@ import pygame
 from pygame.event import Event
 
 from final_project.handwritting_recognition import constants
-from final_project.handwritting_recognition.pygame import game_functions as gf,\
+from final_project.handwritting_recognition.pygame import game_functions as gf, \
     globals
 from final_project.handwritting_recognition.pygame.buttons.button import Button
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.labels.label import Label
-from final_project.handwritting_recognition.pygame.misc.console import Console
+from final_project.handwritting_recognition.pygame.misc.image_panel import ImagePanel
 from final_project.handwritting_recognition.pygame.settings import Settings
 
 
@@ -23,12 +23,12 @@ class GamemodePanel(Panel):
         
         #Initialize fields
         padding:int = 20
-        self.__console:Console = Console(constants.path_img_gamemode_welc_console)
+        self.__console:ImagePanel = ImagePanel(constants.path_img_gamemode_welc_console)
         self.__funhouse_button:Button = Button(screen, settings, "Fun House", width = (settings.screen_width//2)-padding*2)
         self.__random_chaos_button:Button = Button(screen, settings, "Random Chaos", width = (settings.screen_width//2)-padding*2)
         self.__back_button:Button = Button(screen, settings, "Back", button_color=settings.button_color_red)
         self.__sub_title_font = settings.sub_title_font
-        self._sub_title_label = Label("Select Game Mode", 
+        self.__sub_title_label = Label("Select Game Mode", 
                                        font = self.__sub_title_font, 
                                        bold=True,
                                        width = settings.screen_width)
@@ -51,7 +51,7 @@ class GamemodePanel(Panel):
 #         txt_width, _ = self.get_sub_title_label().get_font().size(self.get_sub_title_label().get_text())
 #         self.get_sub_title_label().get_rect().left = screen_rect.centerx - txt_width//2 #Fake center of text
         self.get_sub_title_label().get_rect().centerx = screen_rect.centerx
-        #Console image
+        #ImagePanel image
         console_rect = self.get_console().get_rect()
         console_rect.centerx = screen_rect.centerx + screen_rect.centerx//2
         console_rect.centery = screen_rect.centery
@@ -66,9 +66,9 @@ class GamemodePanel(Panel):
     def get_sub_title_font(self):
         return self.__sub_title_font
     def get_sub_title_label(self):
-        return self._sub_title_label
-    def get_console(self) -> Console:
-        """Method to get the console class object"""
+        return self.__sub_title_label
+    def get_console(self) -> ImagePanel:
+        """Method to get the image panel class object"""
         return self.__console
     
     #Other Methods

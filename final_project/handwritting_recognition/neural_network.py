@@ -15,6 +15,7 @@ class NeuralNetwork():
     #Setters and Getters
     def get_model(self):
         return self.__model
+    
     def get_model_summary(self):
         return self.get_model().summary()
 #     def get_model_summary_for_export(self):
@@ -48,23 +49,40 @@ class NeuralNetwork():
 #         
 #         return core_list
             
-        
-    def setModel(self, model):
+    def set_model(self, model):
         self.__model = model
+        
     #Other Methods
-    def train(self, train_images, train_labels, batch_size:int = 100, epochs:int = 10, verbose:int = 2, validation_data = None):
-        """train model"""
+    def train(self, 
+              train_images, 
+              train_labels, 
+              batch_size:int = 100, 
+              epochs:int = 10, 
+              verbose:int = 2, 
+              validation_data = None):
+        """
+        Train the neural network model
+        train_images: the images to train with
+        train_labels: the image labels to train with
+        batch_size: amount of images to train with at one given time
+        epochs: training iterations to do
+        verbose: verbose mode. (0=silent, 1=minimal, 2=every batch)
+        validation_data: the data used to validate the neural network model
+        """
         return self.get_model().fit(train_images, train_labels, 
-                 batch_size = batch_size, 
-                 epochs = epochs, 
-                 verbose = verbose, 
-                 validation_data = validation_data)
+                                     batch_size = batch_size, 
+                                     epochs = epochs, 
+                                     verbose = verbose, 
+                                     validation_data = validation_data)
+        
     def save(self, filename):
         """save the current state of the model as a file so that it can be loaded in the future"""
         self.get_model().save("models/" + filename + ".h5")
+        
     def evaluate(self, data, labels, verbose = 2):
         """Function to evaluate the accuracy of the model"""
         self.get_model().evaluate(data, labels, verbose = verbose)
+        
     def predict(self, image, show_pred_graph:bool = False) -> str:
         """Method to predict what character is the image, returns the image."""
         #If show_pred_graph = True, it will draw the image and the prediction in a matplotlib graph

@@ -19,7 +19,7 @@ class AI():
         self.__name:str = name
         self._image_idle_path:str = data_folder + "/idle.png"
         self._image_processing_path:str = data_folder + "/processing.png"
-        self._image_idle = pygame.image.load(self._image_idle_path)
+        self.image = pygame.image.load(self._image_idle_path)
         self._image_processing = pygame.image.load(self._image_processing_path)
         self._image_info_screen_path = data_folder + "/info.png"
 #         self.__model_struct:str = self.__get_model_structure_as_string(data_folder)
@@ -33,8 +33,8 @@ class AI():
     def get_name(self):
         return self.__name
     
-    def get_image_idle(self):
-        return self._image_idle
+    def get_image(self):
+        return self.image
     
     def get_image_info_screen_path(self):
         return self._image_info_screen_path
@@ -43,7 +43,7 @@ class AI():
         return self._image_processing
     
     def get_image_idle_rect(self) -> Rect:
-        return self.get_image_idle().get_rect()
+        return self.get_image().get_rect()
     
     def get_image_processing_rect(self) -> Rect:
         return self.get_image_processing().get_rect()
@@ -66,7 +66,7 @@ class AI():
         Method to draw the AI idle image to the screen
         screen: the pygame screen
         """
-        screen.blit(self.get_image_idle(), self.get_image_idle_rect())
+        screen.blit(self.get_image(), self.get_image_idle_rect())
     def draw_image_processing(self, screen):
         """
         Method to draw the AI processing image to the screen

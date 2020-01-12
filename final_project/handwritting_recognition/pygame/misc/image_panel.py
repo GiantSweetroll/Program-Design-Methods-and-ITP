@@ -1,5 +1,6 @@
 import pygame
-class Console():
+
+class ImagePanel():
     """Class to store an image as an object"""
     
     #Constructor
@@ -9,8 +10,8 @@ class Console():
         path: path of the image
         image: the image itself in pygame.image.load() format
         """
-        self._image_idle = pygame.image.load(path) if path != None else image if image != None else None
-        self.__rect = self._image_idle.get_rect() if self._image_idle != None else None
+        self.image = pygame.image.load(path) if path != None else image if image != None else None
+        self.__rect = self.image.get_rect() if self.image != None else None
     
     #Setters and Getters
     def set_image(self, path:str = None, image = None):
@@ -20,19 +21,21 @@ class Console():
         image: the image itself in pygame.image.load() format
         """
         try:
-            self._image_idle = pygame.image.load(path) if path != None else image
+            self.image = pygame.image.load(path) if path != None else image
             
             #Retain some of the original rect positions
             rect:Rect = self.__rect
-            self.__rect = self._image_idle.get_rect()
+            self.__rect = self.image.get_rect()
             if rect != None:
                 self.__rect.center = rect.center
         except:
             pass
+        
     def get_rect(self):
         return self.__rect
-    def get_image_idle(self):
-        return self._image_idle
+    
+    def get_image(self):
+        return self.image
     
     #Other methods
     def draw(self, screen):
@@ -41,4 +44,4 @@ class Console():
         
         screen: the pygame screen
         """
-        screen.blit(self._image_idle, self.get_rect())
+        screen.blit(self.image, self.get_rect())

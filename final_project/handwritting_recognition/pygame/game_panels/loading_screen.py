@@ -10,8 +10,8 @@ from final_project.handwritting_recognition.neural_network import NeuralNetwork
 from final_project.handwritting_recognition.pygame import globals
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.labels.label import Label
-from final_project.handwritting_recognition.pygame.misc.console import Console
 from final_project.handwritting_recognition.pygame.misc.hourglass import Hourglass
+from final_project.handwritting_recognition.pygame.misc.image_panel import ImagePanel
 
 
 class LoadingScreen(Panel):
@@ -24,11 +24,11 @@ class LoadingScreen(Panel):
         self.__loading_progress_label:Label = Label(globals.loading_progress)
         self.__hourglass:Hourglass = Hourglass()
         self.__ai:AI = None
-        self.__ai_image = Console()
+        self.__ai_image = ImagePanel()
         self.__loading_finished:bool = None
         self.__loading_hint_label:Label = Label(font_size=30)
         self.__loading_hints:[str] = file_operation.load_loading_hints()
-        self.__ai_guess_display:Console = Console(constants.path_img_empty_screen)
+        self.__ai_guess_display:ImagePanel = ImagePanel(constants.path_img_empty_screen)
         self.__ai_guess_label:Label = Label(font_size=500)
         
         self.__thread_progress:Thread = None

@@ -21,8 +21,7 @@ class ChooseAIPanel(Panel):
         super().__init__(screen, settings, background_img_path="choose_ai.png")
         
         #Initialize components
-        self._sub_title_label = Label("Choose your AI")
-        self.__ai_model_label:Label = Label("")
+        self.__sub_title_label = Label("Choose your AI")
         self.__choose_button = Button(screen, settings, "Choose")
         self.__ai_buttons:[] = []
         self.__back_button:Button = Button(self.get_screen(), self.get_settings(), "Back", button_color = settings.button_color_red)
@@ -36,8 +35,8 @@ class ChooseAIPanel(Panel):
         #Configure component placement
         screen_rect:Rect = screen.get_rect()
         #Sub title
-        self._sub_title_label.get_rect().top = screen_rect.top + 20
-        self._sub_title_label.get_rect().centerx = screen_rect.centerx
+        self.__sub_title_label.get_rect().top = screen_rect.top + 20
+        self.__sub_title_label.get_rect().centerx = screen_rect.centerx
         #AI Details Display Screen
         details_screen_rect:Rect = self.__ai_details_screen.get_rect()
         details_screen_rect.left = screen_rect.centerx + screen_rect.centerx//3
@@ -50,10 +49,10 @@ class ChooseAIPanel(Panel):
         self.__back_button.get_rect().centery = self.get_screen().get_rect().bottom - self.__back_button.get_height()
         self.__back_button.prep_msg(self.__back_button.get_text())
         
-        self.init_ai_buttons()
+        self.__init_ai_buttons()
     
     #Other init methods
-    def init_ai_buttons(self):
+    def __init_ai_buttons(self):
         """Method to initialize the AIButton objects and configure their placements"""
         #Append AIs
         padding = 10
@@ -63,19 +62,19 @@ class ChooseAIPanel(Panel):
                                           padding = padding))
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
-                                          AI("Echo - 1100111", "ai_files/echo/"),
+                                          AI("Echo - 01100001", "ai_files/echo/"),
                                           padding = padding))
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
-                                          AI("Glados - 1110101", "ai_files/glados/"),
+                                          AI("Glados - 01100111", "ai_files/glados/"),
                                           padding = padding))
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
-                                          AI("House - 1100001", "ai_files/house/"),
+                                          AI("House - 01110101", "ai_files/house/"),
                                           padding = padding))
         self.__ai_buttons.append(AIButton(self.get_screen(), 
                                           self.get_settings(), 
-                                          AI("Talos - 1110011", "ai_files/talos/"),
+                                          AI("Talos - 01110011", "ai_files/talos/"),
                                           padding = padding))
         
         #Calculate total height and max width
@@ -133,15 +132,15 @@ class ChooseAIPanel(Panel):
             self.__selected_button = button
             
             updated_selection:bool = not self.__selected_button.is_selected()
+            self.__selected_button.set_selected(updated_selection)
             
             if updated_selection:       #If button is selected, disable every other button
                 for button in self.__ai_buttons:
                     if button != self.__selected_button:
                         button.set_selected(False)
             
-            self.__selected_button.set_selected(updated_selection)
             self.get_ai_details_display_screen().set_image(self.__selected_button.get_ai().get_image_info_screen_path())
-            self.prep_ai_idle_image(self.__selected_button.get_ai().get_image_idle())
+            self.prep_ai_idle_image(self.__selected_button.get_ai().get_image())
             
             self.__choose_button.set_enabled(updated_selection)
             if updated_selection == False:
@@ -182,7 +181,7 @@ class ChooseAIPanel(Panel):
             if (hover):
 #             self.get_ai_details_display_screen().set_model_sum_text(selected_button.get_ai().get_model_structure())
                 self.get_ai_details_display_screen().set_image(selected_button.get_ai().get_image_info_screen_path())
-                self.prep_ai_idle_image(selected_button.get_ai().get_image_idle())
+                self.prep_ai_idle_image(selected_button.get_ai().get_image())
                 
             else:
                 self.get_ai_details_display_screen().set_image(constants.path_img_ai_info_empty)
@@ -199,7 +198,7 @@ class ChooseAIPanel(Panel):
     def draw_components(self):
         super().draw_components()
         
-        self._sub_title_label.draw(self.get_screen())
+        self.__sub_title_label.draw(self.get_screen())
         
         self.__back_button.draw()
         self.__choose_button.draw()
@@ -219,6 +218,7 @@ class ChooseAIPanel(Panel):
     def reset_defaults(self):
         super().reset_defaults()
         
+        #If there's an existing selection, turn it off and set the selection to None
         if (self.__selected_button != None):
             self.__selected_button.set_selected(False)
             self.__selected_button = None

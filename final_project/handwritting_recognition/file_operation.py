@@ -43,19 +43,21 @@ def load_nist_database(dataset_num = 1, data_size:float = 1.):
     #data_size is the amount of data to be loaded, between 0 and 1. 1 means all of the data.
     images:{} = {}
     
-    if data_size > 1:
-        data_size = 1
-    elif data_size < 0:
-        data_size = 0
+    #Checking for invalid arguments being parsed
+    if data_size > 1.:
+        data_size = 1.
+    elif data_size < 0.:
+        data_size = 0.
     
-    groups:() = ("digit", "upper", "lower")
-    for group in groups:        #("const", "digit", "lower", "upper")
+    #Loading the images
+    groups:() = ("digit", "upper", "lower") #The subfolders to scan
+    for group in groups:
         for hexa in constants.ascii_hex:
             files = glob.glob(constants.nist_database_location + 'hsf_' + str(dataset_num) + "/" + group + "/" + hexa + "/*.png")
             for i in range(int(len(files) * data_size)):
                 filename = files[i]
                 image = image = load_image(filename)
-                key = bytearray.fromhex(hexa).decode()
+                key = bytearray.fromhex(hexa).decode()  #Convert from hexa to ascii
                 if images.get(key) != None:    #If key exists in dictionary
                     images[key].append(image)
                 else:
@@ -66,7 +68,7 @@ def load_nist_database(dataset_num = 1, data_size:float = 1.):
 
 def load_training_model(filename:str):
     """A method to load the training CNN model"""
-    return tensorflow.keras.models.load_model("models/" + filename + ".h5")
+    return load_model("models/" + filename + ".h5")
 
 def load_model(path:str):
     """

@@ -18,7 +18,7 @@ class RandomAI(AI):
         
         self._image_idle_path = constants.path_img_mystery_ai
         self._image_processing_path = constants.path_img_mystery_ai
-        self._image_idle = pygame.image.load(self._image_idle_path)
+        self.image = pygame.image.load(self._image_idle_path)
         self._image_processing = pygame.image.load(self._image_processing_path)
         self._image_info_screen_path = constants.path_img_ai_info_empty
     

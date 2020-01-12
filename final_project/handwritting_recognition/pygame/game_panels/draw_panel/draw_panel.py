@@ -19,20 +19,20 @@ class DrawPanel(Panel):
         super().__init__(screen, settings)
         
         #Fields initialization
-        self._exit_button:Button = Button(self.get_screen(), self.get_settings(), "Exit", button_color = settings.button_color_red)
+        self.__exit_button:Button = Button(self.get_screen(), self.get_settings(), "Exit", button_color = settings.button_color_red)
         self._guess_button:Button = Button(self.get_screen(), self.get_settings(), "Guess")
         self._clear_button:Button = Button(self.get_screen(), self.get_settings(), "Clear")
-        self._buttons_to_draw:[Button] =   [self._exit_button, self._guess_button, self._clear_button]
+        self._buttons_to_draw:[Button] =   [self.__exit_button, self._guess_button, self._clear_button]
         self._guess_button_pressed:boolean = False
         self.__colored_pixels = set(())
-        self._sub_title_label:Label = Label(sub_title_text)
+        self.__sub_title_label:Label = Label(sub_title_text)
         self._draw_sub_title_label:bool = False
         
         #Configure button placements
         screen_rect = self.get_screen().get_rect()
         #Sub title
-        self._sub_title_label.get_rect().top = screen_rect.top + 20
-        self._sub_title_label.get_rect().centerx = screen_rect.centerx
+        self.__sub_title_label.get_rect().top = screen_rect.top + 20
+        self.__sub_title_label.get_rect().centerx = screen_rect.centerx
         #Exit button
         self.get_exit_button().get_rect().left = screen_rect.left + 20
         self.get_exit_button().get_rect().centery = screen_rect.bottom - self.get_exit_button().get_height()
@@ -56,7 +56,7 @@ class DrawPanel(Panel):
     
     def get_exit_button(self):
         """Returns the exit button object"""
-        return self._exit_button
+        return self.__exit_button
     
     def get_guess_button(self):
         """Returns the guess button object"""
@@ -79,7 +79,7 @@ class DrawPanel(Panel):
             
     def check_exit_button(self, mouse_pos:()):
         """Exit game when exit button is clicked"""
-        if gf.mouse_on_button(self._exit_button, mouse_pos):
+        if gf.mouse_on_button(self.__exit_button, mouse_pos):
             sys.exit()  #Stops game
     
     def draw_art(self):
@@ -121,9 +121,9 @@ class DrawPanel(Panel):
         super().draw_components()
         #Draw sub title
         if self._draw_sub_title_label:
-            self._sub_title_label.draw(self.get_screen())
+            self.__sub_title_label.draw(self.get_screen())
         
-        #Color pixel
+        #Draw art
         if not self._guess_button_pressed:
             self.draw_art()
         

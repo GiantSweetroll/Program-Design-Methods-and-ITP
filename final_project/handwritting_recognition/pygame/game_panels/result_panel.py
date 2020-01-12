@@ -10,7 +10,7 @@ from final_project.handwritting_recognition.pygame.data_drivers.ai import AI
 from final_project.handwritting_recognition.pygame.data_drivers.ai_random import RandomAI
 from final_project.handwritting_recognition.pygame.game_panels.panel import Panel
 from final_project.handwritting_recognition.pygame.labels.label import Label
-from final_project.handwritting_recognition.pygame.misc.console import Console
+from final_project.handwritting_recognition.pygame.misc.image_panel import ImagePanel
 from final_project.handwritting_recognition.pygame.settings import Settings
 
 
@@ -22,7 +22,7 @@ class ResultPanel(Panel):
         
         #Initialize components
         self.__sub_title_label:Button = Button(screen, settings, "", button_color = None)
-        self.__ori_image:Console = Console()
+        self.__ori_image:ImagePanel = ImagePanel()
         self.__is_label:Button = Button(screen, settings, "is", button_color = None)
         self.__guess_label:Button = Button(screen, settings, "is", button_color = None, font=settings.large_font)
         self.__finish_button:Button = Button(screen, settings, "Finish")

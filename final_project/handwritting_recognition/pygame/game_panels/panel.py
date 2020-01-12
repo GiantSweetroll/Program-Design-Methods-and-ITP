@@ -2,9 +2,9 @@ from abc import abstractclassmethod
 
 from pygame.event import Event
 
-from final_project.handwritting_recognition.pygame.settings import Settings
 from final_project.handwritting_recognition import constants
-from final_project.handwritting_recognition.pygame.misc.console import Console
+from final_project.handwritting_recognition.pygame.misc.image_panel import ImagePanel
+from final_project.handwritting_recognition.pygame.settings import Settings
 
 
 class Panel():
@@ -18,15 +18,18 @@ class Panel():
         """
         self._screen = screen
         self._settings:Settings = settings
-        self._background_img:Console = Console(path=constants.path_img_background_folder + background_img_path) if background_img_path != None else None
+        self._background_img:ImagePanel = ImagePanel(path=constants.path_img_background_folder + background_img_path) if background_img_path != None else None
         
     #Setters and Getters
     def get_screen(self):
         return self._screen
+    
     def set_screen(self, screen):
         self._screen = screen
+        
     def get_settings(self) -> Settings:
         return self._settings
+    
     def set_settings(self, settings:Settings):
         self._settings = settings
         

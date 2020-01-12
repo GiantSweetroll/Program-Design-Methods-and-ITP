@@ -29,19 +29,19 @@ class InstructionsPanel(Panel):
             globals.panel_index = 0 #Go to main menu
     
     #Overridden Methods
-    def check_events(self, event:Event):
-        x, y = game_functions.get_mouse_position()
-        
-        if event.type == pygame.MOUSEBUTTONDOWN:
-            if event.button == 1:       #1 is left mouse button
-                self.check_ok_button((x, y))
-    
     def draw_components(self):
         super().draw_components()
         
         self.__ok_button.draw()
         
         pygame.display.flip()
+        
+    def check_events(self, event:Event):
+        x, y = game_functions.get_mouse_position()
+        
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == 1:       #1 is left mouse button
+                self.check_ok_button((x, y))
 
     def reset_defaults(self):
         super().reset_defaults()

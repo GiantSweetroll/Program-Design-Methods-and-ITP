@@ -19,7 +19,7 @@ class Button():
                  padding:int = 3):
         self.screen = screen
         self.settings = settings
-        self.screenRect = screen.get_rect()
+        self.screen_rect = screen.get_rect()
         
         #Set the dimensions and properties of the button
         self._disabled_color:() = settings.button_color_disabled
@@ -97,10 +97,11 @@ class Button():
         """Enable or disable the button"""
         self.__enabled = b
         
-        if (b):
+        if (b): #enabled
             self.__button_color = self._enabled_color
-        else:
+        else:   #disabled
             self.__button_color = self.get_disabled_color()
+        #recreate surface color and text
         self.prep_surface()
         self.prep_msg(self.get_text())
     
@@ -119,7 +120,7 @@ class Button():
     def _prepare_button_and_text(self):
         #Build the button's rect object and center it
         self.__rect = pygame.Rect(0, 0, self._width, self._height)
-        self.__rect.center = self.screenRect.center
+        self.__rect.center = self.screen_rect.center
         
         self.prep_surface()
         

@@ -6,11 +6,11 @@ import tensorflow
 from tensorflow_core.python.keras.models import Sequential
 
 from final_project.handwritting_recognition import constants, file_operation
-import final_project.handwritting_recognition.neural_network as nn
+from final_project.handwritting_recognition.neural_network import NeuralNetwork
+from final_project.handwritting_recognition.pygame import globals
 import matplotlib.pyplot as plt
 import numpy as py
 from tensorflow.keras.layers import Dense, Dropout, Conv2D, MaxPooling2D, Flatten
-from final_project.handwritting_recognition.pygame import globals
 
 
 #------------------------------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@ def display_sample(sample:{}, key:str = "random", num:int = -1):
     plt.show()
     
 def convert_data_map_to_lists(data_map:{}):
-    """Converts the data dictionary to a  numpy array of the labels (keys as integers) and a numpy array of the images (used to insert into MLP model)"""
+    """Converts the data dictionary to a numpy array of the labels (keys as integers) and a numpy array of the images (used to insert into neural net model)"""
     raw_images:[] = []
     image_labels:[] = []
     for character in data_map:
@@ -49,7 +49,7 @@ def convert_data_map_to_lists(data_map:{}):
     return raw_images, numpy.array(image_labels)
 
 def convert_labels_to_one_hot(labels, categories:int):
-    """Convert the labels to one-hot format (so that we know what character it is"""
+    """Convert the labels to one-hot format (so that we know what character it is)"""
     new_labels:[] = convert_labels_to_index_correspondence(labels)
     return tensorflow.keras.utils.to_categorical(new_labels, categories)
 
@@ -68,9 +68,10 @@ def convert_labels_to_index_correspondence(labels):
     return new_labels
 
 def shape_image_for_2d_mlp_input(images, width:int = constants.image_width, height:int = constants.image_height, color_channels:int=3):
-    """A method to reshape the images to be ready for MLP input"""
+    """A method to reshape the images to be ready for neural net input"""
     #Color channels is the amount of possible colors -> grayscale = 1, colored = 3
     
+    #Sometimes Keras puts color channels first before width and height, so we need to check for that
     if tensorflow.keras.backend.image_data_format() == 'channels_first':
         reshaped_images = images.reshape(images.shape[0], color_channels, width, height)
     else:
@@ -176,22 +177,36 @@ def save(model, filename):
     """Method to save current neural network model"""
     model.save("models/" + filename + ".h5")
     
-def train_neural_network(neural_network, 
+def train_neural_network(neural_network:NeuralNetwork, 
                          loaded_model:int,  
                          iterations:int, 
                          width:int = constants.image_width, 
                          height:int = constants.image_height, 
                          color_channels:() = constants.color_channels):
-    """Trains the selected neural network with default settings"""
-    #Load train and test images
+    """
+    Trains the selected neural network with default settings
+    
+    neural_network: the NeuralNetwork class object
+    loaded_model: the currently loaded model number
+    iterations: amount of neural network model files to create
+    width: width of the input image
+    height: height of the input image
+    color_channels: amount of color channels in the input image
+    """
+    #Load training and test images
     train_images, train_labels = get_image_and_label_for_mlp_input(file_operation.load_nist_database(1), width, height, color_channels)
     test_images, test_labels = get_image_and_label_for_mlp_input(file_operation.load_nist_database(2, 0.3), width, height, color_channels)
     
     #Train neural network
     for i in range(loaded_model+1, loaded_model + 1 + iterations):
-        neural_network.train(train_images, train_labels, batch_size=64, epochs=3, verbose=1, validation_data=(test_images, test_labels))
-        neural_network.save("model_" + str(i))
-        neural_network = nn.NeuralNetwork(file_operation.load_training_model("model_" + str(i)))
+        neural_network.train(train_images, 
+                             train_labels, 
+                             batch_size=64, 
+                             epochs=3, 
+                             verbose=1, 
+                             validation_data=(test_images, test_labels))
+        neural_network.save("model_" + str(i))  #Save the neural network
+        neural_network = NeuralNetwork(file_operation.load_training_model("model_" + str(i))) #Load it for next training iteration
         
 def make_prediction_from_test_images(neural_network,
                                      width:int = constants.image_width,

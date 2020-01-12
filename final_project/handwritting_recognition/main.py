@@ -11,6 +11,7 @@ import pygame
 # nn = NeuralNetwork()
 # methods.train_neural_network(nn, 0, 10)
 game = MainGame()
+game.run_game()
 # methods.make_prediction_from_test_images(nn, iterations = 12)
 
 # eval_images, eval_labels = methods.get_image_and_label_for_mlp_input(file_operation.load_nist_database(4, 0.5))
