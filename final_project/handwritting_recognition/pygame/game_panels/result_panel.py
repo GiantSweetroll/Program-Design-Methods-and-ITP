@@ -24,7 +24,7 @@ class ResultPanel(Panel):
         self.__sub_title_label:Button = Button(screen, settings, "", button_color = None)
         self.__ori_image:ImagePanel = ImagePanel()
         self.__is_label:Button = Button(screen, settings, "is", button_color = None)
-        self.__guess_label:Button = Button(screen, settings, "is", button_color = None, font=settings.large_font)
+        self.__guess_label:Button = Button(screen, settings, "", button_color = None, font=settings.large_font)
         self.__finish_button:Button = Button(screen, settings, "Finish")
         self.__prepared:bool = False
         self.__punishment_labels:[] = []
