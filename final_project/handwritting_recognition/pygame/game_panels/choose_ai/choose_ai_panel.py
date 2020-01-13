@@ -49,10 +49,10 @@ class ChooseAIPanel(Panel):
         self.__back_button.get_rect().centery = self.get_screen().get_rect().bottom - self.__back_button.get_height()
         self.__back_button.prep_msg(self.__back_button.get_text())
         
-        self.__init_ai_buttons()
+        self._init_ai_buttons()
     
     #Other init methods
-    def __init_ai_buttons(self):
+    def _init_ai_buttons(self):
         """Method to initialize the AIButton objects and configure their placements"""
         #Append AIs
         padding = 10
