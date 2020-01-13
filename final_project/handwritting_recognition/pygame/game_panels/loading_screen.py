@@ -73,8 +73,8 @@ class LoadingScreen(Panel):
         self.__hourglass.next()     #Update hourglass animation
         time.sleep(0.08)
     
-    def display_ai_and_guess(self):
-        """Method to display the AI image and guess display screen"""
+    def display_guess(self):
+        """Method to display AI's guess display screen"""
         #Pick guess by random
         guess:str = random.choice(constants.char_list) if not self.__loading_finished else ":)"
         self.__ai_guess_label.set_text(guess, True)
@@ -109,7 +109,7 @@ class LoadingScreen(Panel):
     
     #Other Methods
     def __check_thread(self, thread:Thread, target):
-        """DO NOT USE"""
+        """DO NOT USE - DEPRECATED"""
         #This method should not be used, as it created infinite amounts of the same thread....
         if thread == None or not thread.is_alive():
             thread = Thread(target = target)   #Initialize the thread
@@ -137,7 +137,7 @@ class LoadingScreen(Panel):
                 self.__thread_loading_hints = Thread(target=self.display_loading_hints)
                 self.__thread_loading_hints.start()
             if self.__thread_ai_image == None or not self.__thread_ai_image.is_alive():
-                self.__thread_ai_image = Thread(target=self.display_ai_and_guess)
+                self.__thread_ai_image = Thread(target=self.display_guess)
                 self.__thread_ai_image.start()
             if self.__thread_progress == None or not self.__thread_progress.is_alive():
                 self.__thread_progress = Thread(target=self.display_loading_progress)
