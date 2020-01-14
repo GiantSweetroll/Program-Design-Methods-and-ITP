@@ -15,7 +15,7 @@ from tensorflow.keras.layers import Dense, Dropout, Conv2D, MaxPooling2D, Flatte
 
 #------------------------------------------------------------------------------------------------------------
 #Utility Functions
-def convertIntToDigitStr(num:int, digits:int) -> str:
+def convert_int_to_digit_str(num:int, digits:int) -> str:
     """Converts a given integer to a str representation with X digits"""
     num_str:str = str(num)
     excess_zero:int = digits - len(num_str)

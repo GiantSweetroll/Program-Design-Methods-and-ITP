@@ -20,7 +20,7 @@ def get_training_images() -> {}:
     
     #Start from "good" images
     for i in range(1, 63):  #There are 62 characters, 0-9, a-z, A-Z
-        for filename in glob.glob('images/Goodimg/Sample' + methods.convertIntToDigitStr(i, 3) + '/*.png'):
+        for filename in glob.glob('images/Goodimg/Sample' + methods.convert_int_to_digit_str(i, 3) + '/*.png'):
             image = load_image(filename)
             key = constants.char_list[i-1]
             if images_to_train.get(key) != None:    #If key exists in dictionary
@@ -30,7 +30,7 @@ def get_training_images() -> {}:
     
     #Now go to "bad" images
     for i in range(1, 63):  #There are 62 characters, 0-9, a-z, A-Z
-        for filename in glob.glob('images/Goodimg/Sample' + methods.convertIntToDigitStr(i, 3) + '/*.png'):
+        for filename in glob.glob('images/Goodimg/Sample' + methods.convert_int_to_digit_str(i, 3) + '/*.png'):
             image = load_image(filename)
             key = constants.char_list[i-1]
             #No need to check for key existence because it will definitely be there after "good" image run
