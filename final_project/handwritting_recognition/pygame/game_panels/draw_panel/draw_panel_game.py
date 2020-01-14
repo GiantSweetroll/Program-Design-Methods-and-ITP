@@ -10,7 +10,7 @@ class DrawPanelGame(DrawPanel):
     
     #Constructor
     def __init__(self, screen, settings):
-        super().__init__(screen, settings, "Draw a character for the AI to guess")
+        super().__init__(screen, settings, "Draw a character (0-9, A-Z, a-z) for the AI to guess")
         
         self.get_exit_button().set_text("Back")
         self.get_exit_button().prep_msg(self.get_exit_button().get_text())
