@@ -45,7 +45,7 @@ class RandomChooseAIPanel(ChooseAIPanel):
     def check_back_button(self, mouse_pos:()):
         """Check if back button was pressed"""
         if game_functions.mouse_on_button(self.get_back_button(), mouse_pos):
-            globals.panel_index = 0     #Go to main menu
+            globals.panel_index = 1     #Go to game mode selection
     
     def check_choose_button(self, mouse_pos:()):
         """Method to check when the choose button is pressed"""

@@ -218,6 +218,8 @@ class ChooseAIPanel(Panel):
     def reset_defaults(self):
         super().reset_defaults()
         
+        self.__choose_button.set_enabled(False)
+        
         #If there's an existing selection, turn it off and set the selection to None
         if (self.__selected_button != None):
             self.__selected_button.set_selected(False)
