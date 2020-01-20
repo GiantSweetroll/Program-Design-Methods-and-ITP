@@ -83,6 +83,8 @@ class LoadingScreen(Panel):
     
     def load_neural_network_and_predict(self):
         """Loads the neural network of the specified AI"""
+        pygame.mixer.music.load("audio/loading.mp3")
+        pygame.mixer.music.play(-1)
         #Load neural network
         self.__loading_finished = False
         methods.update_loading_progress("Loading neural network...")
@@ -100,6 +102,9 @@ class LoadingScreen(Panel):
                                                 constants.image_height, 
                                                 constants.color_channels), False)
         
+        pygame.mixer.music.stop()
+        pygame.mixer.music.load("audio/ding.mp3")
+        pygame.mixer.music.play()
         methods.update_loading_progress("Prediction complete!")
         globals.prediction = prediction
         self.__loading_finished = True
