@@ -48,6 +48,10 @@ class ResultPanel(Panel):
         self.__ori_image.set_image(image = pygame.transform.scale(pygame.image.load(constants.pygame_image_path + constants.pygame_test_image_name), (313, 313)))
         self.__guess_label.set_text(globals.prediction)
         
+        #Play sound effect
+        pygame.mixer.music.load("audio/finished.mp3")
+        pygame.mixer.music.play()
+        
         #Configure placements
         #Sub title
         self.__sub_title_label.get_rect().top = self.get_screen().get_rect().top + 30
